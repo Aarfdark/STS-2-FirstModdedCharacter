@@ -2,5 +2,9 @@
   "MYFIRSTCHARACTER-INSTABILITY_POWER.description": "At the start of your turn, add a random Enchantment to 1 card in your Hand.",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.smartDescription": "At the start of your turn, Enchant 1 card in your Hand.",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.title": "InstabilityPower",
-  "MYFIRSTCHARACTER-INSTABILITY_POWER.selectionScreenPrompt": "Choose a card to enchant."
+  "MYFIRSTCHARACTER-INSTABILITY_POWER.selectionScreenPrompt": "Choose a card to enchant.",
+
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.description": "#Whenever you add a card to your Draw Pile, gain !B! Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.smartDescription": "#Whenever you add a card to your Draw Pile, gain !B! Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.title": "ForcefieldPower"
 }

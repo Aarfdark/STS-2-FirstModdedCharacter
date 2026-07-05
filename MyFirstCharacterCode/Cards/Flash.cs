@@ -9,7 +9,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
-public class Yeag() : MyFirstCharacterCard(3, CardType.Attack, CardRarity.Basic, TargetType.AllEnemies)
+public class Flash() : MyFirstCharacterCard(3, CardType.Attack, CardRarity.Basic, TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4, ValueProp.Move), new BlockVar(4, ValueProp.Move)];
 

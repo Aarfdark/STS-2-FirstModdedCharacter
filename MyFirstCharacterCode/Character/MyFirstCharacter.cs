@@ -31,13 +31,13 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendSilent>(),
         ModelDb.Card<DefendSilent>(),
         ModelDb.Card<DefendSilent>(),
-        ModelDb.Card<RollingBoulder>(),
-        ModelDb.Card<RollingBoulder>()
+        ModelDb.Card<Reorganize>(),
+        ModelDb.Card<Flash>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<DeckManipulation>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<MyFirstCharacterCardPool>();
