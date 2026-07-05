@@ -1,4 +1,11 @@
 {
-  "MYFIRSTCHARACTER-WHATEVER.description": "Draw 1 card. Place 1 card on top of your draw pile.",
-  "MYFIRSTCHARACTER-WHATEVER.title": "Whatever"
+  "MYFIRSTCHARACTER-REORGANIZE.description": "#Draw !C! cards.\nPlace 1 card from your [gold]hand[/gold] on top of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-REORGANIZE.title": "Reorganize",
+  "MYFIRSTCHARACTER-REORGANIZE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
+  
+  "MYFIRSTCHARACTER-YEAG.description": "#Deal !D! damage to ALL enemies.\nGain !B! [gold]Block[/gold].\nAt the end of your turn, if this is at the top of your [gold]Draw Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-YEAG.title": "Flash",
+  
+  "MYFIRSTCHARACTER-INSTABILITY.description": "At the start of your turn, add an [gold]Enchantment[/gold] to 1 card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-INSTABILITY.title": "Instability"
 }

@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
+using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Character;
 
@@ -30,8 +31,8 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendSilent>(),
         ModelDb.Card<DefendSilent>(),
         ModelDb.Card<DefendSilent>(),
-        ModelDb.Card<DefendSilent>(),
-        ModelDb.Card<StrikeSilent>()
+        ModelDb.Card<RollingBoulder>(),
+        ModelDb.Card<RollingBoulder>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
