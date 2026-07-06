@@ -17,5 +17,14 @@
   "MYFIRSTCHARACTER-MAKE_NOISE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
 
   "MYFIRSTCHARACTER-FLIRT.description": "#Apply {WeakPower:diff()} *Weak.\nApply {CharmPower:diff()} *Charm this turn.",
-  "MYFIRSTCHARACTER-FLIRT.title": "Flirt"
+  "MYFIRSTCHARACTER-FLIRT.title": "Flirt",
+
+  "MYFIRSTCHARACTER-SCRAP.description": "#*Exhaust the top card of your [gold]Draw Pile[/gold].+\nDraw 1 card.+",
+  "MYFIRSTCHARACTER-SCRAP.title": "Scrap",
+
+  "MYFIRSTCHARACTER-YANK.description": "#Draw 3 cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your *Hand.",
+  "MYFIRSTCHARACTER-YANK.title": "Yank",
+
+  "MYFIRSTCHARACTER-PATCH_UP.description": "#Gain {Energy:energyIcons()}.",
+  "MYFIRSTCHARACTER-PATCH_UP.title": "Patch Up"
 }

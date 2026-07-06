@@ -10,7 +10,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Relics;
 
-public class TheAgenda() : MyFirstCharacterRelic
+public class TheItinerary() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
         RelicRarity.Starter;
@@ -33,8 +33,6 @@ public class TheAgenda() : MyFirstCharacterRelic
 
     public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        // remove retain cuz it's temporary
-        _markedCard?.RemoveKeyword(CardKeyword.Retain);
         // unflag for next turn
         _isCardMarked = false;
     }

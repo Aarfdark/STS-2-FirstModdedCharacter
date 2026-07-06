@@ -8,21 +8,27 @@ Archaic Tooth - Upgrade Flash: 0/1
 Dusty Tome - ??: 0/1
 - 
 
-Token - (shiv/soul-type card): 0/1
-- Exhaust top card of Draw Pile, draw 1.
-- Shuffle card from Discard Pile into Draw Pile.
+Touch of Orobas - 0/1
+- The Agenda+ | The first card you draw each turn gains Retain.
+
+Keyword
+- Resourceful | Activate effect when exhausted
+
+Token - (shiv/soul-type card): 1/1
+- Scrap | Exhaust top card of Draw Pile. (Draw 1 card.)
 
 Common: 0/20
 - Attacks: 0/10
     - 
 - Skills: 1/10
-    - Flirt | Apply 1 (2) Weak. Apply 6 (8) Charm this turn.
+    - Flirt | Apply 1 (2) Weak. Apply 6 (8) Charm this turn. 
 
 Uncommon: 1/35
 - Attacks: 0/10
     - 
 - Skills: 1/15
-    - Make Noise | ALL enemies lose 1 (2) strength. Place card from Discard Pile into Draw Pile.
+    - Make Noise | ALL enemies lose 1 (2) Strength. Place card from Discard Pile into Draw Pile.
+    - Yank | Draw 3 cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your *Hand.
 - Powers: 1/10
     - Forcefield | Gain 3 (4) Block when card is manually placed into Draw Pile.
 
@@ -34,21 +40,21 @@ Rare: 0/25
 - Powers: 1/9
     - ?? Form | Apply Charm to everyone every turn / Apply Charm on hit
 
-Multiplayer: 0/5
-- 
+Multiplayer: 1/5
+- | Everybody chooses a card to exhaust in their hand
 
-Card Names:
+Cards:
 - Climb
 - Yearn
 - Restrain
 - Rats
 - Plasty
 - Shots
-- Patch Up
+- Patch Up | Gain 1 (2) [E]. Exile.
 - Pet
-- Yank
 - Bite
-- Choose a card, give it retain (perma, unlike Well-Laid)
+- | Choose a card, give it retain (perma, unlike Well-Laid)
+- | Deal 10 damage. This card's cost is equal to its position in your *Hand(-1).
 - Virtuoso
 
 Relics:
