@@ -6,5 +6,21 @@
 
   "MYFIRSTCHARACTER-FORCEFIELD_POWER.description": "#Whenever you add a card to your Draw Pile, gain !B! Block.",
   "MYFIRSTCHARACTER-FORCEFIELD_POWER.smartDescription": "#Whenever you add a card to your Draw Pile, gain !B! Block.",
-  "MYFIRSTCHARACTER-FORCEFIELD_POWER.title": "ForcefieldPower"
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.title": "ForcefieldPower",
+
+  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.description": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
+  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.smartDescription": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
+  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.title": "MakeNoisePower",
+
+  "MYFIRSTCHARACTER-CHARM_POWER.description": "When a charmed creature attacks you, it takes damage equal to its Charmed.",
+  "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will take {CharmedPower:diff()} damage when it attacks you.",
+  "MYFIRSTCHARACTER-CHARM_POWER.title": "CharmPower",
+
+  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.description": "#Lose {CharmedPower:diff()} at the end of turn.",
+  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.smartDescription": "#Lose {CharmedPower:diff()} at the end of turn.",
+  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.title": "LoseCharmPower",
+
+  "MYFIRSTCHARACTER-FLIRT_POWER.description": "#Gain {CharmedPower:diff()} Charm until end of turn",
+  "MYFIRSTCHARACTER-FLIRT_POWER.smartDescription": "#Gain {CharmedPower:diff()} Charm until end of turn",
+  "MYFIRSTCHARACTER-FLIRT_POWER.title": "FlirtPower"
 }

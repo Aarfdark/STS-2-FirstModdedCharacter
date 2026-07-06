@@ -1,6 +1,6 @@
 Unique Base Cards: 2/2 - DONE
 - Reorganize | Draw 2 (3). Put 1 on top of Draw Pile.
-- Flash | Deal 4 (7) AOE & gain 4 (7) Block. Play automatically if on top of Draw Pile.
+- Twinkle | Deal 4 (7) AOE & gain 4 (7) Block. Play automatically if on top of Draw Pile.
 
 Archaic Tooth - Upgrade Flash: 0/1
 - 
@@ -8,28 +8,51 @@ Archaic Tooth - Upgrade Flash: 0/1
 Dusty Tome - ??: 0/1
 - 
 
+Token - (shiv/soul-type card): 0/1
+- Exhaust top card of Draw Pile, draw 1.
+- Shuffle card from Discard Pile into Draw Pile.
+
 Common: 0/20
 - Attacks: 0/10
     - 
-- Skills: 0/10
-    - Make Noise | ALL enemies lose 1 (2) strength. Place card from Discard Pile into Draw Pile.
+- Skills: 1/10
+    - Flirt | Apply 1 (2) Weak. Apply 6 (8) Charm this turn.
 
 Uncommon: 1/35
 - Attacks: 0/10
     - 
-- Skills: 0/15
-    - 
+- Skills: 1/15
+    - Make Noise | ALL enemies lose 1 (2) strength. Place card from Discard Pile into Draw Pile.
 - Powers: 1/10
     - Forcefield | Gain 3 (4) Block when card is manually placed into Draw Pile.
-    - Yearn | 
 
 Rare: 0/25
 - Attacks: 0/8
     - 
-- Skills: 0/8
-    - 
-- Powers: 0/9
-    - 
+- Skills: 1/8
+    - Charmed enemies gain weak
+- Powers: 1/9
+    - ?? Form | Apply Charm to everyone every turn / Apply Charm on hit
 
 Multiplayer: 0/5
 - 
+
+Card Names:
+- Climb
+- Yearn
+- Restrain
+- Rats
+- Plasty
+- Shots
+- Patch Up
+- Pet
+- Yank
+- Bite
+- Choose a card, give it retain (perma, unlike Well-Laid)
+- Virtuoso
+
+Relics:
+- Phoebe | 
+
+Potions: 
+- Gatorwine | Give everything in Hand replay 1, and randomize its cost. 

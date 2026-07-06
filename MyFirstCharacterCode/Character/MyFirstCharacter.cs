@@ -32,12 +32,12 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendSilent>(),
         ModelDb.Card<DefendSilent>(),
         ModelDb.Card<Reorganize>(),
-        ModelDb.Card<Flash>()
+        ModelDb.Card<Twinkle>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<DeckManipulation>()
+        ModelDb.Relic<TheAgenda>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<MyFirstCharacterCardPool>();
