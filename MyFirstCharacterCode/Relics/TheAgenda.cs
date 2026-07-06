@@ -38,4 +38,7 @@ public class TheAgenda() : MyFirstCharacterRelic
         // unflag for next turn
         _isCardMarked = false;
     }
+    
+    // Touch of Orobas Upgrade
+    public override RelicModel GetUpgradeReplacement() => ModelDb.Relic<TheItinerary>();
 }

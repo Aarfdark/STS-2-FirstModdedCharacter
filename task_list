@@ -22,6 +22,7 @@ Common: 0/20
     - 
 - Skills: 1/10
     - Flirt | Apply 1 (2) Weak. Apply 6 (8) Charm this turn. 
+    - - Patch Up | Gain 1 (2) [E]. Ashbound.
 
 Uncommon: 1/35
 - Attacks: 0/10
@@ -50,12 +51,14 @@ Cards:
 - Rats
 - Plasty
 - Shots
-- Patch Up | Gain 1 (2) [E]. Exile.
 - Pet
 - Bite
 - | Choose a card, give it retain (perma, unlike Well-Laid)
 - | Deal 10 damage. This card's cost is equal to its position in your *Hand(-1).
 - Virtuoso
+- | Next (2) card(s) you play goes on top of your Draw Pile
+- | First card you play each turn Exhausts
+- | Draw 1 card at the beginning of each turn, put one on top of your Draw Pile.
 
 Relics:
 - Phoebe | 

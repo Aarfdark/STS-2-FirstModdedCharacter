@@ -23,14 +23,14 @@ public class MyFirstCharacter : PlaceholderCharacterModel
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<StrikeSilent>(),
-        ModelDb.Card<StrikeSilent>(),
-        ModelDb.Card<StrikeSilent>(),
-        ModelDb.Card<StrikeSilent>(),
-        ModelDb.Card<DefendSilent>(),
-        ModelDb.Card<DefendSilent>(),
-        ModelDb.Card<DefendSilent>(),
-        ModelDb.Card<DefendSilent>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
+        ModelDb.Card<Soul>(),
         ModelDb.Card<Reorganize>(),
         ModelDb.Card<Twinkle>()
     ];

@@ -27,7 +27,7 @@ public class ForcefieldPower() : MyFirstCharacterPower
     {
         if ( _isManualAction && card.Pile!.Type == PileType.Draw )
         {
-            await CreatureCmd.GainBlock(this.Owner, this.Amount, ValueProp.Unpowered, null);
+            await CreatureCmd.GainBlock(Owner, Amount, ValueProp.Unpowered, null);
         }
     }
 
