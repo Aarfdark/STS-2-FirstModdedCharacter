@@ -13,7 +13,8 @@ public class PatchUp() : MyFirstCharacterCard(3,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(1)];
 
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
+    // public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound, CardKeyword.Exhaust];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,

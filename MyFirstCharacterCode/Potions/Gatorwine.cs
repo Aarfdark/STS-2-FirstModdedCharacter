@@ -1,3 +1,4 @@
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
@@ -31,7 +32,8 @@ public class Gatorwine : MyFirstCharacterPotion
             this._testEnergyCostOverride = value;
         }
     }
-    
+
+    private List<CardModel> _replayCards = new List<CardModel>();
     protected override async Task OnUse(PlayerChoiceContext choiceContext, Creature? target)
     {
         AssertValidForTargetedPotion(target);
@@ -44,9 +46,21 @@ public class Gatorwine : MyFirstCharacterPotion
             }
 
             card.BaseReplayCount++;
+            _replayCards.Add(card);
         }
     }
-    
+
+    public override async Task AfterSideTurnEnd(
+        PlayerChoiceContext choiceContext, 
+        CombatSide side, 
+        IEnumerable<Creature> participants)
+    {
+        foreach (CardModel card in _replayCards)
+        {
+            card.BaseReplayCount--;
+        }
+    }
+
     private int NextEnergyCost()
     {
         return TestEnergyCostOverride >= 0 ? TestEnergyCostOverride : Owner.RunState.Rng.CombatEnergyCosts.NextInt(4);

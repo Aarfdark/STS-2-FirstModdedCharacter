@@ -1,64 +1,65 @@
 Unique Base Cards: 2/2 - DONE
-- Reorganize | Draw 2 (3). Put 1 on top of Draw Pile.
-- Twinkle | Deal 4 (7) AOE & gain 4 (7) Block. Play automatically if on top of Draw Pile.
+    - Reorganize | Draw 2 (3). Put 1 on top of Draw Pile.
+    - Twinkle | Deal 4 (7) AOE & gain 4 (7) Block. Play automatically if on top of Draw Pile.
 
 Archaic Tooth - Upgrade Flash: 0/1
-- 
+    - 
 
 Dusty Tome - ??: 0/1
-- 
+    - 
 
-Touch of Orobas - 0/1
-- The Agenda+ | The first card you draw each turn gains Retain.
+Touch of Orobas - 1/1
+    - The Agenda+ | The first card you draw each turn gains Retain.
 
 Keyword
-- Resourceful | Activate effect when exhausted
+    - Ashbound | Activate effect when exhausted
 
 Token - (shiv/soul-type card): 1/1
-- Scrap | Exhaust top card of Draw Pile. (Draw 1 card.)
+    - Scrap | Exhaust top card of Draw Pile. (Draw 1 card.)
 
-Common: 0/20
-- Attacks: 0/10
-    - 
+Common: 2/20
+- Attacks: 1/10
+    - Bite | Deal 3x3 (3x4) damage.  Ashbound.
 - Skills: 1/10
     - Flirt | Apply 1 (2) Weak. Apply 6 (8) Charm this turn. 
-    - - Patch Up | Gain 1 (2) [E]. Ashbound.
+    - Patch Up | Gain 1 (2) [E]. Ashbound.
 
-Uncommon: 1/35
+Uncommon: 3/35
 - Attacks: 0/10
     - 
-- Skills: 1/15
+- Skills: 2/15
     - Make Noise | ALL enemies lose 1 (2) Strength. Place card from Discard Pile into Draw Pile.
     - Yank | Draw 3 cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your *Hand.
 - Powers: 1/10
     - Forcefield | Gain 3 (4) Block when card is manually placed into Draw Pile.
 
-Rare: 0/25
+Rare: 1/25
 - Attacks: 0/8
     - 
 - Skills: 1/8
-    - Charmed enemies gain weak
-- Powers: 1/9
-    - ?? Form | Apply Charm to everyone every turn / Apply Charm on hit
-
+    - Shots | If this is the first card you play this turn, apply 8 (12) Demise to ALL enemies. Randomize the cost of all cards in your hand this turn.
+- Powers: 0/9
+    - 
+    
 Multiplayer: 1/5
 - | Everybody chooses a card to exhaust in their hand
+- | Everybody plays the top card of their Draw Pile.
 
 Cards:
-- Climb
+- Climb | Gain ? Strength. Double the amount of Strength this card gains. Increase this card's cost by 1.
 - Yearn
 - Restrain
-- Rats
+- Rats | some sort of scaling damage
 - Plasty
-- Shots
-- Pet
-- Bite
+- Pet | scaling charm maybe?
 - | Choose a card, give it retain (perma, unlike Well-Laid)
 - | Deal 10 damage. This card's cost is equal to its position in your *Hand(-1).
 - Virtuoso
 - | Next (2) card(s) you play goes on top of your Draw Pile
 - | First card you play each turn Exhausts
 - | Draw 1 card at the beginning of each turn, put one on top of your Draw Pile.
+- | Charmed enemies gain weak
+- ?? Form | Apply Charm to everyone every turn / Apply Charm on hit
 
 Relics:
 - Phoebe | 

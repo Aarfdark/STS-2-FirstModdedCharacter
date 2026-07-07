@@ -1,4 +1,10 @@
 {
+  "MYFIRSTCHARACTER-STRIKE_DANGER.description": "#Deal !D! damage.",
+  "MYFIRSTCHARACTER-STRIKE_DANGER.title": "Strike",
+  
+  "MYFIRSTCHARACTER-DEFEND_DANGER.description": "#Gain !B! *Block.",
+  "MYFIRSTCHARACTER-DEFEND_DANGER.title": "Defend",
+  
   "MYFIRSTCHARACTER-REORGANIZE.description": "#Draw !C! cards.\nPlace 1 card from your *hand on top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-REORGANIZE.title": "Reorganize",
   "MYFIRSTCHARACTER-REORGANIZE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
@@ -26,5 +32,11 @@
   "MYFIRSTCHARACTER-YANK.title": "Yank",
 
   "MYFIRSTCHARACTER-PATCH_UP.description": "#Gain {Energy:energyIcons()}.",
-  "MYFIRSTCHARACTER-PATCH_UP.title": "Patch Up"
+  "MYFIRSTCHARACTER-PATCH_UP.title": "Patch Up",
+
+  "MYFIRSTCHARACTER-BITE.description": "#Deal {Damage:diff()} damage {Repeat:diff()} times.",
+  "MYFIRSTCHARACTER-BITE.title": "Bite",
+
+  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply {DemisePower:diff()} *Demise to ALL enemies.\nRandomize the cost of all cards in your hand this turn.",
+  "MYFIRSTCHARACTER-SHOTS.title": "Shots"
 }

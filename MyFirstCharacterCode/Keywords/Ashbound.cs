@@ -1,3 +1,4 @@
+using System.Reflection.Metadata.Ecma335;
 using BaseLib.Abstracts;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -20,12 +21,14 @@ public class Ashbound() : CustomSingletonModel(HookType.Combat)
     {
         if (causedByEthereal || card.CombatState == null)
             return;
-
+        
         if (_ashboundWasPlayed)
         {
             _ashboundWasPlayed = false;
             return;
         }
+        
+        // TODO: fix exhaust bug
 
         if (card.Keywords.Contains(OctaviaDangerKeywords.Ashbound) && !_cardsPlayedViaAshbound.Contains(card))
         {
