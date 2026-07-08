@@ -5,7 +5,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Keywords;
 
 public class OctaviaDangerKeywords
 {
-    [CustomEnum, KeywordProperties(AutoKeywordPosition.After)] 
+    [CustomEnum, KeywordProperties(AutoKeywordPosition.Before)] 
     public static CardKeyword Ashbound;
     
 }

@@ -12,7 +12,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Powers;
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 [Pool(typeof(ColorlessCardPool))]
-public class Instability() : MyFirstCharacterCard(1, CardType.Power, CardRarity.Rare, TargetType.Self)
+public class Instability() : MyFirstCharacterCard(1, CardType.Power, CardRarity.Token, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1)];
 

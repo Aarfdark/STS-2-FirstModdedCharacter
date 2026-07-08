@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://0mr0d38bk2r7"
-path="res://.godot/imported/DefendDanger.png-ce28b0a50660d09a16602c7e952865f6.ctex"
+uid="uid://g86qygmmrb5w"
+path="res://.godot/imported/strike_danger.png-e9ab534fd4de2a5887d835b0fc6cd89b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/DefendDanger.png"
-dest_files=["res://.godot/imported/DefendDanger.png-ce28b0a50660d09a16602c7e952865f6.ctex"]
+source_file="res://MyFirstCharacter/images/card_portraits/big/strike_danger.png"
+dest_files=["res://.godot/imported/strike_danger.png-e9ab534fd4de2a5887d835b0fc6cd89b.ctex"]
 
 [params]
 

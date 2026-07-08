@@ -9,5 +9,9 @@
 
   "MYFIRSTCHARACTER-GATORWINE.description": "At the beginning of your turn, play the top card of your Discard Pile.",
   "MYFIRSTCHARACTER-GATORWINE.flavor": "Not as good as Pokkorn.",
-  "MYFIRSTCHARACTER-GATORWINE.title": "Gatorwine"
+  "MYFIRSTCHARACTER-GATORWINE.title": "Gatorwine",
+
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.description": "Upon pickup, gain EVERY Neow relic. Remove all starter cards from your Deck.",
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.flavor": "Never punished",
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.title": "NeowsBounty"
 }

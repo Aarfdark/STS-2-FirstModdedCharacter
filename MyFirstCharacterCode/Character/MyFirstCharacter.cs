@@ -32,7 +32,8 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendDanger>(),
         ModelDb.Card<DefendDanger>(),
         ModelDb.Card<Reorganize>(),
-        ModelDb.Card<Twinkle>()
+        ModelDb.Card<Twinkle>(),
+        ModelDb.Card<RepositioningStrike>(),
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

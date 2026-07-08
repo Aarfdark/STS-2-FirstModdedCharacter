@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://g86qygmmrb5w"
-path="res://.godot/imported/StrikeDanger.png-aac8cdcaf8f2620db9085be901d6e756.ctex"
+uid="uid://buaclncdn4khh"
+path="res://.godot/imported/forcefield_power.png-b479a426a13ffbc64cdbcfcc3c4ffff4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/StrikeDanger.png"
-dest_files=["res://.godot/imported/StrikeDanger.png-aac8cdcaf8f2620db9085be901d6e756.ctex"]
+source_file="res://MyFirstCharacter/images/powers/forcefield_power.png"
+dest_files=["res://.godot/imported/forcefield_power.png-b479a426a13ffbc64cdbcfcc3c4ffff4.ctex"]
 
 [params]
 

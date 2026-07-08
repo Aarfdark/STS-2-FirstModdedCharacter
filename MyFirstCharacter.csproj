@@ -62,7 +62,6 @@
 
     <ItemGroup>
         <Folder Include="MyFirstCharacter\images\card_portraits\beta\" />
-        <Folder Include="MyFirstCharacter\images\powers\big\"/>
         <Folder Include="MyFirstCharacter\images\relics\big\"/>
     </ItemGroup>
 

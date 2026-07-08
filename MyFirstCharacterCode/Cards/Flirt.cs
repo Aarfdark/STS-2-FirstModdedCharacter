@@ -12,7 +12,7 @@ public class Flirt() : MyFirstCharacterCard(1,
     CardType.Skill, CardRarity.Common,
     TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<WeakPower>(1), new PowerVar<CharmPower>(6)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<WeakPower>(1), new PowerVar<CharmPower>(4)];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -24,7 +24,6 @@ public class Flirt() : MyFirstCharacterCard(1,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Weak.UpgradeValueBy(1);
-        DynamicVars["CharmPower"].UpgradeValueBy(2);
+        DynamicVars["CharmPower"].UpgradeValueBy(3);
     }
 }

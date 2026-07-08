@@ -38,5 +38,8 @@
   "MYFIRSTCHARACTER-BITE.title": "Bite",
 
   "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply {DemisePower:diff()} *Demise to ALL enemies.\nRandomize the cost of all cards in your hand this turn.",
-  "MYFIRSTCHARACTER-SHOTS.title": "Shots"
+  "MYFIRSTCHARACTER-SHOTS.title": "Shots",
+
+  "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.description": "#Deal !D! damage. This card's cost is equal to its position in your [gold]Hand[/gold]+-1+.",
+  "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.title": "RepositioningStrike"
 }

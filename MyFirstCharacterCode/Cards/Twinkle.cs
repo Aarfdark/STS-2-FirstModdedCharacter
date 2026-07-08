@@ -15,20 +15,20 @@ public class Twinkle() : MyFirstCharacterCard(3, CardType.Attack, CardRarity.Bas
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        await DamageCmd.Attack(this.DynamicVars.Damage.BaseValue).FromCard((CardModel)this, play).TargetingAllOpponents(this.CombatState!).WithHitFx("vfx/vfx_attack_blunt", tmpSfx: "heavy_attack.mp3").Execute(choiceContext);
-        await CreatureCmd.GainBlock(this.Owner.Creature, this.DynamicVars.Block, play);
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(CombatState!).WithHitFx("vfx/vfx_attack_blunt", tmpSfx: "heavy_attack.mp3").Execute(choiceContext);
+        await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, play);
     }
 
     public override async Task AfterAutoPostPlayPhaseEntered(PlayerChoiceContext choiceContext, Player player)
     {
-        if (player != this.Owner || PileType.Draw.GetPile(this.Owner).Cards.FirstOrDefault<CardModel>() != this)
+        if (player != Owner || PileType.Draw.GetPile(Owner).Cards.FirstOrDefault<CardModel>() != this)
             return;
-        await CardPileCmd.AutoPlayFromDrawPile(choiceContext, this.Owner, 1, CardPilePosition.Top, false);
+        await CardPileCmd.AutoPlayFromDrawPile(choiceContext, Owner, 1, CardPilePosition.Top, false);
     }
 
     protected override void OnUpgrade()
     {
-        this.DynamicVars.Damage.UpgradeValueBy(3);
-        this.DynamicVars.Block.UpgradeValueBy(3);
+        DynamicVars.Damage.UpgradeValueBy(2);
+        DynamicVars.Block.UpgradeValueBy(2);
     }
 }
