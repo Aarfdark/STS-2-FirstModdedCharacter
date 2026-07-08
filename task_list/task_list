@@ -91,4 +91,4 @@ Attack Copy+Pastes:
     await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(CombatState!).WithHitFx("vfx/vfx_attack_blunt").Execute(choiceContext);
    
 temp:
-    - 
+    - ok now?
