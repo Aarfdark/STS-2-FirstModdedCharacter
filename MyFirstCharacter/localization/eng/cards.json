@@ -53,5 +53,8 @@
   "MYFIRSTCHARACTER-EYEROLL.title": "🙄",
 
   "MYFIRSTCHARACTER-CHARMING_STRIKE.description": "#Deal !D! damage. Apply {CharmPower:diff()} *Charm this turn.",
-  "MYFIRSTCHARACTER-CHARMING_STRIKE.title": "Charming Strike"
+  "MYFIRSTCHARACTER-CHARMING_STRIKE.title": "Charming Strike",
+  
+  "MYFIRSTCHARACTER-BRAMBLE.description": "#Gain {ThornsPower:diff()} *Thorns. Increase this card's *Thorns by {Increase:diff()}.",
+  "MYFIRSTCHARACTER-BRAMBLE.title": "Bramble"
 }
