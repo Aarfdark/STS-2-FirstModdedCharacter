@@ -12,7 +12,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Rats() : MyFirstCharacterCard(2,
     CardType.Attack, CardRarity.Rare,
-    TargetType.AnyEnemy)
+    TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(2, ValueProp.Move), new RepeatVar(0), new DynamicVar("Increase", 1)];
     

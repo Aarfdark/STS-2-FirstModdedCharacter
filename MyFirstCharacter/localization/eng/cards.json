@@ -41,8 +41,11 @@
   "MYFIRSTCHARACTER-SHOTS.title": "Shots",
 
   "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.description": "#Deal !D! damage. This card's cost is equal to its position in your [gold]Hand[/gold]+-1+.",
-  "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.title": "RepositioningStrike",
+  "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.title": "Repositioning Strike",
 
-  "MYFIRSTCHARACTER-RATS.description": "#Deal !D! damage to ALL enemies. Hits an additional time for each time this card has been drawn this combat.{InCombat:\n(Hits {Repeat:diff()} {Repeat:plural:time|times})|}",
-  "MYFIRSTCHARACTER-RATS.title": "Rats"
+  "MYFIRSTCHARACTER-RATS.description": "#Deal !D! damage to ALL enemies.\nHits an additional time for each time this card has been drawn this combat.{InCombat:\n(Hits {Repeat:diff()} {Repeat:plural:time|times})|}",
+  "MYFIRSTCHARACTER-RATS.title": "Rats",
+
+  "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply {CharmPerTurn:diff()} Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form"
 }

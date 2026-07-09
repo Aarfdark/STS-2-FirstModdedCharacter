@@ -10,10 +10,10 @@
 
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.description": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.smartDescription": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
-  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.title": "MakeNoise",
+  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.title": "Make Noise",
 
   "MYFIRSTCHARACTER-CHARM_POWER.description": "When a charmed creature attacks you, it loses HP equal to its Charmed.",
-  "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will lose HP when it attacks you.",
+  "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will lose {Amount} HP when it attacks you.",
   "MYFIRSTCHARACTER-CHARM_POWER.title": "Charm",
 
   "MYFIRSTCHARACTER-LOSE_CHARM_POWER.description": "#Lose Charm at the end of turn.",
@@ -22,5 +22,9 @@
 
   "MYFIRSTCHARACTER-FLIRT_POWER.description": "#Gain Charm until end of turn",
   "MYFIRSTCHARACTER-FLIRT_POWER.smartDescription": "#Gain Charm Charm until end of turn",
-  "MYFIRSTCHARACTER-FLIRT_POWER.title": "Flirt"
+  "MYFIRSTCHARACTER-FLIRT_POWER.title": "Flirt",
+
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply {Amount} Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.smartDescription": "#At the start of your turn, apply {Amount} Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.title": "Rat Form"
 }
