@@ -56,5 +56,9 @@
   "MYFIRSTCHARACTER-CHARMING_STRIKE.title": "Charming Strike",
   
   "MYFIRSTCHARACTER-BRAMBLE.description": "#Gain {ThornsPower:diff()} *Thorns. Increase this card's *Thorns by {Increase:diff()}.",
-  "MYFIRSTCHARACTER-BRAMBLE.title": "Bramble"
+  "MYFIRSTCHARACTER-BRAMBLE.title": "Bramble",
+
+  "MYFIRSTCHARACTER-CLARITY.description": "#Put a card from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-CLARITY.title": "Clarity",
+  "MYFIRSTCHARACTER-CLARITY.selectionScreenPrompt": "Choose a card to put back into your hand."
 }

@@ -16,13 +16,13 @@ public class Reorganize() : MyFirstCharacterCard(0, CardType.Skill, CardRarity.B
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        await CardPileCmd.Draw(choiceContext, this.DynamicVars.Cards.BaseValue, this.Owner);
-        CardSelectorPrefs prefs = new CardSelectorPrefs(this.SelectionScreenPrompt, 1);
-        CardModel? card = (await CardSelectCmd.FromHand(choiceContext, this.Owner, prefs, null, this)).FirstOrDefault<CardModel>();
+        await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
+        CardSelectorPrefs prefs = new CardSelectorPrefs(SelectionScreenPrompt, 1);
+        CardModel? card = (await CardSelectCmd.FromHand(choiceContext, Owner, prefs, null, this)).FirstOrDefault<CardModel>();
         if (card == null)
             return;
         await CardPileCmd.Add(card, PileType.Draw, CardPilePosition.Top);
     }
 
-    protected override void OnUpgrade() => this.DynamicVars.Cards.UpgradeValueBy(1);
+    protected override void OnUpgrade() => DynamicVars.Cards.UpgradeValueBy(1);
 }
