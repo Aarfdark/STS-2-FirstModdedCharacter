@@ -26,5 +26,9 @@
 
   "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply {Amount} Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM_POWER.smartDescription": "#At the start of your turn, apply {Amount} Charm to ALL enemies.",
-  "MYFIRSTCHARACTER-RAT_FORM_POWER.title": "Rat Form"
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.title": "Rat Form",
+
+  "MYFIRSTCHARACTER-EYEROLL_POWER.description": "You receive [blue]50%[/blue] less damage from [gold]Charmed[/gold] enemies this turn.\"",
+  "MYFIRSTCHARACTER-EYEROLL_POWER.smartDescription": "You receive [blue]{DamageDecrease:percentLess()}%[/blue] less damage from [gold]Charmed[/gold] enemies {Amount:plural:this turn|for [blue]{}[/blue] turns}.\"",
+  "MYFIRSTCHARACTER-EYEROLL_POWER.title": "EyerollPower"
 }

@@ -14,8 +14,6 @@ public class RatFormPower() : MyFirstCharacterPower
 
     public override PowerStackType StackType =>
         PowerStackType.Counter;
-    
-    
 
     public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {

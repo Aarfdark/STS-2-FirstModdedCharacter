@@ -47,5 +47,8 @@
   "MYFIRSTCHARACTER-RATS.title": "Rats",
 
   "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply {CharmPerTurn:diff()} Charm to ALL enemies.",
-  "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form"
+  "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form",
+
+  "MYFIRSTCHARACTER-EYEROLL.description": "#*Charmed enemies deal 50% less damage this turn.",
+  "MYFIRSTCHARACTER-EYEROLL.title": "🙄"
 }
