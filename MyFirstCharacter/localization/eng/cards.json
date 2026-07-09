@@ -50,5 +50,8 @@
   "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form",
 
   "MYFIRSTCHARACTER-EYEROLL.description": "#*Charmed enemies deal 50% less damage this turn.",
-  "MYFIRSTCHARACTER-EYEROLL.title": "🙄"
+  "MYFIRSTCHARACTER-EYEROLL.title": "🙄",
+
+  "MYFIRSTCHARACTER-CHARMING_STRIKE.description": "#Deal !D! damage. Apply {CharmPower:diff()} *Charm this turn.",
+  "MYFIRSTCHARACTER-CHARMING_STRIKE.title": "Charming Strike"
 }

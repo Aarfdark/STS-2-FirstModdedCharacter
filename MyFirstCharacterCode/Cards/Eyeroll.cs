@@ -17,7 +17,7 @@ public class Eyeroll() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        PowerCmd.Apply<EyerollPower>(choiceContext, Owner.Creature, DynamicVars["EyerollPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<EyerollPower>(choiceContext, Owner.Creature, DynamicVars["EyerollPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

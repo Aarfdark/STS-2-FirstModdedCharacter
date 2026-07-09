@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
+using MyFirstCharacter.MyFirstCharacterCode.Tags;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
@@ -15,6 +16,8 @@ public class Scrap() : MyFirstCharacterCard(0, CardType.Skill, CardRarity.Token,
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(0)];
     
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
+    
+    protected override HashSet<CardTag> CanonicalTags => [OctaviaDangerTags.Scrap];
     
     public static async Task<IEnumerable<Scrap>> CreateInHand(
         Player owner,

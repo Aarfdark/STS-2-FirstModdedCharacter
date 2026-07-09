@@ -33,7 +33,7 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<Finesse>(),
         // edit for card testing
         ModelDb.Card<Eyeroll>(),
-        ModelDb.Card<RatForm>(),
+        ModelDb.Card<CharmingStrike>(),
         ModelDb.Card<Finesse>(),
     ];
 

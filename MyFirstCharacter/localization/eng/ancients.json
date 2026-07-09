@@ -2,5 +2,10 @@
   "THE_ARCHITECT.talk.MYFIRSTCHARACTER-MY_FIRST_CHARACTER.0-0r.char": "I am going to kill you now.",
   "THE_ARCHITECT.talk.MYFIRSTCHARACTER-MY_FIRST_CHARACTER.0-0r.next": "ok thumbs up",
   "THE_ARCHITECT.talk.MYFIRSTCHARACTER-MY_FIRST_CHARACTER.0-1r.ancient": "You die",
-  "THE_ARCHITECT.talk.MYFIRSTCHARACTER-MY_FIRST_CHARACTER.0-attack": "no."
+  "THE_ARCHITECT.talk.MYFIRSTCHARACTER-MY_FIRST_CHARACTER.0-attack": "no.",
+
+  "MYFIRSTCHARACTER-BIG_NEOW.epithet": "hey girl,",
+  "MYFIRSTCHARACTER-BIG_NEOW.talk.ANY.0-0r.ancient": "hey girl,",
+  "MYFIRSTCHARACTER-BIG_NEOW.talk.firstVisitEver.0-0.ancient": "nice to meet you",
+  "MYFIRSTCHARACTER-BIG_NEOW.title": "Big Neow"
 }
