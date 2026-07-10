@@ -32,9 +32,9 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<Finesse>(),
         ModelDb.Card<Finesse>(),
         // edit for card testing
-        ModelDb.Card<Clarity>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
+        ModelDb.Card<Yank>(),
+        // ModelDb.Card<Soul>(),
+        // ModelDb.Card<Soul>(),
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

@@ -1,4 +1,7 @@
 {
   "MYFIRSTCHARACTER-GATORWINE.description": "#Randomize the cost of every card in your *Hand. Each card in your *Hand gains [gold]Replay 1[/gold] this turn.",
-  "MYFIRSTCHARACTER-GATORWINE.title": "Gatorwine"
+  "MYFIRSTCHARACTER-GATORWINE.title": "Gatorwine",
+
+  "MYFIRSTCHARACTER-PHEROMONE_POTION.description": "#Apply [blue]{CharmPower}[/blue] [gold]Charm[/gold].",
+  "MYFIRSTCHARACTER-PHEROMONE_POTION.title": "Pheromone Potion"
 }
