@@ -60,5 +60,8 @@
 
   "MYFIRSTCHARACTER-CLARITY.description": "#Put a card from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-CLARITY.title": "Clarity",
-  "MYFIRSTCHARACTER-CLARITY.selectionScreenPrompt": "Choose a card to put back into your hand."
+  "MYFIRSTCHARACTER-CLARITY.selectionScreenPrompt": "Choose a card to put back into your hand.",
+
+  "MYFIRSTCHARACTER-RESEARCH.description": "#Exhaust a -random -card in your *Hand. The cost of a random card in your *Hand becomes 0 [E] for the rest of combat.",
+  "MYFIRSTCHARACTER-RESEARCH.title": "Research"
 }
