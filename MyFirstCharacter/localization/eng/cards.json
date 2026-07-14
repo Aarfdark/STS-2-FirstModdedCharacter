@@ -72,5 +72,8 @@
   "MYFIRSTCHARACTER-STRUCTURED_CHAOS.title": "Structured Chaos",
 
   "MYFIRSTCHARACTER-BUNKER_UP.description": "#Gain !B! [gold]Block[/gold].\nPut the next card you play this turn on top of your [gold]Draw Pile[/gold].",
-  "MYFIRSTCHARACTER-BUNKER_UP.title": "Bunker Up"
+  "MYFIRSTCHARACTER-BUNKER_UP.title": "Bunker Up",
+
+  "MYFIRSTCHARACTER-ECHOLALIA.description": "#Deal !D! damage.\nAdd a copy of this card into your [gold]Exhaust Pile[/gold].\nAt the start of your turn, if this is in your [gold]Exhaust Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-ECHOLALIA.title": "Echolalia"
 }
