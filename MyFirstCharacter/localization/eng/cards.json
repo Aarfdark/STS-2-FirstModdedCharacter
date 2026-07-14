@@ -78,5 +78,8 @@
   "MYFIRSTCHARACTER-ECHOLALIA.title": "Echolalia",
 
   "MYFIRSTCHARACTER-CLIMB.description": "#Gain {Increase:diff()} *Strength.\nDouble the amount of *Strength this card gains. Increase this card's cost by 1.",
-  "MYFIRSTCHARACTER-CLIMB.title": "Climb"
+  "MYFIRSTCHARACTER-CLIMB.title": "Climb",
+
+  "MYFIRSTCHARACTER-THUMBS_DOWN.description": "#Deal !D! damage. Add a Scrap to your *Hand.",
+  "MYFIRSTCHARACTER-THUMBS_DOWN.title": "👎"
 }
