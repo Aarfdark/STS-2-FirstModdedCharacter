@@ -42,5 +42,9 @@
 
   "MYFIRSTCHARACTER-BUNKER_UP_POWER.description": "#The next card you play this turn is placed on the top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-BUNKER_UP_POWER.smartDescription": "#The next {Amount:plural:card|[blue]{}[/blue] cards} you play this turn {Amount:plural:is|are} placed on the top of your [gold]Draw Pile[/gold].",
-  "MYFIRSTCHARACTER-BUNKER_UP_POWER.title": "Bunker Up"
+  "MYFIRSTCHARACTER-BUNKER_UP_POWER.title": "Bunker Up",
+
+  "MYFIRSTCHARACTER-RESTRAIN_POWER.description": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-RESTRAIN_POWER.smartDescription": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-RESTRAIN_POWER.title": "Restrain"
 }

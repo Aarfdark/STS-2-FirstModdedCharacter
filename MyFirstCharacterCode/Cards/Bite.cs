@@ -9,7 +9,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
-public class Bite() : MyFirstCharacterCard(3,
+public class Bite() : MyFirstCharacterCard(2,
     CardType.Attack, CardRarity.Common,
     TargetType.AnyEnemy)
 {

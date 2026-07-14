@@ -49,7 +49,7 @@
   "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply {CharmPerTurn:diff()} Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form",
 
-  "MYFIRSTCHARACTER-EYEROLL.description": "#*Charmed enemies deal 50% less damage this turn.",
+  "MYFIRSTCHARACTER-EYEROLL.description": "#Enemies with *Charm deal 50% less damage this turn.",
   "MYFIRSTCHARACTER-EYEROLL.title": "🙄",
 
   "MYFIRSTCHARACTER-CHARMING_STRIKE.description": "#Deal !D! damage. Apply {CharmPower:diff()} *Charm this turn.",
@@ -83,6 +83,9 @@
   "MYFIRSTCHARACTER-THUMBS_DOWN.description": "#Deal !D! damage. Add a Scrap to your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-THUMBS_DOWN.title": "👎",
 
-  "MYFIRSTCHARACTER-BUG.description": "#Apply {CharmPower:diff()} *Charm. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] to your [gold]Hand[/gold].",
-  "MYFIRSTCHARACTER-BUG.title": "🐛"
+  "MYFIRSTCHARACTER-BUG.description": "#Apply {CharmPower:diff()} [gold]Charm[/gold]. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] to your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-BUG.title": "🐛",
+
+  "MYFIRSTCHARACTER-RESTRAIN.description": "#Apply {CharmPower:diff()} *Charm this turn.\nApply {VulnerablePower:diff()} *Vulnerable.",
+  "MYFIRSTCHARACTER-RESTRAIN.title": "Restrain"
 }
