@@ -74,6 +74,9 @@
   "MYFIRSTCHARACTER-BUNKER_UP.description": "#Gain !B! [gold]Block[/gold].\nPut the next card you play this turn on top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-BUNKER_UP.title": "Bunker Up",
 
-  "MYFIRSTCHARACTER-ECHOLALIA.description": "#Deal !D! damage.\nAdd a copy of this card into your [gold]Exhaust Pile[/gold].\nAt the start of your turn, if this is in your [gold]Exhaust Pile[/gold], play it.",
-  "MYFIRSTCHARACTER-ECHOLALIA.title": "Echolalia"
+  "MYFIRSTCHARACTER-ECHOLALIA.description": "#Deal !D! damage. Add a copy of this card into your [gold]Exhaust Pile[/gold].\nAt the start of your turn, if this is in your [gold]Exhaust Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-ECHOLALIA.title": "Echolalia",
+
+  "MYFIRSTCHARACTER-CLIMB.description": "#Gain {Increase:diff()} *Strength.\nDouble the amount of *Strength this card gains. Increase this card's cost by 1.",
+  "MYFIRSTCHARACTER-CLIMB.title": "Climb"
 }
