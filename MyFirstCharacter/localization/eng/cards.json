@@ -5,14 +5,14 @@
   "MYFIRSTCHARACTER-DEFEND_DANGER.description": "#Gain !B! *Block.",
   "MYFIRSTCHARACTER-DEFEND_DANGER.title": "Defend",
   
-  "MYFIRSTCHARACTER-REORGANIZE.description": "#Draw !C! cards.\nPlace 1 card from your *hand on top of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-REORGANIZE.description": "#Draw !C! cards.\nPlace 1 card from your *Hand on top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-REORGANIZE.title": "Reorganize",
   "MYFIRSTCHARACTER-REORGANIZE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
   
   "MYFIRSTCHARACTER-TWINKLE.description": "#Deal !D! damage to ALL enemies.\nGain !B! *Block.\nAt the end of your turn, if this is at the top of your [gold]Draw Pile[/gold], play it.",
   "MYFIRSTCHARACTER-TWINKLE.title": "Twinkle",
   
-  "MYFIRSTCHARACTER-INSTABILITY.description": "At the start of your turn, add an *Enchantment to 1 card in your *Hand.",
+  "MYFIRSTCHARACTER-INSTABILITY.description": "At the start of your turn, add an *Enchantment to 1 card in your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-INSTABILITY.title": "Instability",
 
   "MYFIRSTCHARACTER-FORCEFIELD.description": "#Whenever you add a card to your *Draw Pile*, gain {ForcefieldPower:diff()} *Block.",
@@ -28,7 +28,7 @@
   "MYFIRSTCHARACTER-SCRAP.description": "#*Exhaust the top card of your [gold]Draw Pile[/gold]. +Draw 1 card.+",
   "MYFIRSTCHARACTER-SCRAP.title": "Scrap",
 
-  "MYFIRSTCHARACTER-YANK.description": "#Draw 3 cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your *Hand.",
+  "MYFIRSTCHARACTER-YANK.description": "#Draw 3 cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-YANK.title": "Yank",
 
   "MYFIRSTCHARACTER-PATCH_UP.description": "#Gain {Energy:energyIcons()}.",
@@ -37,7 +37,7 @@
   "MYFIRSTCHARACTER-BITE.description": "#Deal {Damage:diff()} damage {Repeat:diff()} times.",
   "MYFIRSTCHARACTER-BITE.title": "Bite",
 
-  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply {DemisePower:diff()} *Demise to ALL enemies.\nRandomize the cost of all cards in your hand this turn.",
+  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply {DemisePower:diff()} *Demise to ALL enemies.\nRandomize the cost of all cards in your *Hand this turn.",
   "MYFIRSTCHARACTER-SHOTS.title": "Shots",
 
   "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.description": "#Deal !D! damage. This card's cost is equal to its position in your [gold]Hand[/gold]+-1+.",
@@ -60,9 +60,9 @@
 
   "MYFIRSTCHARACTER-CLARITY.description": "#Put a card from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-CLARITY.title": "Clarity",
-  "MYFIRSTCHARACTER-CLARITY.selectionScreenPrompt": "Choose a card to put back into your hand.",
+  "MYFIRSTCHARACTER-CLARITY.selectionScreenPrompt": "Choose a card to put back into your [gold]Hand[/gold].",
 
-  "MYFIRSTCHARACTER-RESEARCH.description": "#Exhaust a -random -card in your *Hand. The cost of a random card in your *Hand becomes 0 [E] for the rest of combat.",
+  "MYFIRSTCHARACTER-RESEARCH.description": "#Exhaust a -random -card in your [gold]Hand[/gold]. The cost of a random card in your *Hand becomes 0 [E] for the rest of combat.",
   "MYFIRSTCHARACTER-RESEARCH.title": "Research",
 
   "MYFIRSTCHARACTER-NEVER_PUNISHED.description": "#At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
@@ -80,6 +80,9 @@
   "MYFIRSTCHARACTER-CLIMB.description": "#Gain {Increase:diff()} *Strength.\nDouble the amount of *Strength this card gains. Increase this card's cost by 1.",
   "MYFIRSTCHARACTER-CLIMB.title": "Climb",
 
-  "MYFIRSTCHARACTER-THUMBS_DOWN.description": "#Deal !D! damage. Add a Scrap to your *Hand.",
-  "MYFIRSTCHARACTER-THUMBS_DOWN.title": "👎"
+  "MYFIRSTCHARACTER-THUMBS_DOWN.description": "#Deal !D! damage. Add a Scrap to your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-THUMBS_DOWN.title": "👎",
+
+  "MYFIRSTCHARACTER-BUG.description": "#Apply {CharmPower:diff()} *Charm. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] to your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-BUG.title": "🐛"
 }
