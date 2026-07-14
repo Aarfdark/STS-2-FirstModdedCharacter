@@ -34,5 +34,9 @@
 
   "MYFIRSTCHARACTER-EYEROLL_POWER.description": "#You receive [blue]50%[/blue] less damage from [gold]Charmed[/gold] enemies this turn.\"",
   "MYFIRSTCHARACTER-EYEROLL_POWER.smartDescription": "#You receive [blue]{DamageDecrease:percentLess()}%[/blue] less damage from [gold]Charmed[/gold] enemies {Amount:plural:this turn|for [blue]{}[/blue] turns}.\"",
-  "MYFIRSTCHARACTER-EYEROLL_POWER.title": "EyerollPower"
+  "MYFIRSTCHARACTER-EYEROLL_POWER.title": "EyerollPower",
+
+  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.description": "At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
+  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.smartDescription": "At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
+  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.title": "NeverPunishedPower"
 }

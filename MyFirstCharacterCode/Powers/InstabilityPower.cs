@@ -19,16 +19,11 @@ public class InstabilityPower() : MyFirstCharacterPower
     public override PowerStackType StackType =>
         PowerStackType.Counter;
 
-    public override Task AfterAutoPrePlayPhaseEntered(PlayerChoiceContext choiceContext, Player player)
-    {
-        return base.AfterAutoPrePlayPhaseEntered(choiceContext, player);
-    }
-
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
         foreach (CardModel card in await CardSelectCmd.FromHand(choiceContext, player,
-                     new CardSelectorPrefs(this.SelectionScreenPrompt, this.Amount),
-                     null, (AbstractModel)this))
+                     new CardSelectorPrefs(SelectionScreenPrompt, Amount),
+                     null, this))
         {
             // EnchantmentModel[] randomAttackEnchants = {new Adroit(), new Corrupted(), new Glam(), new Inky(), new Instinct(), new Momentum(), new PerfectFit(), new RoyallyApproved(), new Sharp(), new Swift(), new Slither(), new Sown(), new Spiral(), new Steady(), new TezcatarasEmber(), new Vigorous()};
             // EnchantmentModel[] randomDefenseEnchants = {};

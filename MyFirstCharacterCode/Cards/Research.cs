@@ -12,11 +12,10 @@ using MyFirstCharacter.MyFirstCharacterCode.Cards;
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 [Pool(typeof(ColorlessCardPool))]
-public class Research() : MyFirstCharacterCard(3,
+public class Research() : MyFirstCharacterCard(2,
     CardType.Skill, CardRarity.Rare,
     TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1)];
     
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,

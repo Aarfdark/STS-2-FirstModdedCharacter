@@ -63,5 +63,11 @@
   "MYFIRSTCHARACTER-CLARITY.selectionScreenPrompt": "Choose a card to put back into your hand.",
 
   "MYFIRSTCHARACTER-RESEARCH.description": "#Exhaust a -random -card in your *Hand. The cost of a random card in your *Hand becomes 0 [E] for the rest of combat.",
-  "MYFIRSTCHARACTER-RESEARCH.title": "Research"
+  "MYFIRSTCHARACTER-RESEARCH.title": "Research",
+
+  "MYFIRSTCHARACTER-NEVER_PUNISHED.description": "#At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
+  "MYFIRSTCHARACTER-NEVER_PUNISHED.title": "Never Punished",
+
+  "MYFIRSTCHARACTER-STRUCTURED_CHAOS.description": "#Play the top card of your [gold]Draw Pile[/gold] X{IfUpgraded:show:+1} times.",
+  "MYFIRSTCHARACTER-STRUCTURED_CHAOS.title": "Structured Chaos"
 }
