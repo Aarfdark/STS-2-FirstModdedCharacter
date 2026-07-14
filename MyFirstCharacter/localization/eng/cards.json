@@ -69,5 +69,8 @@
   "MYFIRSTCHARACTER-NEVER_PUNISHED.title": "Never Punished",
 
   "MYFIRSTCHARACTER-STRUCTURED_CHAOS.description": "#Play the top card of your [gold]Draw Pile[/gold] X{IfUpgraded:show:+1} times.",
-  "MYFIRSTCHARACTER-STRUCTURED_CHAOS.title": "Structured Chaos"
+  "MYFIRSTCHARACTER-STRUCTURED_CHAOS.title": "Structured Chaos",
+
+  "MYFIRSTCHARACTER-BUNKER_UP.description": "#Gain !B! [gold]Block[/gold].\nPut the next card you play this turn on top of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-BUNKER_UP.title": "Bunker Up"
 }
