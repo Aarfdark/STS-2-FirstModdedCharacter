@@ -22,36 +22,36 @@ public class MyFirstCharacter : PlaceholderCharacterModel
     public override int StartingHp => 79;
 
     // normal starting deck
-    // public override IEnumerable<CardModel> StartingDeck =>
-    // [
-    //     ModelDb.Card<DefendDanger>(),
-    //     ModelDb.Card<DefendDanger>(),
-    //     ModelDb.Card<DefendDanger>(),
-    //     ModelDb.Card<DefendDanger>(),
-    //     ModelDb.Card<StrikeDanger>(),
-    //     ModelDb.Card<StrikeDanger>(),
-    //     ModelDb.Card<StrikeDanger>(),
-    //     ModelDb.Card<StrikeDanger>(),
-    //     ModelDb.Card<Reorganize>(),
-    //     ModelDb.Card<Twinkle>(),
-    // ];
-    
-    // weird finesse deck for testing
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        ModelDb.Card<Finesse>(),
-        // edit for card testing
-        ModelDb.Card<Yank>(),
-        // ModelDb.Card<Soul>(),
-        // ModelDb.Card<Soul>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<Reorganize>(),
+        ModelDb.Card<Twinkle>(),
     ];
+    
+    // weird finesse deck for testing
+    // public override IEnumerable<CardModel> StartingDeck =>
+    // [
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     ModelDb.Card<Finesse>(),
+    //     // edit for card testing
+    //     ModelDb.Card<Yank>(),
+    //     // ModelDb.Card<Soul>(),
+    //     // ModelDb.Card<Soul>(),
+    // ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [

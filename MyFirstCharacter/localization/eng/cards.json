@@ -15,47 +15,47 @@
   "MYFIRSTCHARACTER-INSTABILITY.description": "At the start of your turn, add an *Enchantment to 1 card in your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-INSTABILITY.title": "Instability",
 
-  "MYFIRSTCHARACTER-FORCEFIELD.description": "#Whenever you add a card to your *Draw Pile*, gain {ForcefieldPower:diff()} *Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD.description": "#Whenever you add a card to your *Draw Pile*, gain !ForcefieldPower! [gold]Block[/gold].",
   "MYFIRSTCHARACTER-FORCEFIELD.title": "Forcefield",
 
-  "MYFIRSTCHARACTER-MAKE_NOISE.description": "#ALL enemies lose {StrengthLoss:diff()} *Strength this turn.\nPut a card from your [gold]Discard Pile[/gold] on top of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-MAKE_NOISE.description": "#ALL enemies lose !StrengthLoss! *Strength this turn.\nPut a card from your [gold]Discard Pile[/gold] on top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-MAKE_NOISE.title": "Make Noise",
   "MYFIRSTCHARACTER-MAKE_NOISE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
 
-  "MYFIRSTCHARACTER-FLIRT.description": "#Apply {WeakPower:diff()} *Weak.\nApply {CharmPower:diff()} *Charm this turn.",
+  "MYFIRSTCHARACTER-FLIRT.description": "#Apply !WeakPower! [gold]Weak[/gold].\nApply !CharmPower! *Charm this turn.",
   "MYFIRSTCHARACTER-FLIRT.title": "Flirt",
 
   "MYFIRSTCHARACTER-SCRAP.description": "#*Exhaust the top card of your [gold]Draw Pile[/gold]. +Draw 1 card.+",
   "MYFIRSTCHARACTER-SCRAP.title": "Scrap",
 
-  "MYFIRSTCHARACTER-YANK.description": "#Draw 3 cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-YANK.description": "#Draw !C! cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-YANK.title": "Yank",
 
   "MYFIRSTCHARACTER-PATCH_UP.description": "#Gain {Energy:energyIcons()}.",
   "MYFIRSTCHARACTER-PATCH_UP.title": "Patch Up",
 
-  "MYFIRSTCHARACTER-BITE.description": "#Deal {Damage:diff()} damage {Repeat:diff()} times.",
+  "MYFIRSTCHARACTER-BITE.description": "#Deal !D! damage !Repeat! times.",
   "MYFIRSTCHARACTER-BITE.title": "Bite",
 
-  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply {DemisePower:diff()} *Demise to ALL enemies.\nRandomize the cost of all cards in your *Hand this turn.",
+  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply !DemisePower! *Demise to ALL enemies.\nRandomize the cost of all cards in your *Hand this turn.",
   "MYFIRSTCHARACTER-SHOTS.title": "Shots",
 
   "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.description": "#Deal !D! damage. This card's cost is equal to its position in your [gold]Hand[/gold]+-1+.",
   "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.title": "Repositioning Strike",
 
-  "MYFIRSTCHARACTER-RATS.description": "#Deal !D! damage to ALL enemies.\nHits an additional time for each time this card has been drawn this combat.{InCombat:\n(Hits {Repeat:diff()} {Repeat:plural:time|times})|}",
+  "MYFIRSTCHARACTER-RATS.description": "#Deal !D! damage to ALL enemies.\nHits an additional time for each time this card has been drawn this combat.{InCombat:\n(Hits !Repeat! {Repeat:plural:time|times})|}",
   "MYFIRSTCHARACTER-RATS.title": "Rats",
 
-  "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply {CharmPerTurn:diff()} Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply !CharmPerTurn! Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form",
 
   "MYFIRSTCHARACTER-EYEROLL.description": "#Enemies with *Charm deal 50% less damage this turn.",
   "MYFIRSTCHARACTER-EYEROLL.title": "🙄",
 
-  "MYFIRSTCHARACTER-CHARMING_STRIKE.description": "#Deal !D! damage. Apply {CharmPower:diff()} *Charm this turn.",
+  "MYFIRSTCHARACTER-CHARMING_STRIKE.description": "#Deal !D! damage. Apply !CharmPower! *Charm this turn.",
   "MYFIRSTCHARACTER-CHARMING_STRIKE.title": "Charming Strike",
   
-  "MYFIRSTCHARACTER-BRAMBLE.description": "#Gain {ThornsPower:diff()} *Thorns. Increase this card's *Thorns by {Increase:diff()}.",
+  "MYFIRSTCHARACTER-BRAMBLE.description": "#Gain !ThornsPower! [gold]Thorns[/gold]. Increase this card's *Thorns by !Increase!.",
   "MYFIRSTCHARACTER-BRAMBLE.title": "Bramble",
 
   "MYFIRSTCHARACTER-CLARITY.description": "#Put a card from your [gold]Exhaust Pile[/gold] into your [gold]Hand[/gold].",
@@ -77,15 +77,18 @@
   "MYFIRSTCHARACTER-ECHOLALIA.description": "#Deal !D! damage. Add a copy of this card into your [gold]Exhaust Pile[/gold].\nAt the start of your turn, if this is in your [gold]Exhaust Pile[/gold], play it.",
   "MYFIRSTCHARACTER-ECHOLALIA.title": "Echolalia",
 
-  "MYFIRSTCHARACTER-CLIMB.description": "#Gain {Increase:diff()} *Strength.\nDouble the amount of *Strength this card gains. Increase this card's cost by 1.",
+  "MYFIRSTCHARACTER-CLIMB.description": "#Gain !Increase! *Strength.\nDouble the amount of *Strength this card gains. Increase this card's cost by 1.",
   "MYFIRSTCHARACTER-CLIMB.title": "Climb",
 
   "MYFIRSTCHARACTER-THUMBS_DOWN.description": "#Deal !D! damage. Add a Scrap to your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-THUMBS_DOWN.title": "👎",
 
-  "MYFIRSTCHARACTER-BUG.description": "#Apply {CharmPower:diff()} [gold]Charm[/gold]. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] to your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-BUG.description": "#Apply !CharmPower! [gold]Charm[/gold]. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] to your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-BUG.title": "🐛",
 
-  "MYFIRSTCHARACTER-RESTRAIN.description": "#Apply {CharmPower:diff()} *Charm this turn.\nApply {VulnerablePower:diff()} *Vulnerable.",
-  "MYFIRSTCHARACTER-RESTRAIN.title": "Restrain"
+  "MYFIRSTCHARACTER-RESTRAIN.description": "#Apply !CharmPower! *Charm this turn.\nApply !VulnerablePower! [gold]Vulnerable[/gold].",
+  "MYFIRSTCHARACTER-RESTRAIN.title": "Restrain",
+
+  "MYFIRSTCHARACTER-YEARN.description": "#Draw !C! cards.",
+  "MYFIRSTCHARACTER-YEARN.title": "Yearn"
 }
