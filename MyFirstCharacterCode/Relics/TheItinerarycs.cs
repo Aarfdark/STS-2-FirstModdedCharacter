@@ -13,7 +13,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Relics;
 public class TheItinerary() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Starter;
+        RelicRarity.Ancient;
     
     bool _isCardMarked = false;
     private CardModel? _markedCard;

@@ -9,7 +9,7 @@
   "MYFIRSTCHARACTER-REORGANIZE.title": "Reorganize",
   "MYFIRSTCHARACTER-REORGANIZE.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
   
-  "MYFIRSTCHARACTER-TWINKLE.description": "#Deal !D! damage to ALL enemies.\nGain !B! *Block.\nAt the end of your turn, if this is at the top of your [gold]Draw Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-TWINKLE.description": "#Gain !B! *Block.\nDeal !D! damage to ALL enemies.\nAt the end of your turn, if this is at the top of your [gold]Draw Pile[/gold], play it.",
   "MYFIRSTCHARACTER-TWINKLE.title": "Twinkle",
   
   "MYFIRSTCHARACTER-INSTABILITY.description": "At the start of your turn, add an *Enchantment to 1 card in your [gold]Hand[/gold].",
@@ -90,5 +90,8 @@
   "MYFIRSTCHARACTER-RESTRAIN.title": "Restrain",
 
   "MYFIRSTCHARACTER-YEARN.description": "#Draw !C! cards.",
-  "MYFIRSTCHARACTER-YEARN.title": "Yearn"
+  "MYFIRSTCHARACTER-YEARN.title": "Yearn",
+
+  "MYFIRSTCHARACTER-FLASH.description": "#Gain !B! [gold]Block[/gold].\nDeal !D! damage to ALL enemies.\nApply !CharmPower! *Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-FLASH.title": "Flash"
 }
