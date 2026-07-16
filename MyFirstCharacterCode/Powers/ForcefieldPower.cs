@@ -25,7 +25,9 @@ public class ForcefieldPower() : MyFirstCharacterPower
 
     public override async Task AfterCardChangedPiles(CardModel card, PileType oldPileType, AbstractModel? clonedBy)
     {
-        if ( _isManualAction && card.Pile!.Type == PileType.Draw )
+        if (card.Pile == null)
+            return;
+        if ( _isManualAction && card.Pile.Type == PileType.Draw )
         {
             await CreatureCmd.GainBlock(Owner, Amount, ValueProp.Unpowered, null);
         }

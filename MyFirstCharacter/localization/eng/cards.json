@@ -93,5 +93,8 @@
   "MYFIRSTCHARACTER-YEARN.title": "Yearn",
 
   "MYFIRSTCHARACTER-FLASH.description": "#Gain !B! [gold]Block[/gold].\nDeal !D! damage to ALL enemies.\nApply !CharmPower! *Charm to ALL enemies.",
-  "MYFIRSTCHARACTER-FLASH.title": "Flash"
+  "MYFIRSTCHARACTER-FLASH.title": "Flash",
+
+  "MYFIRSTCHARACTER-PLASTY.description": "#At the start of your turn, [gold]Transform[/gold]+, [gold]Upgrade[/gold],+ and play the top card of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PLASTY.title": "Plasty"
 }

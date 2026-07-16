@@ -4,8 +4,8 @@
   "MYFIRSTCHARACTER-INSTABILITY_POWER.title": "Instability",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.selectionScreenPrompt": "Choose a card to enchant.",
 
-  "MYFIRSTCHARACTER-FORCEFIELD_POWER.description": "#Whenever you add a card to your Draw Pile, gain !B! Block.",
-  "MYFIRSTCHARACTER-FORCEFIELD_POWER.smartDescription": "#Whenever you add a card to your Draw Pile, gain !B! Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.description": "#Whenever you add a card to your Draw Pile, gain {Amount} Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.smartDescription": "#Whenever you add a card to your Draw Pile, gain {Amount} Block.",
   "MYFIRSTCHARACTER-FORCEFIELD_POWER.title": "Forcefield",
 
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.description": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
@@ -46,5 +46,13 @@
 
   "MYFIRSTCHARACTER-RESTRAIN_POWER.description": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-RESTRAIN_POWER.smartDescription": "#Gain *Charm until end of turn",
-  "MYFIRSTCHARACTER-RESTRAIN_POWER.title": "Restrain"
+  "MYFIRSTCHARACTER-RESTRAIN_POWER.title": "Restrain",
+
+  "MYFIRSTCHARACTER-PLASTY_POWER.description": "#At the start of your turn, *Transform and play the top card of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PLASTY_POWER.smartDescription": "#At the start of your turn, *Transform and play the {Amount:plural:top card|next [blue]{}[/blue] top cards} of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PLASTY_POWER.title": "Plasty",
+
+  "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.description": "#At the start of your turn, *Transform, *Upgrade, and play the top card of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.smartDescription": "#At the start of your turn, *Transform, *Upgrade, and play the {Amount:plural:top card|next [blue]{}[/blue] top cards} of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.title": "PlastyPlusPower"
 }
