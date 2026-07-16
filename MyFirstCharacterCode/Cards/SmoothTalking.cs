@@ -16,7 +16,6 @@ public class SmoothTalking() : MyFirstCharacterCard(2,
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
     private int _currentCharm = 1;
-
     [SavedProperty]
     public int CurrentCharm
     {
@@ -27,6 +26,18 @@ public class SmoothTalking() : MyFirstCharacterCard(2,
             DynamicVars["CharmPower"].BaseValue = _currentCharm;
         }
     }
+
+    private int _increasedCharm;
+    [SavedProperty]
+    public int IncreasedCharm
+    {
+        get => _increasedCharm;
+        set
+        {
+            AssertMutable();
+            _increasedCharm = value;
+        }
+    }
     
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -35,11 +46,31 @@ public class SmoothTalking() : MyFirstCharacterCard(2,
         if (play.Target == null)
             return;
         await PowerCmd.Apply<CharmPower>(choiceContext, play.Target, DynamicVars["CharmPower"].BaseValue, Owner.Creature, this);
-        
+        int scaleAmt = DynamicVars["CharmScale"].IntValue;
+        BuffFromPlay(scaleAmt);
+        if (!(DeckVersion is SmoothTalking deckVersion))
+            return;
+        deckVersion.BuffFromPlay(scaleAmt);
     }
 
+    private void BuffFromPlay(int extraCharm)
+    {
+        IncreasedCharm += extraCharm;
+        UpdateCharm();
+    }
+
+    private void UpdateCharm()
+    {
+        CurrentCharm = 1 + IncreasedCharm;
+    }
+    
     protected override void OnUpgrade()
     {
         DynamicVars["CharmScale"].UpgradeValueBy(1);
+    }
+
+    protected override void AfterDowngraded()
+    {
+        UpdateCharm();
     }
 }

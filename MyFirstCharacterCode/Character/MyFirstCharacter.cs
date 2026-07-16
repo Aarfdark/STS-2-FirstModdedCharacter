@@ -34,6 +34,7 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendDanger>(),
         ModelDb.Card<Reorganize>(),
         ModelDb.Card<Twinkle>(),
+        ModelDb.Card<SmoothTalking>(),
     ];
     
     // weird finesse deck for testing
