@@ -13,6 +13,7 @@ public class DefendDanger() : MyFirstCharacterCard(1,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(5, ValueProp.Move)];
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Defend];
+    public override bool GainsBlock => true;
     
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,

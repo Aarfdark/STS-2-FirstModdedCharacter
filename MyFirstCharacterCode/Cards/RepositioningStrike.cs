@@ -14,31 +14,13 @@ public class RepositioningStrike() : MyFirstCharacterCard(1,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(11, ValueProp.Move), new EnergyVar(1)];
     protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
-
-    // public override async Task AfterCardDrawn(
-    //     PlayerChoiceContext choiceContext, 
-    //     CardModel card, 
-    //     bool fromHandDraw)
-    // {
-    //     if (card != this)
-    //         return;
-    //     
-    //     // reset energy to default before adding based on card position
-    //     var curEnergyCost = EnergyCost.GetResolved();
-    //     EnergyCost.AddThisCombat(-curEnergyCost+DynamicVars.Energy.IntValue);
-    //     
-    //     var count = 0;
-    //     foreach (CardModel cardInHand in CardPile.GetCards(Owner, PileType.Hand))
-    //     {
-    //         if (cardInHand == this)
-    //             EnergyCost.AddThisCombat(count);
-    //         count++;
-    //     }
-    // }
     
     public override async Task AfterCardChangedPiles(CardModel card, PileType oldPileType, AbstractModel? clonedBy)
     {
-        if (Pile!.Type != PileType.Hand)
+        if (Pile == null)
+            return;
+        
+        if (Pile.Type != PileType.Hand)
             return;
         
         // reset energy to default before adding based on card position
@@ -58,7 +40,9 @@ public class RepositioningStrike() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).Targeting(play.Target!).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
+        if (play.Target == null)
+            return;
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
     }
 
     protected override void OnUpgrade()

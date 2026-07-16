@@ -14,6 +14,7 @@ public class BunkerUp() : MyFirstCharacterCard(1,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(6, ValueProp.Move)];
+    public override bool GainsBlock => true;
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,

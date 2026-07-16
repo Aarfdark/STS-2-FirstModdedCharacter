@@ -96,5 +96,11 @@
   "MYFIRSTCHARACTER-FLASH.title": "Flash",
 
   "MYFIRSTCHARACTER-PLASTY.description": "#At the start of your turn, [gold]Transform[/gold]+, [gold]Upgrade[/gold],+ and play the top card of your [gold]Draw Pile[/gold].",
-  "MYFIRSTCHARACTER-PLASTY.title": "Plasty"
+  "MYFIRSTCHARACTER-PLASTY.title": "Plasty",
+
+  "MYFIRSTCHARACTER-WORKOUT_SESSION.description": "#Everybody chooses a card in their *Hand to play and [gold]Exhaust[/gold].",
+  "MYFIRSTCHARACTER-WORKOUT_SESSION.title": "Workout Session",
+
+  "MYFIRSTCHARACTER-SMOOTH_TALKING.description": "#Apply 1 [gold]Charm[/gold].\nPermanently increase this card's Charm by !CharmScale!. Exhaust.",
+  "MYFIRSTCHARACTER-SMOOTH_TALKING.title": "Smooth Talking"
 }

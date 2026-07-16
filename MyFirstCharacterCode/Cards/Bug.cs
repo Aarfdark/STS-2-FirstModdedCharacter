@@ -18,8 +18,10 @@ public class Bug() : MyFirstCharacterCard(0,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<CharmPower>(choiceContext, play.Target!, DynamicVars["CharmPower"].BaseValue, Owner.Creature, this);
-        var scrap = await Scrap.CreateInHand(Owner, 1, CombatState!);
+        if (play.Target == null || CombatState == null)
+            return;
+        await PowerCmd.Apply<CharmPower>(choiceContext, play.Target, DynamicVars["CharmPower"].BaseValue, Owner.Creature, this);
+        var scrap = await Scrap.CreateInHand(Owner, 1, CombatState);
         if (IsUpgraded)
             foreach (var card in scrap)
                 CardCmd.Upgrade(card);

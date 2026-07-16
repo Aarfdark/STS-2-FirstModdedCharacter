@@ -52,8 +52,11 @@ public class Shots() : MyFirstCharacterCard(0,
         {
             return;
         }
+
+        if (CombatState == null)
+            return;
         
-        foreach (Creature hittableEnemy in CombatState?.HittableEnemies!)
+        foreach (Creature hittableEnemy in CombatState.HittableEnemies)
         {
             await PowerCmd.Apply<DemisePower>(choiceContext, hittableEnemy, DynamicVars.Power<DemisePower>().BaseValue, Owner.Creature, this);
         }

@@ -18,7 +18,7 @@ public class Reorganize() : MyFirstCharacterCard(0, CardType.Skill, CardRarity.B
     {
         await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
         CardSelectorPrefs prefs = new CardSelectorPrefs(SelectionScreenPrompt, 1);
-        CardModel? card = (await CardSelectCmd.FromHand(choiceContext, Owner, prefs, null, this)).FirstOrDefault<CardModel>();
+        CardModel? card = (await CardSelectCmd.FromHand(choiceContext, Owner, prefs, null, this)).FirstOrDefault();
         if (card == null)
             return;
         await CardPileCmd.Add(card, PileType.Draw, CardPilePosition.Top);

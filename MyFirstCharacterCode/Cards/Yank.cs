@@ -17,8 +17,10 @@ public class Yank() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        if (CombatState == null)
+            return;
         await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
-        var scrap = await Scrap.CreateInHand(Owner, DynamicVars["Scraps"].IntValue, CombatState!);
+        var scrap = await Scrap.CreateInHand(Owner, DynamicVars["Scraps"].IntValue, CombatState);
         if (IsUpgraded)
             foreach (var card in scrap)
                 CardCmd.Upgrade(card);

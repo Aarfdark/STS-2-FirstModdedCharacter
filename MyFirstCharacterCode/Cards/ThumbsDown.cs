@@ -18,11 +18,13 @@ public class ThumbsDown() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        if (play.Target == null || CombatState == null)
+            return;
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play)
-            .Targeting(play.Target!).WithHitFx("vfx/vfx_attack_slash")
+            .Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
 
-        await Scrap.CreateInHand(Owner, 1, CombatState!);
+        await Scrap.CreateInHand(Owner, 1, CombatState);
     }
 
     protected override void OnUpgrade()

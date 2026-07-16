@@ -19,9 +19,11 @@ public class Restrain() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<RestrainPower>(choiceContext, play.Target!, DynamicVars["CharmPower"].BaseValue,
+        if (play.Target == null)
+            return;
+        await PowerCmd.Apply<RestrainPower>(choiceContext, play.Target, DynamicVars["CharmPower"].BaseValue,
             Owner.Creature, this);
-        await PowerCmd.Apply<VulnerablePower>(choiceContext, play.Target!, DynamicVars["VulnerablePower"].BaseValue,
+        await PowerCmd.Apply<VulnerablePower>(choiceContext, play.Target, DynamicVars["VulnerablePower"].BaseValue,
             Owner.Creature, this);
     }
 

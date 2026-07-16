@@ -18,8 +18,10 @@ public class Flirt() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await PowerCmd.Apply<WeakPower>(choiceContext, play.Target!, DynamicVars.Weak.BaseValue, Owner.Creature, (CardModel) this);
-        await PowerCmd.Apply<FlirtPower>(choiceContext, play.Target!, DynamicVars["CharmPower"].BaseValue, Owner.Creature, (CardModel) this);
+        if (play.Target == null)
+            return;
+        await PowerCmd.Apply<WeakPower>(choiceContext, play.Target, DynamicVars.Weak.BaseValue, Owner.Creature, (CardModel) this);
+        await PowerCmd.Apply<FlirtPower>(choiceContext, play.Target, DynamicVars["CharmPower"].BaseValue, Owner.Creature, (CardModel) this);
     }
 
     protected override void OnUpgrade()

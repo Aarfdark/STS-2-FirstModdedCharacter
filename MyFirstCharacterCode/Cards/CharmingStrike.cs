@@ -20,8 +20,10 @@ public class CharmingStrike() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).Targeting(play.Target!).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
-        await PowerCmd.Apply<CharmingStrikePower>(choiceContext, play.Target!, DynamicVars["CharmPower"].BaseValue,
+        if (play.Target == null)
+            return;
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
+        await PowerCmd.Apply<CharmingStrikePower>(choiceContext, play.Target, DynamicVars["CharmPower"].BaseValue,
             Owner.Creature, this);
     }
 

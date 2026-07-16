@@ -22,14 +22,16 @@ public class Echolalia() : MyFirstCharacterCard(4,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        if (play.Target == null || CombatState == null)
+            return;
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play)
-            .Targeting(play.Target!).WithHitFx("vfx/vfx_attack_slash")
+            .Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
         CardCmd.PreviewCardPileAdd(await CardPileCmd.AddGeneratedCardToCombat(CreateClone(), PileType.Exhaust, Owner), 2.2f);
         
     }
     
-    public override async Task AfterAutoPrePlayPhaseEnteredEarly(
+    public override async Task AfterAutoPrePlayPhaseEntered(
         PlayerChoiceContext choiceContext,
         Player player)
     {

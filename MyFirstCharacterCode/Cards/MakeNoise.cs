@@ -16,7 +16,9 @@ public class MakeNoise() : MyFirstCharacterCard(1, CardType.Skill, CardRarity.Un
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        foreach (Creature hittableEnemy in CombatState!.HittableEnemies)
+        if (CombatState == null)
+            return;
+        foreach (Creature hittableEnemy in CombatState.HittableEnemies)
         {
             await PowerCmd.Apply<MakeNoisePower>(choiceContext, hittableEnemy, this.DynamicVars["StrengthLoss"].BaseValue, this.Owner.Creature, (CardModel) this);
         }
