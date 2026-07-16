@@ -17,21 +17,15 @@ public class StructuredChaos() : MyFirstCharacterCard(-1,
     protected override IEnumerable<DynamicVar> CanonicalVars => [];
     protected override bool HasEnergyCostX => true;
 
-    public required CardModel TopCardOfDrawPile;
-    
-    public override int ModifyCardPlayCount(CardModel card, Creature? target, int playCount)
-    {
-        int count = IsUpgraded ? ResolveEnergyXValue()+1 : ResolveEnergyXValue();
-        return (card.Owner.Creature != Owner.Creature || card != TopCardOfDrawPile) ? playCount : count;
-    }
-
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        if (PileType.Draw.GetPile(Owner).IsEmpty)
+        int count = IsUpgraded ? ResolveEnergyXValue()+1 : ResolveEnergyXValue();
+        if (PileType.Draw.GetPile(Owner).IsEmpty || count <= 0)
             return;
-        TopCardOfDrawPile = PileType.Draw.GetPile(Owner).Cards[0];
-        await CardPileCmd.AutoPlayFromDrawPile(choiceContext, Owner, 1, CardPilePosition.Top, false);
+        var topCardOfDrawPile = PileType.Draw.GetPile(Owner).Cards[0];
+        for (int i = 0; i < count; i++)
+            await CardCmd.AutoPlay(choiceContext, topCardOfDrawPile, null);
     }
 }

@@ -21,7 +21,7 @@ public class CharmPower() : MyFirstCharacterPower
         Creature? dealer, DamageResult result, ValueProp props,
         Creature target, CardModel? cardSource)
     {
-        if (target != Applier || dealer == null)
+        if (target != Applier || dealer == null || !dealer.HasPower<CharmPower>())
             return;
         Flash();
         await CreatureCmd.Damage(choiceContext, dealer!, Amount, ValueProp.Unblockable | ValueProp.SkipHurtAnim, null, null);
