@@ -11,7 +11,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
-public class Echolalia() : MyFirstCharacterCard(4,
+public class Echolalia() : MyFirstCharacterCard(2,
     CardType.Attack, CardRarity.Rare,
     TargetType.AnyEnemy)
 {
@@ -27,16 +27,19 @@ public class Echolalia() : MyFirstCharacterCard(4,
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play)
             .Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
-        CardCmd.PreviewCardPileAdd(await CardPileCmd.AddGeneratedCardToCombat(CreateClone(), PileType.Exhaust, Owner), 2.2f);
+        CardCmd.PreviewCardPileAdd(await CardPileCmd.AddGeneratedCardToCombat(CreateClone(), PileType.Draw, Owner, CardPilePosition.Top));
         
     }
     
-    public override async Task AfterAutoPrePlayPhaseEntered(
+    public override async Task AfterAutoPostPlayPhaseEntered(
         PlayerChoiceContext choiceContext,
         Player player)
     {
-        if ((Pile != null ? (Pile.Type != PileType.Exhaust ? 1 : 0) : 1) != 0 || player != Owner)
+        if (Pile == null ||
+            (Pile.Type != PileType.Exhaust && 
+             PileType.Draw.GetPile(Owner).Cards.FirstOrDefault() != this))
             return;
+        
         await CardCmd.AutoPlay(choiceContext, this, null);
     }
 

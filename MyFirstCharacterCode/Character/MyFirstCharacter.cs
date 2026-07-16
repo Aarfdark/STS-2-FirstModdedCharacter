@@ -34,24 +34,24 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendDanger>(),
         ModelDb.Card<Reorganize>(),
         ModelDb.Card<Twinkle>(),
-        ModelDb.Card<SmoothTalking>(),
+        ModelDb.Card<Echolalia>(),
     ];
     
     // weird finesse deck for testing
     // public override IEnumerable<CardModel> StartingDeck =>
     // [
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     ModelDb.Card<Finesse>(),
-    //     // edit for card testing
-    //     ModelDb.Card<Yank>(),
-    //     // ModelDb.Card<Soul>(),
-    //     // ModelDb.Card<Soul>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // // edit for card testing
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<IAmInvincible>(),
+        // ModelDb.Card<Juggernaut>(),
     // ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

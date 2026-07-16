@@ -65,7 +65,7 @@
   "MYFIRSTCHARACTER-RESEARCH.description": "#Exhaust a -random -card in your [gold]Hand[/gold]. The cost of a random card in your *Hand becomes 0 [E] for the rest of combat.",
   "MYFIRSTCHARACTER-RESEARCH.title": "Research",
 
-  "MYFIRSTCHARACTER-NEVER_PUNISHED.description": "#At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
+  "MYFIRSTCHARACTER-NEVER_PUNISHED.description": "#At the start of your turn, apply one random buff or debuff to EVERYONE.",
   "MYFIRSTCHARACTER-NEVER_PUNISHED.title": "Never Punished",
 
   "MYFIRSTCHARACTER-STRUCTURED_CHAOS.description": "#Play the top card of your [gold]Draw Pile[/gold] X{IfUpgraded:show:+1} times.",
@@ -74,7 +74,7 @@
   "MYFIRSTCHARACTER-BUNKER_UP.description": "#Gain !B! [gold]Block[/gold].\nPut the next card you play this turn on top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-BUNKER_UP.title": "Bunker Up",
 
-  "MYFIRSTCHARACTER-ECHOLALIA.description": "#Deal !D! damage. Add a copy of this card into your [gold]Exhaust Pile[/gold].\nAt the start of your turn, if this is in your [gold]Exhaust Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-ECHOLALIA.description": "#Deal !D! damage. Put a copy of this card on top of your [gold]Draw Pile[/gold]. At the end of your turn, if this is in your [gold]Exhaust Pile[/gold] or on top of your [gold]Draw Pile[/gold], play it.",
   "MYFIRSTCHARACTER-ECHOLALIA.title": "Echolalia",
 
   "MYFIRSTCHARACTER-CLIMB.description": "#Gain !Increase! *Strength.\nDouble the amount of *Strength this card gains. Increase this card's cost by 1.",
