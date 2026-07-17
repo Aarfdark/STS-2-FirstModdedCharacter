@@ -3,5 +3,8 @@
   "MYFIRSTCHARACTER-ASHBOUND.title": "Ashbound",
 
   "MYFIRSTCHARACTER-RIGGED.description": "At the end of your turn, if this card is on top of your [gold]Draw Pile[/gold], play it.",
-  "MYFIRSTCHARACTER-RIGGED.title": "Rigged"
+  "MYFIRSTCHARACTER-RIGGED.title": "Rigged",
+
+  "MYFIRSTCHARACTER-SEMPITERNAL.description": "At the end of your turn, if this card is in your [gold]Exhaust Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-SEMPITERNAL.title": "Sempiternal"
 }

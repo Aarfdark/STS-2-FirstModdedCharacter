@@ -5,7 +5,7 @@ MyFirstCharacter.json::JSON::-1::1783193559::0::1::::<><><>0<>0<><>::
 ::res://bin/::1783537042
 ::res://bin/ExportRelease/::1783198561
 ::res://bin/ExportRelease/net9.0/::1783198561
-::res://bin/ExportRelease/net9.0/publish/::1784327722
+::res://bin/ExportRelease/net9.0/publish/::1784328950
 MyFirstCharacter.deps.json::JSON::-1::1784165696::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacter/::1783198693
 mod_image.png::CompressedTexture2D::4318680732811062171::1783193514::1783198693::1::::<><><>0<>0<>ff1d8c97f45229207a28711554fae6a1<>res://.godot/imported/mod_image.png-8872f6d7bc036f863ec2352979eb38df.ctex::
@@ -44,10 +44,10 @@ relic_outline.png::CompressedTexture2D::7020004564918546605::1783193514::1783198
 ::res://MyFirstCharacter/images/relics/big/::1783198693
 relic.png::CompressedTexture2D::8042553672069775984::1783193514::1783198693::1::::<><><>0<>0<>eebfa449ef6dd6ab2f22008e3ef5b3a9<>res://.godot/imported/relic.png-6a442f30f6a068470b177cc0533632ab.ctex::
 ::res://MyFirstCharacter/localization/::1783193514
-::res://MyFirstCharacter/localization/eng/::1784327711
+::res://MyFirstCharacter/localization/eng/::1784328506
 ancients.json::JSON::-1::1784245902::0::1::::<><><>0<>0<><>::
-cards.json::JSON::-1::1784325950::0::1::::<><><>0<>0<><>::
-card_keywords.json::JSON::-1::1784252490::0::1::::<><><>0<>0<><>::
+cards.json::JSON::-1::1784328506::0::1::::<><><>0<>0<><>::
+card_keywords.json::JSON::-1::1784328213::0::1::::<><><>0<>0<><>::
 characters.json::JSON::-1::1784327711::0::1::::<><><>0<>0<><>::
 potions.json::JSON::-1::1783635849::0::1::::<><><>0<>0<><>::
 powers.json::JSON::-1::1784325885::0::1::::<><><>0<>0<><>::
@@ -57,7 +57,7 @@ static_hover_tips.json::JSON::-1::1783364211::0::1::::<><><>0<>0<><>::
 MainFile.cs::CSharpScript::917434532800153864::1783193527::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/Ancients/::1783628601
 BigNeow.cs::CSharpScript::7844764338797149165::1783628601::0::1::::<><><>0<>0<><>::
-::res://MyFirstCharacterCode/Cards/::1784326367
+::res://MyFirstCharacterCode/Cards/::1784328478
 Bite.cs::CSharpScript::7635029516606546290::1784219266::0::1::::<><><>0<>0<><>::
 Bramble.cs::CSharpScript::6966801032052195738::1783632724::0::1::::<><><>0<>0<><>::
 Bug.cs::CSharpScript::4839245887956330960::1784218895::0::1::::<><><>0<>0<><>::
@@ -66,7 +66,7 @@ CharmingStrike.cs::CSharpScript::3000285173320023805::1784253886::0::1::::<><><>
 Clarity.cs::CSharpScript::2828524439016732101::1783635372::0::1::::<><><>0<>0<><>::
 Climb.cs::CSharpScript::4698608161226265927::1784060155::0::1::::<><><>0<>0<><>::
 DefendDanger.cs::CSharpScript::4871125776847656773::1784218504::0::1::::<><><>0<>0<><>::
-Echolalia.cs::CSharpScript::7036737444328357355::1784252572::0::1::::<><><>0<>0<><>::
+Echolalia.cs::CSharpScript::7036737444328357355::1784328478::0::1::::<><><>0<>0<><>::
 Eyeroll.cs::CSharpScript::593874568013242448::1783628534::0::1::::<><><>0<>0<><>::
 Flash.cs::CSharpScript::2120777015040319848::1784252616::0::1::::<><><>0<>0<><>::
 Flirt.cs::CSharpScript::517069283880174461::1784218926::0::1::::<><><>0<>0<><>::
@@ -106,10 +106,11 @@ MyFirstCharacterEncounter.cs::CSharpScript::6503230622275247528::1784165523::0::
 TheMillers.cs::CSharpScript::3029305471716981570::1784165925::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/Extensions/::1783198693
 StringExtensions.cs::CSharpScript::38762385921757227::1783193527::0::1::::<><><>0<>0<><>::
-::res://MyFirstCharacterCode/Keywords/::1784323781
+::res://MyFirstCharacterCode/Keywords/::1784328943
 Ashbound.cs::CSharpScript::7991926581387120664::1784323781::0::1::::<><><>0<>0<><>::
-OctaviaDangerKeywords.cs::CSharpScript::8091850074936247080::1784252325::0::1::::<><><>0<>0<><>::
+OctaviaDangerKeywords.cs::CSharpScript::8091850074936247080::1784328176::0::1::::<><><>0<>0<><>::
 Rigged.cs::CSharpScript::9032978754022898353::1784252418::0::1::::<><><>0<>0<><>::
+Sempiternal.cs::CSharpScript::5280167679031607689::1784328943::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/Monsters/::1784165701
 Miller.cs::CSharpScript::2731426684552869557::1784165556::0::1::::<><><>0<>0<><>::
 MyFirstCharacterMonster.cs::CSharpScript::568805320657172500::1784165467::0::1::::<><><>0<>0<><>::
@@ -141,4 +142,4 @@ TheAgenda.cs::CSharpScript::4452266240031682281::1783362391::0::1::::<><><>0<>0<
 TheItinerarycs.cs::CSharpScript::2893693180547619053::1784131200::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/Tags/::1783632139
 OctaviaDangerTags.cs::CSharpScript::2774154263300959687::1783628899::0::1::::<><><>0<>0<><>::
-::res://task_list/::1784326711
+::res://task_list/::1784327983

@@ -16,7 +16,7 @@ public class Echolalia() : MyFirstCharacterCard(2,
     TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(3, ValueProp.Move)];
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound, OctaviaDangerKeywords.Rigged];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound, OctaviaDangerKeywords.Rigged, OctaviaDangerKeywords.Sempiternal];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -31,15 +31,15 @@ public class Echolalia() : MyFirstCharacterCard(2,
         
     }
     
-    public override async Task AfterAutoPostPlayPhaseEntered(
-        PlayerChoiceContext choiceContext,
-        Player player)
-    {
-        if (Pile == null || Pile.Type != PileType.Exhaust)
-            return;
-        
-        await CardCmd.AutoPlay(choiceContext, this, null);
-    }
+    // public override async Task AfterAutoPostPlayPhaseEntered(
+    //     PlayerChoiceContext choiceContext,
+    //     Player player)
+    // {
+    //     if (Pile == null || Pile.Type != PileType.Exhaust)
+    //         return;
+    //     
+    //     await CardCmd.AutoPlay(choiceContext, this, null);
+    // }
 
     protected override void OnUpgrade()
     {
