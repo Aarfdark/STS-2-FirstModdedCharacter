@@ -16,7 +16,7 @@ public class Echolalia() : MyFirstCharacterCard(2,
     TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(3, ValueProp.Move)];
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound, OctaviaDangerKeywords.Rigged];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -35,9 +35,7 @@ public class Echolalia() : MyFirstCharacterCard(2,
         PlayerChoiceContext choiceContext,
         Player player)
     {
-        if (Pile == null ||
-            (Pile.Type != PileType.Exhaust && 
-             PileType.Draw.GetPile(Owner).Cards.FirstOrDefault() != this))
+        if (Pile == null || Pile.Type != PileType.Exhaust)
             return;
         
         await CardCmd.AutoPlay(choiceContext, this, null);

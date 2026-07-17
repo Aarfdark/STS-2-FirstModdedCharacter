@@ -1,4 +1,3 @@
-using System.Reflection.Metadata.Ecma335;
 using BaseLib.Abstracts;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -11,7 +10,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Keywords;
 public class Ashbound() : CustomSingletonModel(HookType.Combat)
 {
     
-    private List<CardModel> _cardsPlayedViaAshbound = new List<CardModel>(); // to store cards played
+    private readonly List<CardModel> _cardsPlayedViaAshbound = new(); // to store cards played
     private bool _ashboundWasPlayed = false;
     
     public override async Task AfterCardExhausted(

@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
+using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 using MyFirstCharacter.MyFirstCharacterCode.Powers;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
@@ -18,6 +19,7 @@ public class Flash() : MyFirstCharacterCard(3,
     TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(12, ValueProp.Move), new DamageVar(12, ValueProp.Move), new PowerVar<CharmPower>(4)];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Rigged];
     public override bool GainsBlock => true;
 
     protected override async Task OnPlay(
@@ -34,12 +36,12 @@ public class Flash() : MyFirstCharacterCard(3,
         }
     }
     
-    public override async Task AfterAutoPostPlayPhaseEntered(PlayerChoiceContext choiceContext, Player player)
-    {
-        if (player != Owner || PileType.Draw.GetPile(Owner).Cards.FirstOrDefault() != this)
-            return;
-        await CardPileCmd.AutoPlayFromDrawPile(choiceContext, Owner, 1, CardPilePosition.Top, false);
-    }
+    // public override async Task AfterAutoPostPlayPhaseEntered(PlayerChoiceContext choiceContext, Player player)
+    // {
+    //     if (player != Owner || PileType.Draw.GetPile(Owner).Cards.FirstOrDefault() != this)
+    //         return;
+    //     await CardPileCmd.AutoPlayFromDrawPile(choiceContext, Owner, 1, CardPilePosition.Top, false);
+    // }
 
     protected override void OnUpgrade()
     {

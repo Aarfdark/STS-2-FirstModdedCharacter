@@ -1,4 +1,7 @@
 {
-  "MYFIRSTCHARACTER-ASHBOUND.description": "If this card is exhausted during your turn, play it for free.",
-  "MYFIRSTCHARACTER-ASHBOUND.title": "Ashbound"
+  "MYFIRSTCHARACTER-ASHBOUND.description": "If this card is exhausted during your turn, play it.",
+  "MYFIRSTCHARACTER-ASHBOUND.title": "Ashbound",
+
+  "MYFIRSTCHARACTER-RIGGED.description": "At the end of your turn, if this card is on top of your [gold]Draw Pile[/gold], play it.",
+  "MYFIRSTCHARACTER-RIGGED.title": "Rigged"
 }

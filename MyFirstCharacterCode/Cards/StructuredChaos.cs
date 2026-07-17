@@ -15,6 +15,7 @@ public class StructuredChaos() : MyFirstCharacterCard(-1,
     CardType.Skill, CardRarity.Rare,
     TargetType.Self)
 {
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
     protected override bool HasEnergyCostX => true;
 
     protected override async Task OnPlay(

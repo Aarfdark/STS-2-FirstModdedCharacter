@@ -34,7 +34,6 @@ public class MyFirstCharacter : PlaceholderCharacterModel
         ModelDb.Card<DefendDanger>(),
         ModelDb.Card<Reorganize>(),
         ModelDb.Card<Twinkle>(),
-        ModelDb.Card<Echolalia>(),
     ];
     
     // weird finesse deck for testing
