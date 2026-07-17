@@ -102,5 +102,8 @@
   "MYFIRSTCHARACTER-WORKOUT_SESSION.title": "Workout Session",
 
   "MYFIRSTCHARACTER-SMOOTH_TALKING.description": "#Apply !CharmPower! [gold]Charm[/gold].\nPermanently increase this card's Charm by !CharmScale!. Exhaust.",
-  "MYFIRSTCHARACTER-SMOOTH_TALKING.title": "Smooth Talking"
+  "MYFIRSTCHARACTER-SMOOTH_TALKING.title": "Smooth Talking",
+
+  "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.description": "Deal !D! damage to ALL enemies.",
+  "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.title": "Shower Of Blows"
 }

@@ -44,10 +44,10 @@ public class Scrap() : MyFirstCharacterCard(0, CardType.Skill, CardRarity.Token,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        if (!PileType.Draw.GetPile(Owner).IsEmpty)
+        if (!PileType.Hand.GetPile(Owner).IsEmpty)
         {
-            var topOfDrawPile = PileType.Draw.GetPile(Owner).Cards[0];
-            await CardCmd.Exhaust(choiceContext, topOfDrawPile);
+            var firstCardInHand = PileType.Draw.GetPile(Owner).Cards.FirstOrDefault();
+            await CardCmd.Exhaust(choiceContext, firstCardInHand!);
         }
         await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
     }
