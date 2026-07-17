@@ -18,22 +18,19 @@ public class BunkerUpPower() : MyFirstCharacterPower
     public override PowerStackType StackType =>
         PowerStackType.Counter;
 
-    public override (PileType, CardPilePosition) ModifyCardPlayResultPileTypeAndPosition(
-        CardModel card,
-        bool isAutoPlay,
-        ResourceInfo resources,
-        PileType pileType,
-        CardPilePosition position)
+    public override CardLocation ModifyCardPlayResultLocation(CardModel card, bool isAutoPlay, ResourceInfo resources,
+        CardLocation cardLocation)
     {
-        if (card.Owner.Creature != Owner)
-            return (pileType, position);
-        return pileType != PileType.Discard ? (pileType, position) : (PileType.Draw, CardPilePosition.Top);
+        if (card.Owner.Creature != Owner || cardLocation.pileType != PileType.Discard)
+            return cardLocation;
+        cardLocation.pileType = PileType.Draw;
+        cardLocation.position = CardPilePosition.Top;
+        return cardLocation;
     }
-
-    public override async Task AfterModifyingCardPlayResultPileOrPosition(
+    
+    public override async Task AfterModifyingCardPlayResultLocation(
         CardModel card,
-        PileType pileType,
-        CardPilePosition position)
+        CardLocation location)
     {
         if (card.Owner.Creature != Owner)
             return;

@@ -37,23 +37,34 @@ public class Ashbound() : CustomSingletonModel(HookType.Combat)
         }
     }
 
-    public override (PileType, CardPilePosition) ModifyCardPlayResultPileTypeAndPosition(
-        CardModel card,
-        bool isAutoPlay,
-        ResourceInfo resources,
-        PileType pileType,
-        CardPilePosition position)
+    public override CardLocation ModifyCardPlayResultLocation(CardModel card, bool isAutoPlay, ResourceInfo resources,
+        CardLocation cardLocation)
     {
         if (_cardsPlayedViaAshbound.Contains(card))
         {
-            return (PileType.Exhaust, CardPilePosition.Top);
+            cardLocation.pileType = PileType.Exhaust;
+            cardLocation.position = CardPilePosition.Top;
         }
-
-        return (pileType, position);
+        return cardLocation;
     }
 
-    public override async Task AfterModifyingCardPlayResultPileOrPosition(CardModel card, PileType pileType, CardPilePosition position)
+    public async override Task AfterModifyingCardPlayResultLocation(CardModel card, CardLocation cardLocation)
     {
         _cardsPlayedViaAshbound.Remove(card);
     }
+
+    // public override (PileType, CardPilePosition) ModifyCardPlayResultPileTypeAndPosition(
+    //     CardModel card,
+    //     bool isAutoPlay,
+    //     ResourceInfo resources,
+    //     PileType pileType,
+    //     CardPilePosition position)
+    // {
+    //     if (_cardsPlayedViaAshbound.Contains(card))
+    //     {
+    //         return (PileType.Exhaust, CardPilePosition.Top);
+    //     }
+    //
+    //     return (pileType, position);
+    // }
 }

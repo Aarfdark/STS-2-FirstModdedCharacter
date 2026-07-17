@@ -25,7 +25,7 @@
   "MYFIRSTCHARACTER-FLIRT.description": "#Apply !WeakPower! [gold]Weak[/gold].\nApply !CharmPower! *Charm this turn.",
   "MYFIRSTCHARACTER-FLIRT.title": "Flirt",
 
-  "MYFIRSTCHARACTER-SCRAP.description": "#*Exhaust the top card of your [gold]Draw Pile[/gold]. +Draw 1 card.+",
+  "MYFIRSTCHARACTER-SCRAP.description": "#*Exhaust the leftmost card of your [gold]Hand[/gold]. +Draw 1 card.+",
   "MYFIRSTCHARACTER-SCRAP.title": "Scrap",
 
   "MYFIRSTCHARACTER-YANK.description": "#Draw !C! cards. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your [gold]Hand[/gold].",
@@ -104,6 +104,9 @@
   "MYFIRSTCHARACTER-SMOOTH_TALKING.description": "#Apply !CharmPower! [gold]Charm[/gold].\nPermanently increase this card's Charm by !CharmScale!. Exhaust.",
   "MYFIRSTCHARACTER-SMOOTH_TALKING.title": "Smooth Talking",
 
-  "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.description": "Deal !D! damage to ALL enemies.",
-  "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.title": "Shower Of Blows"
+  "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.description": "#Deal !D! damage to ALL enemies.",
+  "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.title": "Shower Of Blows",
+
+  "MYFIRSTCHARACTER-RECYCLED_PARTS.description": "#Deal !CalculatedDamage! damage.\nDeals !ExtraDamage! additional damage for each *Scrap in your [gold]Exhaust Pile[/gold].",
+  "MYFIRSTCHARACTER-RECYCLED_PARTS.title": "Recycled Parts"
 }
