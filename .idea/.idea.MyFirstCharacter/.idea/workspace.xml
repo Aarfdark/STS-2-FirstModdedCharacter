@@ -11,14 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Keywords/Sempiternal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/card_keywords.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/card_keywords.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Rummage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Echolalia.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Echolalia.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Keywords/OctaviaDangerKeywords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Keywords/OctaviaDangerKeywords.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +210,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/RepositioningStrike.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Research.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Restrain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Rummage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Scrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Shots.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/ShowerOfBlows.cs" root0="FORCE_HIGHLIGHTING" />
@@ -258,61 +253,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000028132414" />
-      <entry key="S2" value="1.0233240438600413" />
-      <entry key="S5" value="1.6145217802425467" />
-      <entry key="S10" value="3.566632815264071" />
-      <entry key="S30" value="12.16414274898772" />
-      <entry key="S60" value="18.503601821066542" />
-      <entry key="M2" value="24.35413093241126" />
-      <entry key="M5" value="40.77636392465608" />
-      <entry key="M10" value="70.28181484342927" />
-      <entry key="M15" value="97.68697233135853" />
-      <entry key="M30" value="166.15173634563985" />
-      <entry key="H1" value="264.936412606197" />
-      <entry key="H2" value="397.0854925991955" />
-      <entry key="H4" value="611.2504654159692" />
-      <entry key="D1" value="2472.431421890254" />
-      <entry key="W1" value="5547.677718912516" />
+      <entry key="MS100" value="5.673923589977622E-23" />
+      <entry key="MS500" value="3.739851969526903E-5" />
+      <entry key="S2" value="0.14539451942600592" />
+      <entry key="S5" value="1.4043563625759001" />
+      <entry key="S10" value="3.4401126541481313" />
+      <entry key="S30" value="6.914127775900957" />
+      <entry key="S60" value="10.194187746730618" />
+      <entry key="M2" value="16.54115135176117" />
+      <entry key="M5" value="34.25326041504557" />
+      <entry key="M10" value="63.69829826032492" />
+      <entry key="M15" value="91.88815629422135" />
+      <entry key="M30" value="164.22210064794947" />
+      <entry key="H1" value="269.5097413817258" />
+      <entry key="H2" value="408.9182665921894" />
+      <entry key="H4" value="628.3182086178045" />
+      <entry key="D1" value="2495.343475603095" />
+      <entry key="W1" value="5578.803516692562" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.1049086129242412E-59" />
-      <entry key="MS500" value="1.839274923120757E-12" />
-      <entry key="S2" value="0.0011759304676519137" />
-      <entry key="S5" value="0.08370973436999117" />
-      <entry key="S10" value="0.47495575925665495" />
-      <entry key="S30" value="2.058535285769505" />
-      <entry key="S60" value="3.1811196839505684" />
-      <entry key="M2" value="4.41899854396337" />
-      <entry key="M5" value="7.944669893124043" />
-      <entry key="M10" value="13.306952539334949" />
-      <entry key="M15" value="19.536857077833176" />
-      <entry key="M30" value="39.21863719844139" />
-      <entry key="H1" value="70.2629681279167" />
-      <entry key="H2" value="109.76925607605098" />
-      <entry key="H4" value="167.35115749393967" />
-      <entry key="D1" value="685.1488895763513" />
-      <entry key="W1" value="1582.274996364215" />
+      <entry key="MS100" value="1.0010251546600228" />
+      <entry key="MS500" value="1.2856993926008389" />
+      <entry key="S2" value="2.1358811567749783" />
+      <entry key="S5" value="2.583504799232526" />
+      <entry key="S10" value="2.8108385523280504" />
+      <entry key="S30" value="3.6349511419891223" />
+      <entry key="S60" value="5.854212094288628" />
+      <entry key="M2" value="10.756346254406045" />
+      <entry key="M5" value="19.845829072369515" />
+      <entry key="M10" value="28.443302727381607" />
+      <entry key="M15" value="35.64833292660918" />
+      <entry key="M30" value="56.15786158473675" />
+      <entry key="H1" value="88.54020745616707" />
+      <entry key="H2" value="130.04118049182804" />
+      <entry key="H4" value="189.27803414375495" />
+      <entry key="D1" value="708.7719139549043" />
+      <entry key="W1" value="1608.166184538825" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.5176324619206888" />
-      <entry key="MS500" value="0.8766057237678482" />
-      <entry key="S2" value="0.9894148332719308" />
-      <entry key="S5" value="1.6402027035524525" />
-      <entry key="S10" value="3.9423159624312234" />
-      <entry key="S30" value="14.112084370819751" />
-      <entry key="S60" value="21.60243761673542" />
-      <entry key="M2" value="28.7161573843131" />
-      <entry key="M5" value="48.679635650304384" />
-      <entry key="M10" value="83.55534505567586" />
-      <entry key="M15" value="117.19260749062272" />
-      <entry key="M30" value="205.34056004901598" />
-      <entry key="H1" value="335.17232634450244" />
-      <entry key="H2" value="506.832334204745" />
-      <entry key="H4" value="778.5826941187601" />
-      <entry key="D1" value="3157.565605048097" />
-      <entry key="W1" value="7129.947571337964" />
+      <entry key="MS100" value="0.006045571606201116" />
+      <entry key="MS500" value="0.42562403225834067" />
+      <entry key="S2" value="1.7368604298111976" />
+      <entry key="S5" value="3.6990532383268917" />
+      <entry key="S10" value="6.087684081247712" />
+      <entry key="S30" value="10.467471248415556" />
+      <entry key="S60" value="15.96026919015023" />
+      <entry key="M2" value="27.19911305804796" />
+      <entry key="M5" value="54.01864500915594" />
+      <entry key="M10" value="92.08144560338305" />
+      <entry key="M15" value="127.48566120961418" />
+      <entry key="M30" value="220.33952766336083" />
+      <entry key="H1" value="358.0171402866258" />
+      <entry key="H2" value="538.9338525687467" />
+      <entry key="H4" value="817.575611654405" />
+      <entry key="D1" value="3204.1003770261996" />
+      <entry key="W1" value="7186.964506845014" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -342,6 +337,7 @@
     "Publish to folder.Publish MyFirstCharacter to folder (104).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (105).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (106).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (107).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (11).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (12).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (13).executor": "Run",
@@ -510,6 +506,14 @@
       <method v="2" />
     </configuration>
     <configuration name="Publish MyFirstCharacter to folder (106)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (107)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
           <item value="Portable" />
@@ -1380,7 +1384,7 @@
       <workItem from="1784224690882" duration="18777000" />
       <workItem from="1784258210515" duration="550000" />
       <workItem from="1784298579867" duration="1914000" />
-      <workItem from="1784310590251" duration="7532000" />
+      <workItem from="1784310590251" duration="8152000" />
     </task>
     <servers />
   </component>

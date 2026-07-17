@@ -111,5 +111,8 @@
   "MYFIRSTCHARACTER-RECYCLED_PARTS.title": "Recycled Parts",
 
   "MYFIRSTCHARACTER-TETANUS.description": "#Whenever you play a [gold]Scrap[/gold], Apply !TetanusPower! [gold]Powdered Demise[/gold] to a random enemy.",
-  "MYFIRSTCHARACTER-TETANUS.title": "Tetanus"
+  "MYFIRSTCHARACTER-TETANUS.title": "Tetanus",
+
+  "MYFIRSTCHARACTER-RUMMAGE.description": "#Gain !B! [gold]Block[/gold].\nAdd a *Scrap into your [gold]Draw Pile[/gold], [gold]Hand[/gold], and [gold]Discard Pile[/gold].",
+  "MYFIRSTCHARACTER-RUMMAGE.title": "Rummage"
 }
