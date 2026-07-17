@@ -54,5 +54,10 @@
 
   "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.description": "#At the start of your turn, *Transform, *Upgrade, and play the top card of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.smartDescription": "#At the start of your turn, *Transform, *Upgrade, and play the {Amount:plural:top card|next [blue]{}[/blue] top cards} of your [gold]Draw Pile[/gold].",
-  "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.title": "PlastyPlusPower"
+  "MYFIRSTCHARACTER-PLASTY_PLUS_POWER.title": "Plasty",
+
+
+  "MYFIRSTCHARACTER-TETANUS_POWER.description": "#Whenever you play a [gold]Scrap[/gold], Apply [blue]1[/blue] *Demise to a random enemy.",
+  "MYFIRSTCHARACTER-TETANUS_POWER.smartDescription": "#Whenever you play a [gold]Scrap[/gold], Apply [blue]{Amount}[/blue] *Demise to a random enemy.",
+  "MYFIRSTCHARACTER-TETANUS_POWER.title": "Tetanus"
 }

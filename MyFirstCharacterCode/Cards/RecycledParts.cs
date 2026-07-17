@@ -18,7 +18,7 @@ public class RecycledParts() : MyFirstCharacterCard(1,
         new CalculationBaseVar(4),
         new ExtraDamageVar(4),
         new CalculatedDamageVar(ValueProp.Move).WithMultiplier(
-            ( card, _) =>
+            ( card, _ ) =>
             {
                 return card.Owner.PlayerCombatState != null ? card.Owner.PlayerCombatState.ExhaustPile.Cards.Count( c => c is Scrap) : 0;
             }

@@ -108,5 +108,8 @@
   "MYFIRSTCHARACTER-SHOWER_OF_BLOWS.title": "Shower Of Blows",
 
   "MYFIRSTCHARACTER-RECYCLED_PARTS.description": "#Deal !CalculatedDamage! damage.\nDeals !ExtraDamage! additional damage for each *Scrap in your [gold]Exhaust Pile[/gold].",
-  "MYFIRSTCHARACTER-RECYCLED_PARTS.title": "Recycled Parts"
+  "MYFIRSTCHARACTER-RECYCLED_PARTS.title": "Recycled Parts",
+
+  "MYFIRSTCHARACTER-TETANUS.description": "#Whenever you play a [gold]Scrap[/gold], Apply !TetanusPower! [gold]Powdered Demise[/gold] to a random enemy.",
+  "MYFIRSTCHARACTER-TETANUS.title": "Tetanus"
 }
