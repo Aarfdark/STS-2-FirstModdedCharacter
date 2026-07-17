@@ -1,10 +1,10 @@
 {
-  "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.aromaPrinciple": "[sine][black]I will persevere. The Scrapyard must be protected.[/black][/sine]",
+  "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.aromaPrinciple": "[sine][blue]I will persevere. The Scrapyard must be protected.[/blue][/sine]",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.banter.alive.endTurnPing": "🐛",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.banter.dead.endTurnPing": "...",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.cardsModifierDescription": "Danger cards will now appear in rewards and shops.",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.cardsModifierTitle": "Danger Cards",
-  "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.description": "A survivalist from the Scrapyard.\nUses her charms to outwit her enemies",
+  "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.description": "A survivalist from the Scrapyard.\nUses her charms to outwit her enemies.",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.eventDeathPrevention": "I can't abandon the Scrapyard.",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.goldMonologue": "[sine]I could buy my way out of a fight...[/sine]",
   "MYFIRSTCHARACTER-MY_FIRST_CHARACTER.possessiveAdjective": "her",
