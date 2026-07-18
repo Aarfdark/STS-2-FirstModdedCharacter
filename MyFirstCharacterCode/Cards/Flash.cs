@@ -31,9 +31,7 @@ public class Flash() : MyFirstCharacterCard(3,
         await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, play);
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(CombatState).WithHitFx("vfx/vfx_attack_blunt", tmpSfx: "heavy_attack.mp3").Execute(choiceContext);
         foreach (Creature hittableEnemy in CombatState.HittableEnemies)
-        {
             await PowerCmd.Apply<CharmPower>(choiceContext, hittableEnemy, DynamicVars["CharmPower"].BaseValue, Owner.Creature, this);
-        }
     }
     
     // public override async Task AfterAutoPostPlayPhaseEntered(PlayerChoiceContext choiceContext, Player player)

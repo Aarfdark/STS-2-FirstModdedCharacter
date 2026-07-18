@@ -61,6 +61,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="MyFirstCharacterCode\Ancients\" />
         <Folder Include="MyFirstCharacter\images\card_portraits\beta\" />
         <Folder Include="MyFirstCharacter\images\relics\big\"/>
     </ItemGroup>

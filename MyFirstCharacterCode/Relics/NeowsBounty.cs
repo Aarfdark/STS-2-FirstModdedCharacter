@@ -44,5 +44,7 @@ public class NeowsBounty() : MyFirstCharacterRelic
 
         foreach (var relic in validRelics)
             await RelicCmd.Obtain(relic, Owner);
+        
+        //TODO: Add custom evil curse to add to Deck
     }
 }

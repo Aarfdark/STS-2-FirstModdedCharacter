@@ -7,11 +7,15 @@
   "MYFIRSTCHARACTER-THE_ITINERARY.flavor": "If you meticulously plan every moment of your day, and everything is possible",
   "MYFIRSTCHARACTER-THE_ITINERARY.title": "The Itinerary",
 
-  "MYFIRSTCHARACTER-NEOWS_BOUNTY.description": "#Upon pickup, remove ALL starter cards from your *Deck and gain EVERY [gold]Neow Relic[/gold].",
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.description": "#Upon pickup, remove ALL starter cards from your *Deck and gain EVERY [gold]Neow Relic[/gold]. Add a [red]EVIL[/red] to your [gold]Deck[/gold].",
   "MYFIRSTCHARACTER-NEOWS_BOUNTY.flavor": "Never punished.",
   "MYFIRSTCHARACTER-NEOWS_BOUNTY.title": "Neow's Bounty",
 
   "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.description": "#Whenever you play a card via [gold]Ashbound[/gold], gain !B! [gold]Block[/gold].",
   "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.flavor": "The goddess of intellect and prophecy keeps you safe.",
-  "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.title": "Effigy of Phoebe"
+  "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.title": "Effigy of Phoebe",
+
+  "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.description": "#Attacks with *Retain apply [blue]2[/blue] *Charm on hit.",
+  "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.flavor": "It's seen better days, but it'll still help you in a pinch.",
+  "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.title": "Cherished Plushie"
 }
