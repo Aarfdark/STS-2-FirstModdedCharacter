@@ -1,17 +1,17 @@
 {
-  "MYFIRSTCHARACTER-THE_AGENDA.description": "The first card you draw each turn gains Retain for a turn.",
-  "MYFIRSTCHARACTER-THE_AGENDA.flavor": "this is balanced dwai",
+  "MYFIRSTCHARACTER-THE_AGENDA.description": "#The first card you draw each turn gains *Retain for a turn.",
+  "MYFIRSTCHARACTER-THE_AGENDA.flavor": "If you plan ahead, nothing is impossible.",
   "MYFIRSTCHARACTER-THE_AGENDA.title": "The Agenda",
 
-  "MYFIRSTCHARACTER-THE_ITINERARY.description": "The first card you draw each turn gains Retain.",
-  "MYFIRSTCHARACTER-THE_ITINERARY.flavor": "this is balanced dwai",
+  "MYFIRSTCHARACTER-THE_ITINERARY.description": "#The first card you draw each turn gains *Retain.",
+  "MYFIRSTCHARACTER-THE_ITINERARY.flavor": "If you meticulously plan every moment of your day, and everything is possible",
   "MYFIRSTCHARACTER-THE_ITINERARY.title": "The Itinerary",
 
-  "MYFIRSTCHARACTER-GATORWINE.description": "At the beginning of your turn, play the top card of your Discard Pile.",
-  "MYFIRSTCHARACTER-GATORWINE.flavor": "Not as good as Pokkorn.",
-  "MYFIRSTCHARACTER-GATORWINE.title": "Gatorwine",
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.description": "#Upon pickup, remove ALL starter cards from your *Deck and gain EVERY [gold]Neow Relic[/gold].",
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.flavor": "Never punished.",
+  "MYFIRSTCHARACTER-NEOWS_BOUNTY.title": "Neow's Bounty",
 
-  "MYFIRSTCHARACTER-NEOWS_BOUNTY.description": "Upon pickup, gain EVERY Neow relic. Remove all starter cards from your Deck.",
-  "MYFIRSTCHARACTER-NEOWS_BOUNTY.flavor": "Never punished",
-  "MYFIRSTCHARACTER-NEOWS_BOUNTY.title": "NeowsBounty"
+  "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.description": "#Whenever you play a card via [gold]Ashbound[/gold], gain !B! [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.flavor": "The goddess of intellect and prophecy keeps you safe.",
+  "MYFIRSTCHARACTER-EFFIGY_OF_PHOEBE.title": "Effigy of Phoebe"
 }

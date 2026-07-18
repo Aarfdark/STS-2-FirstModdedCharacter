@@ -1,9 +1,11 @@
 using BaseLib.Abstracts;
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
+using MyFirstCharacter.MyFirstCharacterCode.Hooks;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Keywords;
 
@@ -34,6 +36,8 @@ public class Ashbound() : CustomSingletonModel(HookType.Combat)
             _ashboundWasPlayed = true;
             _cardsPlayedViaAshbound.Add(card);
             await CardCmd.AutoPlay(choiceContext, card, null);
+            await OctaviaDangerHooks.OnCardPlayedViaAshbound(
+                card.Owner.Creature.CombatState, choiceContext, card);
         }
     }
 
@@ -52,19 +56,4 @@ public class Ashbound() : CustomSingletonModel(HookType.Combat)
     {
         _cardsPlayedViaAshbound.Remove(card);
     }
-
-    // public override (PileType, CardPilePosition) ModifyCardPlayResultPileTypeAndPosition(
-    //     CardModel card,
-    //     bool isAutoPlay,
-    //     ResourceInfo resources,
-    //     PileType pileType,
-    //     CardPilePosition position)
-    // {
-    //     if (_cardsPlayedViaAshbound.Contains(card))
-    //     {
-    //         return (PileType.Exhaust, CardPilePosition.Top);
-    //     }
-    //
-    //     return (pileType, position);
-    // }
 }
