@@ -17,5 +17,9 @@
 
   "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.description": "#Attacks with *Retain apply [blue]2[/blue] *Charm on hit.",
   "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.flavor": "It's seen better days, but it'll still help you in a pinch.",
-  "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.title": "Cherished Plushie"
+  "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.title": "Cherished Plushie",
+
+  "MYFIRSTCHARACTER-IMMACULATE_DICE.description": "#At the start of each turn, a random card without *Rigged in your *Hand gains [gold]Rigged[/gold].",
+  "MYFIRSTCHARACTER-IMMACULATE_DICE.flavor": "99% of gamblers quit right before they win big.",
+  "MYFIRSTCHARACTER-IMMACULATE_DICE.title": "Immaculate Dice"
 }

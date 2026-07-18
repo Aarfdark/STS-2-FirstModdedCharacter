@@ -1,3 +1,4 @@
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Players;
@@ -7,13 +8,16 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Events;
+using MegaCrit.Sts2.Core.Models.RelicPools;
 using MegaCrit.Sts2.Core.Models.Relics;
 using MegaCrit.Sts2.Core.Rewards;
 using MegaCrit.Sts2.Core.ValueProps;
+using MyFirstCharacter.MyFirstCharacterCode.Character;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Relics;
 
+[Pool(typeof(SharedRelicPool))]
 public class NeowsBounty() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
