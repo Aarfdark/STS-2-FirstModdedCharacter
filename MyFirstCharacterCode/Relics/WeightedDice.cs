@@ -11,7 +11,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Relics;
 
-public class ImmaculateDice() : MyFirstCharacterRelic
+public class WeightedDice() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
         RelicRarity.Rare;

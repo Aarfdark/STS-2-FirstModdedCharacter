@@ -25,5 +25,6 @@ public class GreasyPower() : MyFirstCharacterPower
             return;
         for (int i = 0; i < numKeywords; i++)
             await CreatureCmd.Damage(choiceContext, Owner, Amount,ValueProp.Unblockable | ValueProp.Unpowered, null, cardPlay);
+        
     }
 }

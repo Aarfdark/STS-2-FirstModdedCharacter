@@ -16,7 +16,7 @@ public class EffigyOfPhoebe() : MyFirstCharacterRelic, IOnCardPlayedViaAshbound
     public override RelicRarity Rarity =>
         RelicRarity.Common;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(3, ValueProp.Move)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1)];
     
     public async Task OnCardPlayedViaAshbound(ICombatState combatState, PlayerChoiceContext choiceContext, CardModel card)
     {

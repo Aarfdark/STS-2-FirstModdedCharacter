@@ -19,9 +19,9 @@
   "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.flavor": "It's seen better days, but it'll still help you in a pinch.",
   "MYFIRSTCHARACTER-CHERISHED_PLUSHIE.title": "Cherished Plushie",
 
-  "MYFIRSTCHARACTER-IMMACULATE_DICE.description": "#At the start of each turn, a random card without *Rigged in your *Hand gains [gold]Rigged[/gold].",
-  "MYFIRSTCHARACTER-IMMACULATE_DICE.flavor": "99% of gamblers quit right before they win big.",
-  "MYFIRSTCHARACTER-IMMACULATE_DICE.title": "Immaculate Dice",
+  "MYFIRSTCHARACTER-WEIGHTED_DICE.description": "#At the start of each turn, a random card without *Rigged in your *Hand gains [gold]Rigged[/gold].",
+  "MYFIRSTCHARACTER-WEIGHTED_DICE.flavor": "99% of gamblers quit right before they win big.",
+  "MYFIRSTCHARACTER-WEIGHTED_DICE.title": "Immaculate Dice",
 
   "MYFIRSTCHARACTER-BUTTER.description": "#Whenever you break an enemy's [gold]Block[/gold], apply !GreasyPower! [gold]Greasy[/gold].",
   "MYFIRSTCHARACTER-BUTTER.flavor": "My wife misses me...",
@@ -30,5 +30,9 @@
   "MYFIRSTCHARACTER-ZEN_GARDEN.description": "#At the start of each combat, pick a card in your *Hand to gain [gold]Sempiternal[/gold].",
   "MYFIRSTCHARACTER-ZEN_GARDEN.selectionScreenPrompt": "#Select a card to add *Sempiternal to.",
   "MYFIRSTCHARACTER-ZEN_GARDEN.flavor": "Patience users are rewarded with beautiful results.",
-  "MYFIRSTCHARACTER-ZEN_GARDEN.title": "Zen Garden"
+  "MYFIRSTCHARACTER-ZEN_GARDEN.title": "Zen Garden",
+
+  "MYFIRSTCHARACTER-RUSTY_DUMBBELL.description": "#Whenever you are attacked by an enemy with [gold]Charm[/gold], gain [blue]1[/blue] [gold]Strength[/gold].",
+  "MYFIRSTCHARACTER-RUSTY_DUMBBELL.flavor": "Though old, it still has its uses.",
+  "MYFIRSTCHARACTER-RUSTY_DUMBBELL.title": "Rusty Dumbbell"
 }
