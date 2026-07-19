@@ -114,5 +114,8 @@
   "MYFIRSTCHARACTER-TETANUS.title": "Tetanus",
 
   "MYFIRSTCHARACTER-RUMMAGE.description": "#Gain !B! [gold]Block[/gold].\nAdd a *Scrap into your [gold]Draw Pile[/gold], [gold]Hand[/gold], and [gold]Discard Pile[/gold].",
-  "MYFIRSTCHARACTER-RUMMAGE.title": "Rummage"
+  "MYFIRSTCHARACTER-RUMMAGE.title": "Rummage",
+
+  "MYFIRSTCHARACTER-GOAD.description": "#At the end of your turn, if this is in your [gold]Hand[/gold], gain 1 [gold]Vulnerable[/gold].",
+  "MYFIRSTCHARACTER-GOAD.title": "Goad"
 }
