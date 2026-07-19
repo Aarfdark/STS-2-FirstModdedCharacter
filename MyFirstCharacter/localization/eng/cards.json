@@ -117,5 +117,11 @@
   "MYFIRSTCHARACTER-RUMMAGE.title": "Rummage",
 
   "MYFIRSTCHARACTER-GOAD.description": "#At the end of your turn, if this is in your [gold]Hand[/gold], gain 1 [gold]Vulnerable[/gold].",
-  "MYFIRSTCHARACTER-GOAD.title": "Goad"
+  "MYFIRSTCHARACTER-GOAD.title": "Goad",
+
+  "MYFIRSTCHARACTER-ROT.description": "#At the end of your turn, if this is in your [gold]Hand[/gold], gain 1 [gold]Demise[/gold].",
+  "MYFIRSTCHARACTER-ROT.title": "Rot",
+
+  "MYFIRSTCHARACTER-SORROW.description": "#At the end of your turn, if this is in your [gold]Hand[/gold], lose 1 *Strength and 1 [gold]Dexterity[/gold].",
+  "MYFIRSTCHARACTER-SORROW.title": "Sorrow"
 }
