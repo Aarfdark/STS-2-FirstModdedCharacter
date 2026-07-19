@@ -4,7 +4,7 @@
   "MYFIRSTCHARACTER-THE_AGENDA.title": "The Agenda",
 
   "MYFIRSTCHARACTER-THE_ITINERARY.description": "#The first card you draw each turn gains *Retain.",
-  "MYFIRSTCHARACTER-THE_ITINERARY.flavor": "If you meticulously plan every moment of your day, and everything is possible",
+  "MYFIRSTCHARACTER-THE_ITINERARY.flavor": "If you meticulously plan every moment of your day, everything is possible",
   "MYFIRSTCHARACTER-THE_ITINERARY.title": "The Itinerary",
 
   "MYFIRSTCHARACTER-NEOWS_BOUNTY.description": "#Upon pickup, remove ALL starter cards from your *Deck and gain EVERY [gold]Neow Relic[/gold]. Add a [red]EVIL[/red] to your [gold]Deck[/gold].",
@@ -25,5 +25,10 @@
 
   "MYFIRSTCHARACTER-BUTTER.description": "#Whenever you break an enemy's [gold]Block[/gold], apply !GreasyPower! [gold]Greasy[/gold].",
   "MYFIRSTCHARACTER-BUTTER.flavor": "My wife misses me...",
-  "MYFIRSTCHARACTER-BUTTER.title": "BUTTER!"
+  "MYFIRSTCHARACTER-BUTTER.title": "BUTTER!",
+
+  "MYFIRSTCHARACTER-ZEN_GARDEN.description": "#At the start of each combat, pick a card in your *Hand to gain [gold]Sempiternal[/gold].",
+  "MYFIRSTCHARACTER-ZEN_GARDEN.selectionScreenPrompt": "#Select a card to add *Sempiternal to.",
+  "MYFIRSTCHARACTER-ZEN_GARDEN.flavor": "Patience users are rewarded with beautiful results.",
+  "MYFIRSTCHARACTER-ZEN_GARDEN.title": "Zen Garden"
 }

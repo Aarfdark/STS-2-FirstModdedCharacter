@@ -16,7 +16,7 @@ public class Sorrow() : MyFirstCharacterCard(-1,
     TargetType.None)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<StrengthPower>(-1), new PowerVar<DexterityPower>(-1)];
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable, CardKeyword.Eternal];
 
     public override int MaxUpgradeLevel => 0;
     public override bool HasTurnEndInHandEffect => true;

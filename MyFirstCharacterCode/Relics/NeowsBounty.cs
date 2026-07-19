@@ -12,6 +12,7 @@ using MegaCrit.Sts2.Core.Models.RelicPools;
 using MegaCrit.Sts2.Core.Models.Relics;
 using MegaCrit.Sts2.Core.Rewards;
 using MegaCrit.Sts2.Core.ValueProps;
+using MyFirstCharacter.MyFirstCharacterCode.Cards;
 using MyFirstCharacter.MyFirstCharacterCode.Character;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
@@ -23,7 +24,7 @@ public class NeowsBounty() : MyFirstCharacterRelic
     public override RelicRarity Rarity =>
         RelicRarity.Ancient;
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Curses", 5)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [];
     
     private static IEnumerable<RelicModel> GetValidRelics(Player owner)
     {
@@ -49,6 +50,6 @@ public class NeowsBounty() : MyFirstCharacterRelic
         foreach (var relic in validRelics)
             await RelicCmd.Obtain(relic, Owner);
         
-        //TODO: Add custom evil curse to add to Deck
+        await CardPileCmd.AddCurseToDeck<Sorrow>(Owner);
     }
 }

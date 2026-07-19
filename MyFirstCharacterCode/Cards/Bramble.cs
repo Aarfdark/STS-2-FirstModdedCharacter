@@ -11,7 +11,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 [Pool(typeof(ColorlessCardPool))]
 public class Bramble() : MyFirstCharacterCard(1,
-    CardType.Attack, CardRarity.Uncommon,
+    CardType.Skill, CardRarity.Uncommon,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<ThornsPower>(2), new DynamicVar("Increase", 1)];
