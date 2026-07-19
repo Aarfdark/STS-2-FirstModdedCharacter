@@ -21,5 +21,9 @@
 
   "MYFIRSTCHARACTER-IMMACULATE_DICE.description": "#At the start of each turn, a random card without *Rigged in your *Hand gains [gold]Rigged[/gold].",
   "MYFIRSTCHARACTER-IMMACULATE_DICE.flavor": "99% of gamblers quit right before they win big.",
-  "MYFIRSTCHARACTER-IMMACULATE_DICE.title": "Immaculate Dice"
+  "MYFIRSTCHARACTER-IMMACULATE_DICE.title": "Immaculate Dice",
+
+  "MYFIRSTCHARACTER-BUTTER.description": "#Whenever you break an enemy's [gold]Block[/gold], apply !GreasyPower! [gold]Greasy[/gold].",
+  "MYFIRSTCHARACTER-BUTTER.flavor": "My wife misses me...",
+  "MYFIRSTCHARACTER-BUTTER.title": "BUTTER!"
 }

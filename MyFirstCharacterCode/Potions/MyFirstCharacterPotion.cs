@@ -5,4 +5,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Character;
 namespace MyFirstCharacter.MyFirstCharacterCode.Potions;
 
 [Pool(typeof(MyFirstCharacterPotionPool))]
-public abstract class MyFirstCharacterPotion : CustomPotionModel;
+public abstract class MyFirstCharacterPotion : CustomPotionModel
+{
+    
+}
