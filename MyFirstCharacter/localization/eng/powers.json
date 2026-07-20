@@ -1,35 +1,35 @@
 {
-  "MYFIRSTCHARACTER-INSTABILITY_POWER.description": "At the start of your turn, add a random Enchantment to 1 card in your Hand.",
-  "MYFIRSTCHARACTER-INSTABILITY_POWER.smartDescription": "At the start of your turn, Enchant 1 card in your Hand.",
+  "MYFIRSTCHARACTER-INSTABILITY_POWER.description": "At the start of your turn, add a random *Enchantment to 1 card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-INSTABILITY_POWER.smartDescription": "At the start of your turn, *Enchant 1 card in your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.title": "Instability",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.selectionScreenPrompt": "Choose a card to enchant.",
 
-  "MYFIRSTCHARACTER-FORCEFIELD_POWER.description": "#Whenever you add a card to your Draw Pile, gain {Amount} Block.",
-  "MYFIRSTCHARACTER-FORCEFIELD_POWER.smartDescription": "#Whenever you add a card to your Draw Pile, gain {Amount} Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.description": "#Whenever you add a card to your [gold]Draw Pile[/gold], gain [blue]{Amount}[/blue] *Block.",
+  "MYFIRSTCHARACTER-FORCEFIELD_POWER.smartDescription": "#Whenever you add a card to your [gold]Draw Pile[/gold], gain [blue]{Amount}[/blue] *Block.",
   "MYFIRSTCHARACTER-FORCEFIELD_POWER.title": "Forcefield",
 
-  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.description": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
-  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.smartDescription": "#Lose {StrenthLoss:diff()} Strength until the end of this turn.",
+  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.description": "#Lose {StrenthLoss:diff()} *Strength until the end of this turn.",
+  "MYFIRSTCHARACTER-MAKE_NOISE_POWER.smartDescription": "#Lose {StrenthLoss:diff()} *Strength until the end of this turn.",
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.title": "Make Noise",
 
-  "MYFIRSTCHARACTER-CHARM_POWER.description": "When a charmed creature attacks you, it loses HP equal to its Charmed.",
+  "MYFIRSTCHARACTER-CHARM_POWER.description": "When a creature with *Charm attacks you, it loses HP equal to its [gold]Charm[/gold].",
   "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will lose {Amount} HP when it attacks you.",
   "MYFIRSTCHARACTER-CHARM_POWER.title": "Charm",
 
-  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.description": "#Lose Charm at the end of turn.",
-  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.smartDescription": "#Lose Charm at the end of turn.",
+  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.description": "#Lose *Charm at the end of turn.",
+  "MYFIRSTCHARACTER-LOSE_CHARM_POWER.smartDescription": "#Lose *Charm at the end of turn.",
   "MYFIRSTCHARACTER-LOSE_CHARM_POWER.title": "LoseCharmPower",
 
-  "MYFIRSTCHARACTER-FLIRT_POWER.description": "#Gain Charm until end of turn",
-  "MYFIRSTCHARACTER-FLIRT_POWER.smartDescription": "#Gain Charm Charm until end of turn",
+  "MYFIRSTCHARACTER-FLIRT_POWER.description": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-FLIRT_POWER.smartDescription": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-FLIRT_POWER.title": "Flirt",
 
-  "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.description": "#Gain Charm until end of turn",
-  "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.smartDescription": "#Gain Charm until end of turn",
+  "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.description": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.smartDescription": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.title": "Charming Strike",
 
-  "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply {Amount} Charm to ALL enemies.",
-  "MYFIRSTCHARACTER-RAT_FORM_POWER.smartDescription": "#At the start of your turn, apply {Amount} Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply {Amount} *Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.smartDescription": "#At the start of your turn, apply {Amount} *Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM_POWER.title": "Rat Form",
 
   "MYFIRSTCHARACTER-EYEROLL_POWER.description": "#You receive [blue]50%[/blue] less damage from [gold]Charmed[/gold] enemies this turn.\"",

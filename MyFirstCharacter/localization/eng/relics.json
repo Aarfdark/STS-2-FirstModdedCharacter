@@ -34,5 +34,9 @@
 
   "MYFIRSTCHARACTER-RUSTY_DUMBBELL.description": "#Whenever you are attacked by an enemy with [gold]Charm[/gold], gain [blue]1[/blue] [gold]Strength[/gold].",
   "MYFIRSTCHARACTER-RUSTY_DUMBBELL.flavor": "Though old, it still has its uses.",
-  "MYFIRSTCHARACTER-RUSTY_DUMBBELL.title": "Rusty Dumbbell"
+  "MYFIRSTCHARACTER-RUSTY_DUMBBELL.title": "Rusty Dumbbell",
+
+  "MYFIRSTCHARACTER-SECONDHAND_NEEDLE.description": "#Whenever an enemy with *Charm dies, deal damage equal to its *Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-SECONDHAND_NEEDLE.flavor": "This definitely isn't sanitary...",
+  "MYFIRSTCHARACTER-SECONDHAND_NEEDLE.title": "Secondhand Needle"
 }
