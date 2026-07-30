@@ -140,6 +140,6 @@
   "MYFIRSTCHARACTER-PET.description": "#Gain !B! [gold]Block[/gold].\nApply !CharmPower! [gold]Charm[/gold].",
   "MYFIRSTCHARACTER-PET.title": "Pet",
 
-  "MYFIRSTCHARACTER-TLC.description": "#Apply !CharmPower! *Charm and !B! [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-TLC.description": "#Apply !CharmPower! *Charm and heal the target !H! HP.",
   "MYFIRSTCHARACTER-TLC.title": "TLC"
 }

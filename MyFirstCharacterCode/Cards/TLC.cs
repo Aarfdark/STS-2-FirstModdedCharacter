@@ -13,9 +13,8 @@ public class Tlc() : MyFirstCharacterCard(1,
     CardType.Skill, CardRarity.Rare,
     TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<CharmPower>(6), new BlockVar(20, ValueProp.Move)];
-    public IEnumerable<CardKeyword> CanonicalKeywords = [OctaviaDangerKeywords.Ashbound];
-
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<CharmPower>(6), new HealVar(15)];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
@@ -24,11 +23,11 @@ public class Tlc() : MyFirstCharacterCard(1,
             return;
         await PowerCmd.Apply<CharmPower>(choiceContext, play.Target,
             DynamicVars["CharmPower"].BaseValue, Owner.Creature, this);
-        await CreatureCmd.GainBlock(play.Target, DynamicVars.Block, play);
+        await CreatureCmd.Heal(play.Target, DynamicVars.Heal.BaseValue);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Block.UpgradeValueBy(-10);
+        DynamicVars.Heal.UpgradeValueBy(-5);
     }
 }
