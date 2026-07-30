@@ -144,5 +144,8 @@
   "MYFIRSTCHARACTER-TLC.title": "TLC",
 
   "MYFIRSTCHARACTER-ERASE.description": "#Gain !B! [gold]Block[/gold].\nAdd 1 [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your [gold]Hand[/gold].",
-  "MYFIRSTCHARACTER-ERASE.title": "Erase"
+  "MYFIRSTCHARACTER-ERASE.title": "Erase",
+
+  "MYFIRSTCHARACTER-ON_EDGE.description": "#Gain !B! [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-ON_EDGE.title": "On Edge"
 }
