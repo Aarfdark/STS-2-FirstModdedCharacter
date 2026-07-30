@@ -67,5 +67,9 @@
 
   "MYFIRSTCHARACTER-SNOOZE_POWER.description": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-SNOOZE_POWER.smartDescription": "#Gain {Amount} *Charm until end of turn",
-  "MYFIRSTCHARACTER-SNOOZE_POWER.title": "Snooze"
+  "MYFIRSTCHARACTER-SNOOZE_POWER.title": "Snooze",
+
+  "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.description": "#Whenever you apply [gold]Charm[/gold], deal damage to ALL enemies.",
+  "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.smartDescription": "#Whenever you apply [gold]Charm[/gold], deal [blue]{Amount}[/blue] damage to ALL enemies.",
+  "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.title": "Tough Love"
 }

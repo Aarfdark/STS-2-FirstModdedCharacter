@@ -8,7 +8,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Relics;
 
-public class SecondhandNeedle() : MyFirstCharacterRelic
+public class BagOfHam() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
         RelicRarity.Uncommon;

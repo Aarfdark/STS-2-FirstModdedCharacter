@@ -50,7 +50,7 @@
   "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form",
 
   "MYFIRSTCHARACTER-EYEROLL.description": "#Enemies with *Charm deal 50% less damage this turn.",
-  "MYFIRSTCHARACTER-EYEROLL.title": "🙄",
+  "MYFIRSTCHARACTER-EYEROLL.title": "Eyeroll",
 
   "MYFIRSTCHARACTER-CHARMING_STRIKE.description": "#Deal !D! damage. Apply !CharmPower! *Charm this turn.",
   "MYFIRSTCHARACTER-CHARMING_STRIKE.title": "Charming Strike",
@@ -81,10 +81,10 @@
   "MYFIRSTCHARACTER-CLIMB.title": "Climb",
 
   "MYFIRSTCHARACTER-THUMBS_DOWN.description": "#Deal !D! damage. Add a *Scrap to your [gold]Hand[/gold].",
-  "MYFIRSTCHARACTER-THUMBS_DOWN.title": "👎",
+  "MYFIRSTCHARACTER-THUMBS_DOWN.title": "Thumbs Down",
 
   "MYFIRSTCHARACTER-BUG.description": "#Apply !CharmPower! [gold]Charm[/gold]. Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] to your [gold]Hand[/gold].",
-  "MYFIRSTCHARACTER-BUG.title": "🐛",
+  "MYFIRSTCHARACTER-BUG.title": "Bug",
 
   "MYFIRSTCHARACTER-RESTRAIN.description": "#Apply !CharmPower! *Charm this turn.\nApply !VulnerablePower! [gold]Vulnerable[/gold].",
   "MYFIRSTCHARACTER-RESTRAIN.title": "Restrain",
@@ -125,6 +125,9 @@
   "MYFIRSTCHARACTER-SORROW.description": "#At the end of your turn, if this is in your [gold]Hand[/gold], lose 1 *Strength and 1 [gold]Dexterity[/gold].",
   "MYFIRSTCHARACTER-SORROW.title": "Sorrow",
 
-  "MYFIRSTCHARACTER-SNOOZE.description": "#Apply !CharmPower! *Charm this turn.\nNext turn, gain !E!.",
-  "MYFIRSTCHARACTER-SNOOZE.title": "Snooze"
+  "MYFIRSTCHARACTER-SNOOZE.description": "#Apply !CharmPower! *Charm this turn.\nNext turn, gain {Energy:energyIcons()}.",
+  "MYFIRSTCHARACTER-SNOOZE.title": "Snooze",
+
+  "MYFIRSTCHARACTER-TOUGH_LOVE.description": "#Whenever you apply [gold]Charm[/gold], deal !ToughLovePower! damage to ALL enemies.",
+  "MYFIRSTCHARACTER-TOUGH_LOVE.title": "Tough Love"
 }
