@@ -13,7 +13,7 @@
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.title": "Make Noise",
 
   "MYFIRSTCHARACTER-CHARM_POWER.description": "When a creature with *Charm attacks you, it loses HP equal to its [gold]Charm[/gold].",
-  "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will lose {Amount} HP when it attacks you.",
+  "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will lose [blue]{Amount}[/blue] HP when it attacks you.",
   "MYFIRSTCHARACTER-CHARM_POWER.title": "Charm",
 
   "MYFIRSTCHARACTER-LOSE_CHARM_POWER.description": "#Lose *Charm at the end of turn.",
@@ -28,7 +28,7 @@
   "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.smartDescription": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.title": "Charming Strike",
 
-  "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply {Amount} *Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply *Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM_POWER.smartDescription": "#At the start of your turn, apply {Amount} *Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM_POWER.title": "Rat Form",
 
@@ -63,5 +63,9 @@
   "MYFIRSTCHARACTER-GREASY_POWER.description": "#Whenever you play a card, this enemy loses [blue]1[/blue] HP for each *Keyword on the card.",
   "MYFIRSTCHARACTER-GREASY_POWER.remoteDescription": "#Whenever [gold]{ApplierName}[/gold] plays a card, this enemy loses [blue]{Amount}[/blue] HP for each *Keyword on the card.",
   "MYFIRSTCHARACTER-GREASY_POWER.smartDescription": "#Whenever you play a card, this enemy loses [blue]{Amount}[/blue] HP for each *Keyword on the card.",
-  "MYFIRSTCHARACTER-GREASY_POWER.title": "Greasy"
+  "MYFIRSTCHARACTER-GREASY_POWER.title": "Greasy",
+
+  "MYFIRSTCHARACTER-SNOOZE_POWER.description": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-SNOOZE_POWER.smartDescription": "#Gain {Amount} *Charm until end of turn",
+  "MYFIRSTCHARACTER-SNOOZE_POWER.title": "Snooze"
 }
