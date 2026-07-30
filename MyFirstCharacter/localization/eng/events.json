@@ -1,0 +1,10 @@
+{
+  "MYFIRSTCHARACTER-THE_CLOSET.title": "The Closet",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.INITIAL.description": "Are you [sine][rainbow freq=0.3 sat=0.8 val=2]gay[/rainbow][/sine]?",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.INITIAL.options.COME_OUT.title": "Come Out",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.INITIAL.options.COME_OUT.description": "#*Transform and *Upgrade a card in your [gold]Deck[/gold]. Add [red]{Curse}[/red] to your Deck[/gold].",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.INITIAL.options.STAY_IN.title": "Stay In",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.INITIAL.options.STAY_IN.description": "#Gain [blue]200[/blue] [gold]Gold[/gold]. Add [red]{Curse}[/red] to your [gold]Deck[/gold].",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.COME_OUT.description": "You come out and express your true self.",
+  "MYFIRSTCHARACTER-THE_CLOSET.pages.STAY_IN.description": "You stay in and repress your identity."
+}
