@@ -10,7 +10,22 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="" />
+    <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/PerpetualMotion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Pet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Plead.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/TLC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/PerpetualMotionPower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/PleadPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/libraries/GdSdk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/libraries/GdSdk.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Keywords/OctaviaDangerKeywords.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Keywords/OctaviaDangerKeywords.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,161 +43,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.nuget/packages/krafs.publicizer/2.3.0/contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6e87fd8aa6c441cba927171992bdfc6b7f28/0a/98020db6/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c5d4241d94043348c8b6b703a00e185e5400/bd/2e6472e8/CustomKeywords.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87cc2a959c14406cb2010438b70bf1caced28/45/6c20d6c5/Int32.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/00/6256bc04/Soulbound.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/03/937ec17b/Armaments.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/04/251e4161/HiddenDaggers.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/04/2c763d8a/IronWave.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/06/5467cb4f/EchoForm.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/06/8fb40091/Plot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/07/7b61bed4/SneckoOil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0c/c38d8df7/PotionOfDoom.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0c/d609b6c8/DemonForm.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0d/cd230ee2/AbstractModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0e/642f08a2/Normality.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0e/927a44c3/Stoke.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0f/767975b9/HiddenGem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0f/b8d7a2f2/CoolantPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/0f/c926abf0/Snakebite.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/10/e68f15d7/Haze.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/12/3f8062c7/OneTwoPunchPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/13/85b8b94a/PowderedDemise.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/13/fc5e8a9f/ColossusPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/17/850cdb17/Fuel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/17/c7f24110/DefendIronclad.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/18/02c7ed93/Murder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/19/89d953aa/CharacterGender.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1b/39d4df27/CardModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1b/d357c4d9/DevotedSculptorWeak.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1c/400dfe6d/LeafyPoultice.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1c/7d3f8e9b/MayhemPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1d/6b47995a/HotfixPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1d/9aad9a50/DistilledChaos.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/1e/02608d67/UnderworldPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/22/4a743579/CalculatedGamble.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/23/b05c6f48/Whirlwind.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/25/af6c9383/DynamicVar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/25/dbe8bc4e/RollingBoulderPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/28/7e9f5115/DemonFormPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/2a/16e41db3/Osty.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/2c/945cac82/FoulPotion.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/2c/a84b6a77/Ftl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/35/130ca80d/Inflame.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/38/4acc6cb9/CardTag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/38/8ff1d444/Anger.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/3c/023da19c/PandorasBox.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/3c/56736827/GraveWarden.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/3c/b1800c23/CardPileCmd.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/40/d73e8753/KnowThyPlace.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/41/35a2e6f7/StoneArmor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/42/950e5cd5/BansheesCry.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/42/9d977cae/IAmInvincible.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/44/ef71d4a2/SpeedsterPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/4b/f04bdd4d/ManglePower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/4c/9cb1065e/Monologue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/4c/fb87f32d/Melancholy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/4e/7814e020/GlimpseBeyond.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/56/992899a1/Whistle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/58/ec09a5c8/Tyranny.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/59/b19e55c4/MummifiedHand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/5b/d6defa3c/Snap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/5e/f4cb2faf/Severance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/62/c552faee/Toadpole.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/63/b6a734b1/Finisher.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/64/041fab5e/DrumOfBattle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/64/1a352bb4/Soul.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/67/01fc3664/Cleanse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/68/8b0fc356/ReboundPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/69/cfa4f124/DynamicVarSet.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6a/4b060574/EntropyPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6a/66a6ac92/AggressionPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6b/b0fbea02/StrikeSilent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6b/b1413f5c/OblivionPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6c/97fabcae/TyrannyPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6c/9cea9534/Prepared.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/6e/66416086/ThornsPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/70/f01d9ffb/Reave.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/73/7443b8c8/PiercingWail.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/74/679cc399/SetupStrike.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/78/59ebe04a/PlatingPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/78/c4db0ef0/Keywords.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/7a/b172f128/KinglyPunch.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/7c/a00defcc/Ricochet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/7e/434fd92e/PiercingWailPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/81/291257f9/NSpeechBubbleVfx.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/81/7ff78b13/SoulboundPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/82/5bd0e5f0/Entropy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/83/3843a25b/StoneCalendar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/87/0d5f197a/Exterminate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/8a/494c6f78/NoxiousFumesPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/8a/8b540d98/Injury.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/8b/925cf5af/TemporaryFocusPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/90/77337b9e/Headbutt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/91/c34aa4ff/Strangle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/91/f920fe26/StranglePower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/97/88529435/Neow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/99/1cff7621/Resonance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/99/62d8ede4/Hologram.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/9d/07e64e24/PileTypeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/9d/3f7dcad6/Breakthrough.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/a1/d2a8bb81/DanseMacabre.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/a5/ba80639c/NeowsBones.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/a7/aad040e7/LargeCapsule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/a9/9763e11f/TearAsunder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/aa/c6d4b219/Fetch.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/ab/d1a4a0f4/ThinkingAhead.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/ac/86fe52a2/KinglyKick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/ae/4e95be0e/Purity.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b0/0860e783/DanseMacabrePower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b2/40174297/Havoc.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b2/e4cde9f8/Hotfix.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b4/49e98c91/EchoFormPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b4/e954c03d/Skim.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b6/cb9809a1/Neutralize.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b7/1313dccd/ValueProp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b8/bc373ada/MonologuePower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/b8/fad859e8/DarkShacklesPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/bc/7693bd6d/Shiv.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/bc/b4e43547/StoneCracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/be/4954f2f9/Dirge.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c1/641a6315/Soot.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c1/7b0f08f5/Cascade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c1/b51213ae/Rattle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c3/30133ca3/Colossus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c3/74f31cee/TemporaryStrengthPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c7/62e15092/Speedster.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c7/6927f73c/SoulStorm.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/c8/ae6080aa/Conflagration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/ca/376368db/Vakuu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/cd/1247be9e/CardSelectCmd.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/d0/3870882e/BladeDance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/d2/bfd40012/TheBall.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/d4/ac49700a/HowlFromBeyond.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/d7/f8c0ebe0/SharedFate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/da/0443281f/SmallCapsule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/dc/14637cfd/Hellraiser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/dc/6aca3454/Bombardment.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/dc/e5e5d49c/Rampage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/df/4b2787d0/CallingBell.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e1/d2ca62b0/WellLaidPlansPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e1/ea9ac5d9/NoxiousFumes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e2/21ae38a7/BladeOfInk.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e2/3ef3001a/StrikeDefect.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e8/36c85909/Modded.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e9/4ac59a8f/SetupStrikePower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/e9/58c83fce/TrueGrit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/eb/c0e002a1/CosmicIndifference.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/ef/2ffc8b8c/Break.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/f1/0d567f9e/WeakPower.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/f5/5b358b44/Protector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/f5/ecf8e56f/AncientEventModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/f7/b304919c/PowerModel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/f7/f4e38533/Coolant.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/f8/62d33ff0/Rebound.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/fb/94165095/Scare.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7d2a9e0f1ae4213b8741504473aaedb920c00/fe/506aa931/WhisperingEarring.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacter/localization/eng/potions.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Bite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Bug.cs" root0="FORCE_HIGHLIGHTING" />
@@ -201,7 +61,10 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/MakeNoise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/NeverPunished.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/PatchUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/PerpetualMotion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Pet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Plasty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Plead.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Rats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/RecycledParts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/RepositioningStrike.cs" root0="FORCE_HIGHLIGHTING" />
@@ -212,10 +75,13 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Shots.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/ShowerOfBlows.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/SmoothTalking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Snooze.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/StrikeDanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/StructuredChaos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/TLC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Tetanus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/ThumbsDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/ToughLove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/WorkoutSession.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Yank.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Yearn.cs" root0="FORCE_HIGHLIGHTING" />
@@ -241,16 +107,19 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/InstabilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeNoisePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/NeverPunishedPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PerpetualMotionPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PlastyPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PleadPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/RatFormPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/RestrainPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/SnoozePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/TemporaryCharmPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/TetanusPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/ToughLovePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/Butter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/EffigyOfPhoebe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/NeowsBounty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/RustyDumbbell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/SecondhandNeedle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Tags/OctaviaDangerTags.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -260,61 +129,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000153" />
-      <entry key="S5" value="1.000009482405621" />
-      <entry key="S10" value="1.0103629204613978" />
-      <entry key="S30" value="2.47344369879114" />
-      <entry key="S60" value="6.98354751048677" />
-      <entry key="M2" value="16.238169606268627" />
-      <entry key="M5" value="39.46819644123083" />
-      <entry key="M10" value="65.02211341468042" />
-      <entry key="M15" value="80.9219140191077" />
-      <entry key="M30" value="106.17799652986407" />
-      <entry key="H1" value="132.01216537915457" />
-      <entry key="H2" value="168.39278346590177" />
-      <entry key="H4" value="230.59850823359878" />
-      <entry key="D1" value="1530.2121734677503" />
-      <entry key="W1" value="5998.160139798564" />
+      <entry key="MS100" value="1.0874552232804622" />
+      <entry key="MS500" value="2.4117701381961067" />
+      <entry key="S2" value="5.530635779542494" />
+      <entry key="S5" value="7.930754855414014" />
+      <entry key="S10" value="9.529327107071818" />
+      <entry key="S30" value="11.889373975074294" />
+      <entry key="S60" value="13.685544933242399" />
+      <entry key="M2" value="17.35457586494137" />
+      <entry key="M5" value="36.06962103713022" />
+      <entry key="M10" value="63.99764461419333" />
+      <entry key="M15" value="81.30830556999275" />
+      <entry key="M30" value="109.48620494764117" />
+      <entry key="H1" value="162.82903515651367" />
+      <entry key="H2" value="275.63519295750956" />
+      <entry key="H4" value="432.4392160177983" />
+      <entry key="D1" value="1797.4668861010787" />
+      <entry key="W1" value="6357.323645918542" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.139895936840718E-178" />
-      <entry key="S2" value="5.4824019807028286E-45" />
-      <entry key="S5" value="3.0465557325416643E-18" />
-      <entry key="S10" value="3.0588516753958156E-9" />
-      <entry key="S30" value="0.005196789425204054" />
-      <entry key="S60" value="0.2691941436342286" />
-      <entry key="M2" value="2.4494541618758214" />
-      <entry key="M5" value="11.041467893671264" />
-      <entry key="M10" value="19.312537800533157" />
-      <entry key="M15" value="23.702877464402228" />
-      <entry key="M30" value="30.514150195830542" />
-      <entry key="H1" value="39.78098842420514" />
-      <entry key="H2" value="55.855455202445015" />
-      <entry key="H4" value="82.61964376456127" />
-      <entry key="D1" value="463.27615876235126" />
-      <entry key="W1" value="1748.2923319328524" />
+      <entry key="MS500" value="9.067626817138915E-107" />
+      <entry key="S2" value="5.284390060129881E-27" />
+      <entry key="S5" value="5.557851081774207E-11" />
+      <entry key="S10" value="1.2714810902018445E-5" />
+      <entry key="S30" value="0.049757608544326766" />
+      <entry key="S60" value="0.5000139533710282" />
+      <entry key="M2" value="2.35918473595085" />
+      <entry key="M5" value="9.08570073082192" />
+      <entry key="M10" value="16.920886637549998" />
+      <entry key="M15" value="21.441465752813443" />
+      <entry key="M30" value="28.827118984252394" />
+      <entry key="H1" value="43.959522809737884" />
+      <entry key="H2" value="77.50529231487478" />
+      <entry key="H4" value="127.79903568192934" />
+      <entry key="D1" value="530.6114373226283" />
+      <entry key="W1" value="1843.5967472076802" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972312513520848" />
-      <entry key="S5" value="0.9989010484137947" />
-      <entry key="S10" value="1.009800717040795" />
-      <entry key="S30" value="2.4779170895385647" />
-      <entry key="S60" value="7.247389733362552" />
-      <entry key="M2" value="18.662884556790463" />
-      <entry key="M5" value="50.4600891545104" />
-      <entry key="M10" value="84.28928868099736" />
-      <entry key="M15" value="104.58720343131364" />
-      <entry key="M30" value="136.66739624061694" />
-      <entry key="H1" value="171.77581752441662" />
-      <entry key="H2" value="224.23510381576054" />
-      <entry key="H4" value="313.20819419678264" />
-      <entry key="D1" value="1993.4788313262084" />
-      <entry key="W1" value="7746.446978233995" />
+      <entry key="MS100" value="1.0582633674966404" />
+      <entry key="MS500" value="2.398430734213421" />
+      <entry key="S2" value="5.5226232820290315" />
+      <entry key="S5" value="7.926075273752478" />
+      <entry key="S10" value="9.52650296424565" />
+      <entry key="S30" value="11.936231068817037" />
+      <entry key="S60" value="14.176444409904933" />
+      <entry key="M2" value="19.693479081627782" />
+      <entry key="M5" value="45.12331111031643" />
+      <entry key="M10" value="80.88848654274393" />
+      <entry key="M15" value="102.72437626758162" />
+      <entry key="M30" value="138.29637810976521" />
+      <entry key="H1" value="206.7757425391121" />
+      <entry key="H2" value="353.1285302300022" />
+      <entry key="H4" value="560.2274827902036" />
+      <entry key="D1" value="2328.0685582550673" />
+      <entry key="W1" value="8200.914795515379" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -332,152 +201,162 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (1).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (10).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (100).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (101).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (102).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (103).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (104).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (105).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (106).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (107).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (108).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (109).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (11).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (110).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (111).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (112).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (113).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (114).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (115).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (116).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (117).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (118).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (119).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (12).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (120).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (121).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (122).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (13).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (14).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (15).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (16).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (17).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (18).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (19).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (2).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (20).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (21).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (22).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (23).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (24).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (25).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (26).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (27).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (28).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (29).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (3).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (30).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (31).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (32).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (33).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (34).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (35).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (36).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (37).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (38).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (39).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (4).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (40).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (41).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (42).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (43).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (44).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (45).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (46).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (47).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (48).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (49).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (5).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (50).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (51).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (52).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (53).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (54).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (55).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (56).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (57).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (58).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (59).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (6).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (60).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (61).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (62).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (63).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (64).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (65).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (66).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (67).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (68).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (69).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (7).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (70).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (71).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (72).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (73).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (74).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (75).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (76).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (77).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (78).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (79).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (8).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (80).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (81).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (82).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (83).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (84).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (85).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (86).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (87).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (88).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (89).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (9).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (90).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (91).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (92).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (93).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (94).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (95).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (96).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (97).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (98).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (99).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Publish to folder.Publish MyFirstCharacter to folder (1).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (10).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (100).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (101).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (102).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (103).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (104).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (105).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (106).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (107).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (108).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (109).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (11).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (110).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (111).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (112).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (113).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (114).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (115).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (116).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (117).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (118).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (119).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (12).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (120).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (121).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (122).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (123).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (124).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (125).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (126).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (127).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (128).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (129).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (13).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (130).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (131).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (132).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (14).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (15).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (16).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (17).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (18).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (19).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (2).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (20).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (21).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (22).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (23).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (24).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (25).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (26).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (27).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (28).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (29).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (3).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (30).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (31).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (32).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (33).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (34).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (35).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (36).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (37).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (38).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (39).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (4).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (40).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (41).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (42).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (43).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (44).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (45).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (46).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (47).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (48).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (49).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (5).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (50).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (51).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (52).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (53).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (54).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (55).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (56).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (57).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (58).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (59).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (6).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (60).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (61).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (62).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (63).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (64).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (65).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (66).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (67).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (68).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (69).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (7).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (70).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (71).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (72).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (73).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (74).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (75).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (76).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (77).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (78).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (79).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (8).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (80).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (81).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (82).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (83).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (84).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (85).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (86).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (87).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (88).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (89).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (9).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (90).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (91).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (92).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (93).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (94).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (95).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (96).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (97).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (98).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (99).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Publish to folder.Publish MyFirstCharacter to folder">
     <configuration name="Publish MyFirstCharacter to folder (100)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
@@ -679,7 +558,87 @@
       </riderPublish>
       <method v="2" />
     </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (123)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (124)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (125)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (126)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (127)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (128)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (129)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
     <configuration name="Publish MyFirstCharacter to folder (12)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (130)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (131)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (132)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
           <item value="Portable" />
@@ -1472,7 +1431,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Editor" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../megadot/MegaDot_v4.5.1-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="C:\megadot\MegaDot_v4.5.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot; --editor" />
       <option name="WORKING_DIRECTORY" value="C:\Users\aadar\RiderProjects\MyFirstCharacter" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -1488,7 +1447,7 @@
       </method>
     </configuration>
     <configuration name="Player" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../megadot/MegaDot_v4.5.1-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="C:\megadot\MegaDot_v4.5.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot;" />
       <option name="WORKING_DIRECTORY" value="C:\Users\aadar\RiderProjects\MyFirstCharacter" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -1528,6 +1487,9 @@
       <workItem from="1784298579867" duration="1914000" />
       <workItem from="1784310590251" duration="21171000" />
       <workItem from="1784384116612" duration="27989000" />
+      <workItem from="1785373536608" duration="2194000" />
+      <workItem from="1785423454655" duration="1868000" />
+      <workItem from="1785436072852" duration="4359000" />
     </task>
     <servers />
   </component>

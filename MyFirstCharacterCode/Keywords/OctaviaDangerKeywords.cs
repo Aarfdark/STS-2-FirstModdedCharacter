@@ -8,10 +8,10 @@ public class OctaviaDangerKeywords
     [CustomEnum, KeywordProperties(AutoKeywordPosition.Before)] 
     public static CardKeyword Ashbound;
     
-    [CustomEnum, KeywordProperties(AutoKeywordPosition.After)]
+    [CustomEnum, KeywordProperties(AutoKeywordPosition.Before)]
     public static CardKeyword Rigged;
     
-    [CustomEnum, KeywordProperties(AutoKeywordPosition.After)]
+    [CustomEnum, KeywordProperties(AutoKeywordPosition.Before)]
     public static CardKeyword Sempiternal;
 
 }

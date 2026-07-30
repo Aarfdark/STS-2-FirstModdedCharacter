@@ -129,5 +129,17 @@
   "MYFIRSTCHARACTER-SNOOZE.title": "Snooze",
 
   "MYFIRSTCHARACTER-TOUGH_LOVE.description": "#Whenever you apply [gold]Charm[/gold], deal !ToughLovePower! damage to ALL enemies.",
-  "MYFIRSTCHARACTER-TOUGH_LOVE.title": "Tough Love"
+  "MYFIRSTCHARACTER-TOUGH_LOVE.title": "Tough Love",
+
+  "MYFIRSTCHARACTER-PERPETUAL_MOTION.description": "#At the start of your turn, draw 1 card and put one card from your *Hand on top of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PERPETUAL_MOTION.title": "Perpetual Motion",
+
+  "MYFIRSTCHARACTER-PLEAD.description": "#Apply !CharmPower! to [gold]Charm[/gold].",
+  "MYFIRSTCHARACTER-PLEAD.title": "Plead",
+
+  "MYFIRSTCHARACTER-PET.description": "#Gain !B! [gold]Block[/gold].\nApply !CharmPower! [gold]Charm[/gold].",
+  "MYFIRSTCHARACTER-PET.title": "Pet",
+
+  "MYFIRSTCHARACTER-TLC.description": "#Apply !CharmPower! *Charm and !B! [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-TLC.title": "TLC"
 }

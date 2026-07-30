@@ -25,7 +25,7 @@
   "MYFIRSTCHARACTER-FLIRT_POWER.title": "Flirt",
 
   "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.description": "#Gain *Charm until end of turn",
-  "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.smartDescription": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.smartDescription": "#Gain [blue]{Amount}[/blue] *Charm until end of turn",
   "MYFIRSTCHARACTER-CHARMING_STRIKE_POWER.title": "Charming Strike",
 
   "MYFIRSTCHARACTER-RAT_FORM_POWER.description": "#At the start of your turn, apply *Charm to ALL enemies.",
@@ -71,5 +71,14 @@
 
   "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.description": "#Whenever you apply [gold]Charm[/gold], deal damage to ALL enemies.",
   "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.smartDescription": "#Whenever you apply [gold]Charm[/gold], deal [blue]{Amount}[/blue] damage to ALL enemies.",
-  "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.title": "Tough Love"
+  "MYFIRSTCHARACTER-TOUGH_LOVE_POWER.title": "Tough Love",
+
+  "MYFIRSTCHARACTER-PERPETUAL_MOTION_POWER.description": "#At the start of your turn, draw a card and put a card from your *Hand on top of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PERPETUAL_MOTION_POWER.smartDescription": "#At the start of your turn, draw {Amount:plural:[blue]{}[/blue] card|[blue]{}[/blue] cards} and put {Amount:plural:[blue]{}[/blue] card|[blue]{}[/blue] cards} from your *Hand into your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-PERPETUAL_MOTION_POWER.title": "Perpetual Motion",
+  "MYFIRSTCHARACTER-PERPETUAL_MOTION_POWER.selectionScreenPrompt": "Choose a card to put on top of your Draw Pile.",
+
+  "MYFIRSTCHARACTER-PLEAD_POWER.description": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-PLEAD_POWER.smartDescription": "#Gain [blue]{Amount}[/blue] *Charm until end of turn",
+  "MYFIRSTCHARACTER-PLEAD_POWER.title": "Plead"
 }
