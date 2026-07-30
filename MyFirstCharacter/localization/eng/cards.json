@@ -141,5 +141,8 @@
   "MYFIRSTCHARACTER-PET.title": "Pet",
 
   "MYFIRSTCHARACTER-TLC.description": "#Apply !CharmPower! *Charm and heal the target !H! HP.",
-  "MYFIRSTCHARACTER-TLC.title": "TLC"
+  "MYFIRSTCHARACTER-TLC.title": "TLC",
+
+  "MYFIRSTCHARACTER-ERASE.description": "#Gain !B! [gold]Block[/gold].\nAdd 1 [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-ERASE.title": "Erase"
 }

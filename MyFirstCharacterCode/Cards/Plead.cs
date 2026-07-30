@@ -9,7 +9,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Powers;
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Plead() : MyFirstCharacterCard(2,
-    CardType.Skill, CardRarity.Common,
+    CardType.Skill, CardRarity.Uncommon,
     TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<CharmPower>(5)];
