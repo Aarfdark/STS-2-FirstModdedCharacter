@@ -5,29 +5,31 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
-using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
-public class Bite() : MyFirstCharacterCard(2,
+public class Shred() : MyFirstCharacterCard(1,
     CardType.Attack, CardRarity.Common,
     TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4, ValueProp.Move), new RepeatVar(3)];
-    
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(8, ValueProp.Move)];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        if (play.Target == null)
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play)
+            .Targeting(play.Target!).WithHitFx("vfx/vfx_attack_slash")
+            .Execute(choiceContext);
+        
+        CardModel? rightmostCard = PileType.Hand.GetPile(Owner).Cards.LastOrDefault();
+        if (rightmostCard == null)
             return;
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(DynamicVars.Repeat.IntValue).FromCard(this, play).Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
+        await CardCmd.Exhaust(choiceContext, rightmostCard);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Repeat.UpgradeValueBy(1);
+        DynamicVars.Damage.UpgradeValueBy(4);
     }
 }

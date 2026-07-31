@@ -150,5 +150,11 @@
   "MYFIRSTCHARACTER-ON_EDGE.title": "On Edge",
 
   "MYFIRSTCHARACTER-DUSTER.description": "#Gain !B! [gold]Block[/gold].\nIf this card was played via Ashbound, gain !B! *Block at the start of the next 2 turns.",
-  "MYFIRSTCHARACTER-DUSTER.title": "Duster"
+  "MYFIRSTCHARACTER-DUSTER.title": "Duster",
+
+  "MYFIRSTCHARACTER-SHRED.description": "#Deal !D! damage.\n*Exhaust the rightmost card of your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-SHRED.title": "Shred",
+
+  "MYFIRSTCHARACTER-TATTER.description": "#Deal !D! damage to ALL enemies.\nExhaust the top card of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-TATTER.title": "Tatter"
 }
