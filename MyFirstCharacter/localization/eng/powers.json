@@ -80,5 +80,9 @@
 
   "MYFIRSTCHARACTER-PLEAD_POWER.description": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-PLEAD_POWER.smartDescription": "#Gain [blue]{Amount}[/blue] *Charm until end of turn",
-  "MYFIRSTCHARACTER-PLEAD_POWER.title": "Plead"
+  "MYFIRSTCHARACTER-PLEAD_POWER.title": "Plead",
+
+  "MYFIRSTCHARACTER-DUSTER_POWER.description": "#Gain [blue]6[/blue] *Block at the end of your next [blue]2[/blue] turns.",
+  "MYFIRSTCHARACTER-DUSTER_POWER.smartDescription": "#Gain [blue]{Block:diff()}[/blue] *Block at the start of the next [blue]{Amount}[/blue] {Amount:plural:turn|turns}.",
+  "MYFIRSTCHARACTER-DUSTER_POWER.title": "Duster"
 }

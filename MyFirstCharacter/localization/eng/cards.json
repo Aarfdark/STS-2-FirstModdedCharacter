@@ -110,7 +110,7 @@
   "MYFIRSTCHARACTER-RECYCLED_PARTS.description": "#Deal !CalculatedDamage! damage.\nDeals !ExtraDamage! additional damage for each *Scrap in your [gold]Exhaust Pile[/gold].",
   "MYFIRSTCHARACTER-RECYCLED_PARTS.title": "Recycled Parts",
 
-  "MYFIRSTCHARACTER-TETANUS.description": "#Whenever you play a [gold]Scrap[/gold], Apply !TetanusPower! [gold]Powdered Demise[/gold] to a random enemy.",
+  "MYFIRSTCHARACTER-TETANUS.description": "#Whenever you play a [gold]Scrap[/gold], Apply !TetanusPower! *Demise to a random enemy.",
   "MYFIRSTCHARACTER-TETANUS.title": "Tetanus",
 
   "MYFIRSTCHARACTER-RUMMAGE.description": "#Gain !B! [gold]Block[/gold].\nAdd a *Scrap into your [gold]Draw Pile[/gold], [gold]Hand[/gold], and [gold]Discard Pile[/gold].",
@@ -147,5 +147,8 @@
   "MYFIRSTCHARACTER-ERASE.title": "Erase",
 
   "MYFIRSTCHARACTER-ON_EDGE.description": "#Gain !B! [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-ON_EDGE.title": "On Edge"
+  "MYFIRSTCHARACTER-ON_EDGE.title": "On Edge",
+
+  "MYFIRSTCHARACTER-DUSTER.description": "#Gain !B! [gold]Block[/gold].\nIf this card was played via Ashbound, gain !B! *Block at the start of the next 2 turns.",
+  "MYFIRSTCHARACTER-DUSTER.title": "Duster"
 }

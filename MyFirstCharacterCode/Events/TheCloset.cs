@@ -9,18 +9,22 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Events;
 using MegaCrit.Sts2.Core.Nodes.CommonUi;
+using MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Events;
 
 public class TheCloset() : CustomEventModel()
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new GoldVar(200), new StringVar("Curse", ModelDb.Card<Regret>().Title)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new GoldVar(200), 
+        new StringVar("ComeOutCurse", ModelDb.Card<Regret>().Title),
+        new StringVar("StayInCurse", ModelDb.Card<Sorrow>().Title)
+    ];
     public override string CustomInitialPortraitPath => ImageHelper.GetImagePath($"events/{ModelDb.Event<ThisOrThat>().Id.Entry.ToLowerInvariant()}.png");
     public override string CustomBackgroundScenePath => SceneHelper.GetScenePath("events/background_scenes/" + ModelDb.Event<ThisOrThat>().Id.Entry.ToLowerInvariant());
     protected override IReadOnlyList<EventOption> GenerateInitialOptions() =>
     [
         Option(StayIn, HoverTipFactory.FromCardWithCardHoverTips<Regret>()),
-        Option(ComeOut, HoverTipFactory.FromCardWithCardHoverTips<Regret>())
+        Option(ComeOut, HoverTipFactory.FromCardWithCardHoverTips<Sorrow>())
     ];
 
     private async Task ComeOut()
@@ -38,7 +42,7 @@ public class TheCloset() : CustomEventModel()
     private async Task StayIn()
     {
         await PlayerCmd.GainGold(DynamicVars.Gold.IntValue, Owner!);
-        await CardPileCmd.AddCurseToDeck<Regret>(Owner!);
+        await CardPileCmd.AddCurseToDeck<Sorrow>(Owner!);
         SetEventFinished(L10NLookup("THE_CLOSET.pages.STAY_IN.description"));
     }
 }
