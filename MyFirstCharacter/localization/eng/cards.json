@@ -156,5 +156,8 @@
   "MYFIRSTCHARACTER-SHRED.title": "Shred",
 
   "MYFIRSTCHARACTER-TATTER.description": "#Deal !D! damage to ALL enemies.\nExhaust the top card of your [gold]Draw Pile[/gold].",
-  "MYFIRSTCHARACTER-TATTER.title": "Tatter"
+  "MYFIRSTCHARACTER-TATTER.title": "Tatter",
+
+  "MYFIRSTCHARACTER-RAZE.description": "#Deal !D! damage.\nHits an additional time for each card *Exhausted this turn.{InCombat:\n(Hits !Repeat! {Repeat:plural:time|times})|}",
+  "MYFIRSTCHARACTER-RAZE.title": "Raze"
 }

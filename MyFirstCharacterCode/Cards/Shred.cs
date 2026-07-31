@@ -18,8 +18,10 @@ public class Shred() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        if (play.Target == null)
+            return;
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play)
-            .Targeting(play.Target!).WithHitFx("vfx/vfx_attack_slash")
+            .Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);
         
         CardModel? rightmostCard = PileType.Hand.GetPile(Owner).Cards.LastOrDefault();

@@ -18,8 +18,10 @@ public class Tatter() : MyFirstCharacterCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        if (CombatState == null)
+            return;
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, play)
-            .TargetingAllOpponents(CombatState!).WithHitFx("vfx/vfx_attack_blunt")
+            .TargetingAllOpponents(CombatState).WithHitFx("vfx/vfx_attack_blunt")
             .Execute(choiceContext);
 
         if (!PileType.Draw.GetPile(Owner).IsEmpty)
