@@ -17,7 +17,7 @@ public class Duster() : MyFirstCharacterCard(1,
     CardType.Skill, CardRarity.Common,
     TargetType.Self), IOnCardPlayedViaAshbound
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(6, ValueProp.Move), new DynamicVar("Turns", 2)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(7, ValueProp.Move), new DynamicVar("Turns", 1)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
     private Decimal _blockAmount;
     
@@ -38,6 +38,6 @@ public class Duster() : MyFirstCharacterCard(1,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Block.UpgradeValueBy(2);
+        DynamicVars["Turns"].UpgradeValueBy(1);
     }
 }
