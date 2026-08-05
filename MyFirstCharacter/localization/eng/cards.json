@@ -159,5 +159,8 @@
   "MYFIRSTCHARACTER-TATTER.title": "Tatter",
 
   "MYFIRSTCHARACTER-RAZE.description": "#Deal !D! damage.\nHits an additional time for each card *Exhausted this turn.{InCombat:\n(Hits !Repeat! {Repeat:plural:time|times})|}",
-  "MYFIRSTCHARACTER-RAZE.title": "Raze"
+  "MYFIRSTCHARACTER-RAZE.title": "Raze",
+
+  "MYFIRSTCHARACTER-DIG.description": "#Gain !B! [gold]Block[/gold]. Next turn, gain {Energy:energyIcons()}",
+  "MYFIRSTCHARACTER-DIG.title": "Dig"
 }
