@@ -19,21 +19,21 @@ public class MyFirstCharacter : PlaceholderCharacterModel
 
     public override Color NameColor => Color;
     public override CharacterGender Gender => CharacterGender.Feminine;
-    public override int StartingHp => 79;
+    public override int StartingHp => 70;
 
     // normal starting deck
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<Reuse>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
+        ModelDb.Card<Reduce>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        // ModelDb.Card<Soul>(),
+        // ModelDb.Card<Soul>(),
+        // ModelDb.Card<Soul>(),
+        // ModelDb.Card<Soul>(),
+        // ModelDb.Card<Soul>(),
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

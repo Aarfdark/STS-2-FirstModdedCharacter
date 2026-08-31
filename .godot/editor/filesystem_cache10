@@ -1,11 +1,12 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1785451593
+::res://::1788139074
 export_presets.cfg::TextFile::-1::1783193514::0::1::::<><><>0<>0<><>::
 MyFirstCharacter.json::JSON::-1::1785436721::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1788139074::0::1::::<><><>0<>0<><>::
 ::res://bin/::1783537042
 ::res://bin/ExportRelease/::1783198561
 ::res://bin/ExportRelease/net9.0/::1783198561
-::res://bin/ExportRelease/net9.0/publish/::1788138954
+::res://bin/ExportRelease/net9.0/publish/::1788140275
 MyFirstCharacter.deps.json::JSON::-1::1785453120::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacter/::1783198693
 mod_image.png::CompressedTexture2D::4318680732811062171::1783193514::1783198693::1::::<><><>0<>0<>ff1d8c97f45229207a28711554fae6a1<>res://.godot/imported/mod_image.png-8872f6d7bc036f863ec2352979eb38df.ctex::
@@ -46,9 +47,9 @@ relic_outline.png::CompressedTexture2D::7020004564918546605::1783193514::1783198
 ::res://MyFirstCharacter/images/relics/big/::1783198693
 relic.png::CompressedTexture2D::8042553672069775984::1783193514::1783198693::1::::<><><>0<>0<>eebfa449ef6dd6ab2f22008e3ef5b3a9<>res://.godot/imported/relic.png-6a442f30f6a068470b177cc0533632ab.ctex::
 ::res://MyFirstCharacter/localization/::1783193514
-::res://MyFirstCharacter/localization/eng/::1788138761
+::res://MyFirstCharacter/localization/eng/::1788140107
 ancients.json::JSON::-1::1784245902::0::1::::<><><>0<>0<><>::
-cards.json::JSON::-1::1788138761::0::1::::<><><>0<>0<><>::
+cards.json::JSON::-1::1788140107::0::1::::<><><>0<>0<><>::
 card_keywords.json::JSON::-1::1784328213::0::1::::<><><>0<>0<><>::
 characters.json::JSON::-1::1784327711::0::1::::<><><>0<>0<><>::
 events.json::JSON::-1::1785454486::0::1::::<><><>0<>0<><>::
@@ -59,7 +60,7 @@ static_hover_tips.json::JSON::-1::1783364211::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/::1785451564
 MainFile.cs::CSharpScript::917434532800153864::1783193527::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/Ancients/::1784344791
-::res://MyFirstCharacterCode/Cards/::1788138935
+::res://MyFirstCharacterCode/Cards/::1788140133
 Bite.cs::CSharpScript::7635029516606546290::1785522004::0::1::::<><><>0<>0<><>::
 Bramble.cs::CSharpScript::6966801032052195738::1784436928::0::1::::<><><>0<>0<><>::
 Bug.cs::CSharpScript::4839245887956330960::1784218895::0::1::::<><><>0<>0<><>::
@@ -93,6 +94,7 @@ Rats.cs::CSharpScript::187780939979197861::1785524407::0::1::::<><><>0<>0<><>::
 Raze.cs::CSharpScript::4553867235456613603::1785524710::0::1::::<><><>0<>0<><>::
 Recycle.cs::CSharpScript::4652912153642164749::1788138935::0::1::::<><><>0<>0<><>::
 RecycledParts.cs::CSharpScript::7671945933369473055::1784325141::0::1::::<><><>0<>0<><>::
+Reduce.cs::CSharpScript::8478229933112509090::1788140133::0::1::::<><><>0<>0<><>::
 Reference.cs::CSharpScript::4972316795438407250::1788037197::0::1::::<><><>0<>0<><>::
 Reorganize.cs::CSharpScript::3866687564168458940::1784169614::0::1::::<><><>0<>0<><>::
 RepositioningStrike.cs::CSharpScript::760375793747002687::1784219174::0::1::::<><><>0<>0<><>::
@@ -186,4 +188,4 @@ TheItinerarycs.cs::CSharpScript::2893693180547619053::1784131200::0::1::::<><><>
 WeightedDice.cs::CSharpScript::6540627198910680351::1784501955::0::1::::<><><>0<>0<><>::
 ::res://MyFirstCharacterCode/Tags/::1783632139
 OctaviaDangerTags.cs::CSharpScript::2774154263300959687::1783628899::0::1::::<><><>0<>0<><>::
-::res://task_list/::1788138676
+::res://task_list/::1788140087

@@ -176,5 +176,8 @@
 
   "MYFIRSTCHARACTER-RECYCLE.description": "#*Exhaust a card in your *Hand and play the top card of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-RECYCLE.title": "Recycle",
-  "MYFIRSTCHARACTER-RECYCLE.selectionScreenPrompt": "Choose a card to Exhaust."
+  "MYFIRSTCHARACTER-RECYCLE.selectionScreenPrompt": "Choose a card to Exhaust.",
+
+  "MYFIRSTCHARACTER-REDUCE.description": "#Reduce your *Debuffs by !Reduction!.",
+  "MYFIRSTCHARACTER-REDUCE.title": "Reduce"
 }
