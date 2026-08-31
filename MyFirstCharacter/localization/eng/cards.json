@@ -182,5 +182,8 @@
   "MYFIRSTCHARACTER-REDUCE.title": "Reduce",
 
   "MYFIRSTCHARACTER-DUMPSTER_DIVE.description": "Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into ALL players' [gold]Hands[/gold].",
-  "MYFIRSTCHARACTER-DUMPSTER_DIVE.title": "Dumpster Dive"
+  "MYFIRSTCHARACTER-DUMPSTER_DIVE.title": "Dumpster Dive",
+
+  "MYFIRSTCHARACTER-GREASY_STRANGLE.description": "#Deal !ExtraDamage! for each *Keyword in your [gold]Hand[/gold].\n{InCombat:\n(Deals !CalculatedDamage! {CalculatedDamage:plural:time|times})|}",
+  "MYFIRSTCHARACTER-GREASY_STRANGLE.title": "Greasy Strangle"
 }
