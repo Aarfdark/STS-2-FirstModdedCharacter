@@ -84,5 +84,9 @@
 
   "MYFIRSTCHARACTER-DUSTER_POWER.description": "#Gain [blue]6[/blue] *Block at the end of your next [blue]2[/blue] turns.",
   "MYFIRSTCHARACTER-DUSTER_POWER.smartDescription": "#Gain [blue]{Block:diff()}[/blue] *Block at the start of the next [blue]{Amount}[/blue] {Amount:plural:turn|turns}.",
-  "MYFIRSTCHARACTER-DUSTER_POWER.title": "Duster"
+  "MYFIRSTCHARACTER-DUSTER_POWER.title": "Duster",
+
+  "MYFIRSTCHARACTER-PRECISION_POWER.description": "#The next Attack you play this turn ignores [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-PRECISION_POWER.smartDescription": "The next [blue]{Amount}[/blue] {Amount:plural:Attack|Attacks} you play this turn {Amount:plural:ignores|ignore} [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-PRECISION_POWER.title": "Precision"
 }

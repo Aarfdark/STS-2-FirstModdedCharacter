@@ -162,5 +162,19 @@
   "MYFIRSTCHARACTER-RAZE.title": "Raze",
 
   "MYFIRSTCHARACTER-DIG.description": "#Gain !B! [gold]Block[/gold]. Next turn, gain {Energy:energyIcons()}",
-  "MYFIRSTCHARACTER-DIG.title": "Dig"
+  "MYFIRSTCHARACTER-DIG.title": "Dig",
+
+  "MYFIRSTCHARACTER-REFERENCE.description": "#Deal !D! damage. At the start of combat, this card gains !Keywords! random [gold]{Keywords:plural:Keyword|Keywords}[/gold].",
+  "MYFIRSTCHARACTER-REFERENCE.title": "Reference",
+
+  "MYFIRSTCHARACTER-PRECISION.description": "#The next Attack you play this turn ignores [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-PRECISION.title": "Precision",
+
+  "MYFIRSTCHARACTER-REUSE.description": "#Pick a card from your [gold]Exhaust Pile[/gold] and play it.",
+  "MYFIRSTCHARACTER-REUSE.title": "Reuse",
+  "MYFIRSTCHARACTER-REUSE.selectionScreenPrompt": "Choose a card to play.",
+
+  "MYFIRSTCHARACTER-RECYCLE.description": "#*Exhaust a card in your *Hand and play the top card of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-RECYCLE.title": "Recycle",
+  "MYFIRSTCHARACTER-RECYCLE.selectionScreenPrompt": "Choose a card to Exhaust."
 }
