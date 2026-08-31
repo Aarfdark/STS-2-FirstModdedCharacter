@@ -179,5 +179,8 @@
   "MYFIRSTCHARACTER-RECYCLE.selectionScreenPrompt": "Choose a card to Exhaust.",
 
   "MYFIRSTCHARACTER-REDUCE.description": "#Reduce your *Debuffs by !Reduction!.",
-  "MYFIRSTCHARACTER-REDUCE.title": "Reduce"
+  "MYFIRSTCHARACTER-REDUCE.title": "Reduce",
+
+  "MYFIRSTCHARACTER-DUMPSTER_DIVE.description": "Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into ALL players' [gold]Hands[/gold].",
+  "MYFIRSTCHARACTER-DUMPSTER_DIVE.title": "Dumpster Dive"
 }
