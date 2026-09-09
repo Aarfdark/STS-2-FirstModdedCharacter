@@ -1,6 +1,6 @@
 {
-  "MYFIRSTCHARACTER-INSTABILITY_POWER.description": "At the start of your turn, add a random *Enchantment to 1 card in your [gold]Hand[/gold].",
-  "MYFIRSTCHARACTER-INSTABILITY_POWER.smartDescription": "At the start of your turn, *Enchant 1 card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-INSTABILITY_POWER.description": "#At the start of your turn, add a random *Enchantment to 1 card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-INSTABILITY_POWER.smartDescription": "#At the start of your turn, *Enchant 1 card in your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.title": "Instability",
   "MYFIRSTCHARACTER-INSTABILITY_POWER.selectionScreenPrompt": "Choose a card to enchant.",
 
@@ -36,8 +36,8 @@
   "MYFIRSTCHARACTER-EYEROLL_POWER.smartDescription": "#You receive [blue]{DamageDecrease:percentLess()}%[/blue] less damage from [gold]Charmed[/gold] enemies {Amount:plural:this turn|for [blue]{}[/blue] turns}.\"",
   "MYFIRSTCHARACTER-EYEROLL_POWER.title": "Eyeroll",
 
-  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.description": "#At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
-  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.smartDescription": "#At the beginning of your turn, apply one random buff or debuff to EVERYONE.",
+  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.description": "#At the beginning of your turn, apply [blue]1[/blue] random *Buff or *Debuff to EVERYONE.",
+  "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.smartDescription": "#At the beginning of your turn, apply [blue]{Amount}[/blue] random {Amount:plural:*Buff or *Debuff|*Buffs or *Debuffs} to EVERYONE.",
   "MYFIRSTCHARACTER-NEVER_PUNISHED_POWER.title": "Never Punished",
 
   "MYFIRSTCHARACTER-BUNKER_UP_POWER.description": "#The next card you play this turn is placed on the top of your [gold]Draw Pile[/gold].",
