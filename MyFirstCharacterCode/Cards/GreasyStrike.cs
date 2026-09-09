@@ -7,7 +7,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
-public class GreasyStrangle() : MyFirstCharacterCard(1,
+public class GreasyStrike() : MyFirstCharacterCard(1,
     CardType.Attack, CardRarity.Uncommon,
     TargetType.AnyEnemy)
 {
@@ -27,6 +27,8 @@ public class GreasyStrangle() : MyFirstCharacterCard(1,
         )
         
     ];
+
+    protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
