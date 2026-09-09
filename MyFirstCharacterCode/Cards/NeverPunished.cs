@@ -27,6 +27,6 @@ public class NeverPunished() : MyFirstCharacterCard(0,
 
     protected override void OnUpgrade()
     {
-        AddKeyword(CardKeyword.Innate);
+        DynamicVars["Buffs"].UpgradeValueBy(1);
     }
 }
