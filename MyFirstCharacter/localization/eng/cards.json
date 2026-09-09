@@ -185,5 +185,11 @@
   "MYFIRSTCHARACTER-DUMPSTER_DIVE.title": "Dumpster Dive",
 
   "MYFIRSTCHARACTER-GREASY_STRANGLE.description": "#Deal !ExtraDamage! for each *Keyword in your [gold]Hand[/gold].\n{InCombat:\n(Deals !CalculatedDamage! {CalculatedDamage:plural:time|times})|}",
-  "MYFIRSTCHARACTER-GREASY_STRANGLE.title": "Greasy Strangle"
+  "MYFIRSTCHARACTER-GREASY_STRANGLE.title": "Greasy Strangle",
+
+  "MYFIRSTCHARACTER-POCKET_SAND.description": "#Apply 1 [gold]Weak[/gold].",
+  "MYFIRSTCHARACTER-POCKET_SAND.title": "Pocket Sand",
+
+  "MYFIRSTCHARACTER-OVER_THERE.description": "#Apply 1 [gold]Vulnerable[/gold].",
+  "MYFIRSTCHARACTER-OVER_THERE.title": "Over There!"
 }

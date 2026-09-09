@@ -23,8 +23,8 @@ public class TheCloset() : CustomEventModel()
     public override string CustomBackgroundScenePath => SceneHelper.GetScenePath("events/background_scenes/" + ModelDb.Event<ThisOrThat>().Id.Entry.ToLowerInvariant());
     protected override IReadOnlyList<EventOption> GenerateInitialOptions() =>
     [
-        Option(StayIn, HoverTipFactory.FromCardWithCardHoverTips<Regret>()),
-        Option(ComeOut, HoverTipFactory.FromCardWithCardHoverTips<Sorrow>())
+        Option(StayIn, HoverTipFactory.FromCardWithCardHoverTips<Sorrow>()),
+        Option(ComeOut, HoverTipFactory.FromCardWithCardHoverTips<Regret>())
     ];
 
     private async Task ComeOut()
