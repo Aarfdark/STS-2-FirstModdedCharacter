@@ -118,6 +118,7 @@ public class NeverPunishedPower() : MyFirstCharacterPower
                     && p.GetType() != typeof(SoulboundPower)
                     && p.GetType() != typeof(ImitationLearningPower)
                     && p.GetType() != typeof(NightmarePower)
+                    && p.GetType() != typeof(HexPower)
                 )
                 .ToList();
             var randInt = Owner.Player.RunState.Rng.Niche.NextInt(curatedPowers.Count);

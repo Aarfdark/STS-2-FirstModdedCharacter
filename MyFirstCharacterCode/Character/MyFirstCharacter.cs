@@ -24,7 +24,7 @@ public class MyFirstCharacter : PlaceholderCharacterModel
     // normal starting deck
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<NeverPunished>(),
+        ModelDb.Card<UnstableSculpture>(),
         // ModelDb.Card<OverThere>(),
         // ModelDb.Card<Twinkle>(),
         // ModelDb.Card<StrikeDanger>(),

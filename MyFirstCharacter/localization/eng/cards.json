@@ -194,5 +194,8 @@
   "MYFIRSTCHARACTER-OVER_THERE.title": "Over There!",
 
   "MYFIRSTCHARACTER-JOLT.description": "#Next turn, gain [E].",
-  "MYFIRSTCHARACTER-JOLT.title": "Jolt"
+  "MYFIRSTCHARACTER-JOLT.title": "Jolt",
+
+  "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.description": "#Gain a random [gold]Wax Relic[/gold].",
+  "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.title": "Unstable Sculpture"
 }
