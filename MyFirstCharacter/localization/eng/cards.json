@@ -197,5 +197,8 @@
   "MYFIRSTCHARACTER-JOLT.title": "Jolt",
 
   "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.description": "#Gain a random [gold]Wax Relic[/gold].",
-  "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.title": "Unstable Sculpture"
+  "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.title": "Unstable Sculpture",
+
+  "MYFIRSTCHARACTER-QUIVER.description": "#Whenever you apply *Charm, apply !QuiverPower! [gold]Weak[/gold].",
+  "MYFIRSTCHARACTER-QUIVER.title": "Quiver"
 }

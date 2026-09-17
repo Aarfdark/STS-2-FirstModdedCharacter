@@ -88,5 +88,9 @@
 
   "MYFIRSTCHARACTER-PRECISION_POWER.description": "#The next Attack you play this turn ignores [gold]Block[/gold].",
   "MYFIRSTCHARACTER-PRECISION_POWER.smartDescription": "The next [blue]{Amount}[/blue] {Amount:plural:Attack|Attacks} you play this turn {Amount:plural:ignores|ignore} [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-PRECISION_POWER.title": "Precision"
+  "MYFIRSTCHARACTER-PRECISION_POWER.title": "Precision",
+
+  "MYFIRSTCHARACTER-QUIVER_POWER.description": "#When you apply *Charm, apply [blue]1[/blue] [gold]Weak[/gold].",
+  "MYFIRSTCHARACTER-QUIVER_POWER.smartDescription": "#When you apply *Charm, apply [blue]{Amount}[/blue] [gold]Weak[/gold].",
+  "MYFIRSTCHARACTER-QUIVER_POWER.title": "Quiver"
 }
