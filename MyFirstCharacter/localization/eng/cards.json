@@ -200,5 +200,8 @@
   "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.title": "Unstable Sculpture",
 
   "MYFIRSTCHARACTER-QUIVER.description": "#Whenever you apply *Charm, apply !QuiverPower! [gold]Weak[/gold].",
-  "MYFIRSTCHARACTER-QUIVER.title": "Quiver"
+  "MYFIRSTCHARACTER-QUIVER.title": "Quiver",
+
+  "MYFIRSTCHARACTER-SAP.description": "#Remove an enemy's [gold]Charm[/gold]. Deal !SapMultiplier! times as much damage.",
+  "MYFIRSTCHARACTER-SAP.title": "Sap"
 }
