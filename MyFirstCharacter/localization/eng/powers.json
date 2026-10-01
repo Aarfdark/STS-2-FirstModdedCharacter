@@ -92,5 +92,9 @@
 
   "MYFIRSTCHARACTER-QUIVER_POWER.description": "#When you apply *Charm, apply [blue]1[/blue] [gold]Weak[/gold].",
   "MYFIRSTCHARACTER-QUIVER_POWER.smartDescription": "#When you apply *Charm, apply [blue]{Amount}[/blue] [gold]Weak[/gold].",
-  "MYFIRSTCHARACTER-QUIVER_POWER.title": "Quiver"
+  "MYFIRSTCHARACTER-QUIVER_POWER.title": "Quiver",
+
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.description": "##Whenever you play a card that differs from its original cost, gain [blue]3[/blue] [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.smartDescription": "#Whenever you play a card that differs from its original cost, gain [blue]{Amount}[/blue] [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.title": "Break It Down"
 }

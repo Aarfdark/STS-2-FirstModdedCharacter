@@ -203,5 +203,8 @@
   "MYFIRSTCHARACTER-QUIVER.title": "Quiver",
 
   "MYFIRSTCHARACTER-SAP.description": "#Remove an enemy's [gold]Charm[/gold]. Deal !SapMultiplier! times as much damage.",
-  "MYFIRSTCHARACTER-SAP.title": "Sap"
+  "MYFIRSTCHARACTER-SAP.title": "Sap",
+
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN.description": "#Whenever you play a card that differs from its original cost, gain !B! [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN.title": "Break It Down"
 }

@@ -11,7 +11,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Relics;
 
-public class EffigyOfPhoebe() : MyFirstCharacterRelic, IOnCardPlayedViaAshbound
+public class SacrificialEffigy() : MyFirstCharacterRelic, IOnCardPlayedViaAshbound
 {
     public override RelicRarity Rarity =>
         RelicRarity.Common;
