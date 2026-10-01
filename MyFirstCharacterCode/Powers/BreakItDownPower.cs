@@ -25,9 +25,6 @@ public class BreakItDownPower() : MyFirstCharacterPower
             c => c.Id == cardPlay.Card.Id
             ).EnergyCost.GetResolved();
         
-        Log.Info("SPENT: " + energySpent);
-        Log.Info("ORIGI: " + originalEnergy);
-        
         if (energySpent != originalEnergy)
         {
             await CreatureCmd.GainBlock(Owner, Amount, ValueProp.Move, cardPlay);

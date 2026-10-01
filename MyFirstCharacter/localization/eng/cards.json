@@ -206,5 +206,12 @@
   "MYFIRSTCHARACTER-SAP.title": "Sap",
 
   "MYFIRSTCHARACTER-BREAK_IT_DOWN.description": "#Whenever you play a card that differs from its original cost, gain !B! [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-BREAK_IT_DOWN.title": "Break It Down"
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN.title": "Break It Down",
+
+  "MYFIRSTCHARACTER-SAPPING_FLOWER.description": "#Whenever you play a card this turn, target enemy loses 1 [gold]Strength[/gold].",
+  "MYFIRSTCHARACTER-SAPPING_FLOWER.title": "Sapping Flower",
+
+  "MYFIRSTCHARACTER-SLIP_THROUGH.description": "#Gain !B! [gold]Block[/gold].\n*Randomize 1 card -at random-this turn.",
+  "MYFIRSTCHARACTER-SLIP_THROUGH.title": "Slip Through",
+  "MYFIRSTCHARACTER-SLIP_THROUGH.selectionScreenPrompt": "Choose a card to Randomize."
 }

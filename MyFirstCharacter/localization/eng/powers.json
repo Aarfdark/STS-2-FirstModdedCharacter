@@ -96,5 +96,9 @@
 
   "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.description": "##Whenever you play a card that differs from its original cost, gain [blue]3[/blue] [gold]Block[/gold].",
   "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.smartDescription": "#Whenever you play a card that differs from its original cost, gain [blue]{Amount}[/blue] [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.title": "Break It Down"
+  "MYFIRSTCHARACTER-BREAK_IT_DOWN_POWER.title": "Break It Down",
+
+  "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.description": "#Whenever you play a card this turn, target enemy loses [blue]1[/blue] *Strength this turn.",
+  "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.smartDescription": "#Whenever you play a card this turn, target enemy loses [blue]{Amount}[/blue] *Strength this turn.",
+  "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.title": "Sapping Flower"
 }

@@ -11,14 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/BreakItDown.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/BreakItDownPower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/SappingFlower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/SlipThrough.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/SappingFlowerPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/relics.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/relics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Relics/EffigyOfPhoebe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Relics/SacrificialEffigy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Relics/EffigyOfPhoebe.cs.uid" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Relics/SacrificialEffigy.cs.uid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/BreakItDownPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/BreakItDownPower.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.nuget/packages/krafs.publicizer/2.3.0/contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73b63ee06c0a47bbb0d1b21f6d94222e94e200/1b/c43f7a17/TrueGrit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacter/localization/eng/potions.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Bite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/BreakItDown.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,10 +84,12 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Reuse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Rummage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Sap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/SappingFlower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Scrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Shots.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/ShowerOfBlows.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Shred.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/SlipThrough.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/SmoothTalking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Snooze.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/StrikeDanger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -130,12 +135,12 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/QuiverPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/RatFormPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/RestrainPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/SappingFlowerPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/SnoozePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/TemporaryCharmPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/TetanusPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/ToughLovePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/Butter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/EffigyOfPhoebe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/NeowsBounty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Relics/RustyDumbbell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Tags/OctaviaDangerTags.cs" root0="FORCE_HIGHLIGHTING" />
@@ -303,6 +308,9 @@
     "Publish to folder.Publish MyFirstCharacter to folder (168).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (169).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (17).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (170).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (171).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (172).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (18).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (19).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (2).executor": "Run",
@@ -1024,6 +1032,30 @@
       <method v="2" />
     </configuration>
     <configuration name="Publish MyFirstCharacter to folder (16)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (170)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (171)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (172)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
           <item value="Portable" />
@@ -1854,7 +1886,8 @@
       <workItem from="1789437978348" duration="1025000" />
       <workItem from="1789610211538" duration="3690000" />
       <workItem from="1790268747532" duration="3763000" />
-      <workItem from="1790815348025" duration="568000" />
+      <workItem from="1790815348025" duration="3750000" />
+      <workItem from="1790885412960" duration="1739000" />
     </task>
     <servers />
   </component>
