@@ -100,5 +100,9 @@
 
   "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.description": "#Whenever you play a card this turn, target enemy loses [blue]1[/blue] *Strength this turn.",
   "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.smartDescription": "#Whenever you play a card this turn, target enemy loses [blue]{Amount}[/blue] *Strength this turn.",
-  "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.title": "Sapping Flower"
+  "MYFIRSTCHARACTER-SAPPING_FLOWER_POWER.title": "Sapping Flower",
+
+  "MYFIRSTCHARACTER-PARTY_POWER.description": "#Gain *Charm until end of turn",
+  "MYFIRSTCHARACTER-PARTY_POWER.smartDescription": "#Gain [blue]{Amount}[/blue] *Charm until end of turn",
+  "MYFIRSTCHARACTER-PARTY_POWER.title": "Party"
 }

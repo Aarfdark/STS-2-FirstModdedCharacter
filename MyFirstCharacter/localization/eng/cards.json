@@ -217,5 +217,8 @@
 
   "MYFIRSTCHARACTER-UNHINGED_STRIKE.description": "#Deal !D! Damage. Randomize 1 card -at random-this turn.",
   "MYFIRSTCHARACTER-UNHINGED_STRIKE.title": "Unhinged Strike",
-  "MYFIRSTCHARACTER-UNHINGED_STRIKE.selectionScreenPrompt": "Choose a card to Randomize."
+  "MYFIRSTCHARACTER-UNHINGED_STRIKE.selectionScreenPrompt": "Choose a card to Randomize.",
+
+  "MYFIRSTCHARACTER-PARTY.description": "#Apply !CharmPower! *Charm to ALL enemies this turn. *Randomize your *Hand this turn.",
+  "MYFIRSTCHARACTER-PARTY.title": "Party"
 }

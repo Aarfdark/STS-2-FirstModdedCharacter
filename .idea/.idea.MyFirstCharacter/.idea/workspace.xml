@@ -11,26 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/UnhingedStrike.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Party.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/PartyPower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/bite.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/bite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/bite.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/bite.png.import" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/defend_danger.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/defend_danger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/defend_danger.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/defend_danger.png.import" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/flirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/flirt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/flirt.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/flirt.png.import" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/forcefield.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/forcefield.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/forcefield.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/forcefield.png.import" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/reorganize.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/reorganize.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/reorganize.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/reorganize.png.import" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/strike_danger.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/strike_danger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/strike_danger.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/strike_danger.png.import" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/yank.png" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/yank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/big/yank.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/yank.png.import" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/NeverPunished.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/OnEdge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/OverThere.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Party.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/PatchUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/PerpetualMotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Pet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,6 +127,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/InstabilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeNoisePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/NeverPunishedPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PartyPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PerpetualMotionPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PlastyPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PleadPower.cs" root0="FORCE_HIGHLIGHTING" />
@@ -324,6 +313,9 @@
     "Publish to folder.Publish MyFirstCharacter to folder (172).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (173).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (174).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (175).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (176).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (177).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (18).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (19).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (2).executor": "Run",
@@ -1092,6 +1084,30 @@
       </riderPublish>
       <method v="2" />
     </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (175)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (176)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (177)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
     <configuration name="Publish MyFirstCharacter to folder (17)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
@@ -1845,7 +1861,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Editor" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="C:\megadot\MegaDot_v4.5.1-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../megadot/MegaDot_v4.5.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot; --editor" />
       <option name="WORKING_DIRECTORY" value="C:\Users\aadar\RiderProjects\MyFirstCharacter" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -1861,7 +1877,7 @@
       </method>
     </configuration>
     <configuration name="Player" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="C:\megadot\MegaDot_v4.5.1-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../megadot/MegaDot_v4.5.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot;" />
       <option name="WORKING_DIRECTORY" value="C:\Users\aadar\RiderProjects\MyFirstCharacter" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -1916,7 +1932,7 @@
       <workItem from="1789610211538" duration="3690000" />
       <workItem from="1790268747532" duration="3763000" />
       <workItem from="1790815348025" duration="3750000" />
-      <workItem from="1790885412960" duration="3270000" />
+      <workItem from="1790885412960" duration="4511000" />
     </task>
     <servers />
   </component>
