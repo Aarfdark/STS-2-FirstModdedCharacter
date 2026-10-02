@@ -223,5 +223,8 @@
   "MYFIRSTCHARACTER-PARTY.title": "Party",
 
   "MYFIRSTCHARACTER-HEART_OF_THE_CARDS.description": "#Become [gold]Confused[/gold]. Whenever you play a card that costs a different amount than its original cost, gain [E].",
-  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS.title": "Heart Of The Cards"
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS.title": "Heart Of The Cards",
+
+  "MYFIRSTCHARACTER-REINVIGORATE.description": "#Deal !D! damage. If the enemy is [gold]Charmed[/gold], Gain [E][E].",
+  "MYFIRSTCHARACTER-REINVIGORATE.title": "Reinvigorate"
 }
