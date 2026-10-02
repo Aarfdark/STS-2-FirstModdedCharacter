@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Party.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/PartyPower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/HeartOfTheCards.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/HeartOfTheCardsPower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
@@ -56,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Flirt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Forcefield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Goad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/HeartOfTheCards.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Instability.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Jolt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/MakeNoise.cs" root0="FORCE_HIGHLIGHTING" />
@@ -124,6 +125,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/FlirtPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/ForcefieldPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/GreasyPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/HeartOfTheCardsPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/InstabilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeNoisePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/NeverPunishedPower.cs" root0="FORCE_HIGHLIGHTING" />
@@ -316,6 +318,7 @@
     "Publish to folder.Publish MyFirstCharacter to folder (175).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (176).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (177).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (178).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (18).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (19).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (2).executor": "Run",
@@ -1101,6 +1104,14 @@
       <method v="2" />
     </configuration>
     <configuration name="Publish MyFirstCharacter to folder (177)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (178)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
           <item value="Portable" />
@@ -1932,7 +1943,7 @@
       <workItem from="1789610211538" duration="3690000" />
       <workItem from="1790268747532" duration="3763000" />
       <workItem from="1790815348025" duration="3750000" />
-      <workItem from="1790885412960" duration="4511000" />
+      <workItem from="1790885412960" duration="6639000" />
     </task>
     <servers />
   </component>

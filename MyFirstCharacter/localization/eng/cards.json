@@ -220,5 +220,8 @@
   "MYFIRSTCHARACTER-UNHINGED_STRIKE.selectionScreenPrompt": "Choose a card to Randomize.",
 
   "MYFIRSTCHARACTER-PARTY.description": "#Apply !CharmPower! *Charm to ALL enemies this turn. *Randomize your *Hand this turn.",
-  "MYFIRSTCHARACTER-PARTY.title": "Party"
+  "MYFIRSTCHARACTER-PARTY.title": "Party",
+
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS.description": "#Become [gold]Confused[/gold]. Whenever you play a card that costs a different amount than its original cost, gain [E].",
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS.title": "Heart Of The Cards"
 }

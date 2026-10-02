@@ -104,5 +104,9 @@
 
   "MYFIRSTCHARACTER-PARTY_POWER.description": "#Gain *Charm until end of turn",
   "MYFIRSTCHARACTER-PARTY_POWER.smartDescription": "#Gain [blue]{Amount}[/blue] *Charm until end of turn",
-  "MYFIRSTCHARACTER-PARTY_POWER.title": "Party"
+  "MYFIRSTCHARACTER-PARTY_POWER.title": "Party",
+
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.description": "#Whenever you play a card that differs from its original cost, gain [E].",
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.smartDescription": "#Whenever you play a card that differs from its original cost, gain [blue]{Amount}[/blue] [E].",
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.title": "Heart Of The Cards"
 }
