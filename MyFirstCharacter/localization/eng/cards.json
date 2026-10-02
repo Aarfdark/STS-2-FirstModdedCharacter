@@ -213,5 +213,9 @@
 
   "MYFIRSTCHARACTER-SLIP_THROUGH.description": "#Gain !B! [gold]Block[/gold].\n*Randomize 1 card -at random-this turn.",
   "MYFIRSTCHARACTER-SLIP_THROUGH.title": "Slip Through",
-  "MYFIRSTCHARACTER-SLIP_THROUGH.selectionScreenPrompt": "Choose a card to Randomize."
+  "MYFIRSTCHARACTER-SLIP_THROUGH.selectionScreenPrompt": "Choose a card to Randomize.",
+
+  "MYFIRSTCHARACTER-UNHINGED_STRIKE.description": "#Deal !D! Damage. Randomize 1 card -at random-this turn.",
+  "MYFIRSTCHARACTER-UNHINGED_STRIKE.title": "Unhinged Strike",
+  "MYFIRSTCHARACTER-UNHINGED_STRIKE.selectionScreenPrompt": "Choose a card to Randomize."
 }

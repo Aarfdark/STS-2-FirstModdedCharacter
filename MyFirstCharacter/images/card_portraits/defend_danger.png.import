@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bl0hhooyb4i3j"
-path="res://.godot/imported/yank.png-3380ab5e243982ef09cf90b9c8ac3f36.ctex"
+uid="uid://0mr0d38bk2r7"
+path="res://.godot/imported/defend_danger.png-ab374a48569578374c5cd44aa8258441.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/big/yank.png"
-dest_files=["res://.godot/imported/yank.png-3380ab5e243982ef09cf90b9c8ac3f36.ctex"]
+source_file="res://MyFirstCharacter/images/card_portraits/defend_danger.png"
+dest_files=["res://.godot/imported/defend_danger.png-ab374a48569578374c5cd44aa8258441.ctex"]
 
 [params]
 

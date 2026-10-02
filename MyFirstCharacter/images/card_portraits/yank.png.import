@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy08o6uc3movn"
-path="res://.godot/imported/forcefield.png-2a7f000d28ad0f6a3fd97e310f5747e6.ctex"
+uid="uid://bl0hhooyb4i3j"
+path="res://.godot/imported/yank.png-8c403966bc84bf62850916fa31e93c41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/big/forcefield.png"
-dest_files=["res://.godot/imported/forcefield.png-2a7f000d28ad0f6a3fd97e310f5747e6.ctex"]
+source_file="res://MyFirstCharacter/images/card_portraits/yank.png"
+dest_files=["res://.godot/imported/yank.png-8c403966bc84bf62850916fa31e93c41.ctex"]
 
 [params]
 

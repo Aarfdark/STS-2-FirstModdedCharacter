@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dovdfvmpwak0q"
-path="res://.godot/imported/reorganize.png-ab67961747d9fb7a9ecd9646b899558c.ctex"
+uid="uid://g86qygmmrb5w"
+path="res://.godot/imported/strike_danger.png-a828c68d4ae864a2bf6fde093f0d31c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/big/reorganize.png"
-dest_files=["res://.godot/imported/reorganize.png-ab67961747d9fb7a9ecd9646b899558c.ctex"]
+source_file="res://MyFirstCharacter/images/card_portraits/strike_danger.png"
+dest_files=["res://.godot/imported/strike_danger.png-a828c68d4ae864a2bf6fde093f0d31c0.ctex"]
 
 [params]
 

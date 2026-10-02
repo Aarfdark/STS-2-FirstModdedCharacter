@@ -25,15 +25,17 @@ public class MyFirstCharacter : PlaceholderCharacterModel
     public override IEnumerable<CardModel> StartingDeck =>
     [
         // ModelDb.Card<UnstableSculpture>(),
-        ModelDb.Card<SlipThrough>(),
+        ModelDb.Card<UnhingedStrike>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<StrikeDanger>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<DefendDanger>(),
+        ModelDb.Card<DefendDanger>(),
         ModelDb.Card<Twinkle>(),
-        ModelDb.Card<StrikeDanger>(),
-        ModelDb.Card<StrikeDanger>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
-        ModelDb.Card<Soul>(),
+        ModelDb.Card<Reorganize>(),
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfbgfbcj7dvom"
-path="res://.godot/imported/flirt.png-34bef38980f34d54fa83439630c6be6a.ctex"
+path="res://.godot/imported/flirt.png-0759aa18ca6c45e3c13d9e84a9bba869.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/big/flirt.png"
-dest_files=["res://.godot/imported/flirt.png-34bef38980f34d54fa83439630c6be6a.ctex"]
+source_file="res://MyFirstCharacter/images/card_portraits/flirt.png"
+dest_files=["res://.godot/imported/flirt.png-0759aa18ca6c45e3c13d9e84a9bba869.ctex"]
 
 [params]
 

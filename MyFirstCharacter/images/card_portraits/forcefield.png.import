@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crax4ndgqml3j"
-path="res://.godot/imported/bite.png-8c6a9d072c65f6471af97b99db849f55.ctex"
+uid="uid://dy08o6uc3movn"
+path="res://.godot/imported/forcefield.png-3210cb53e7928ab79efb72e4c0cd6b2a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MyFirstCharacter/images/card_portraits/big/bite.png"
-dest_files=["res://.godot/imported/bite.png-8c6a9d072c65f6471af97b99db849f55.ctex"]
+source_file="res://MyFirstCharacter/images/card_portraits/forcefield.png"
+dest_files=["res://.godot/imported/forcefield.png-3210cb53e7928ab79efb72e4c0cd6b2a.ctex"]
 
 [params]
 
