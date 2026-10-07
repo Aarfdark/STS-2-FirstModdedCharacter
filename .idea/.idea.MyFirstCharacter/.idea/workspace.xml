@@ -11,12 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Reinvigorate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/echolalia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/never_punished.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/shower_of_blows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/card_portraits/twinkle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/events/the_closet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/relics/butter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/relics/rusty_dumbbell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacter/images/relics/the_agenda.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Bite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Bite.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Events/TheCloset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Events/TheCloset.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +331,13 @@
     "Publish to folder.Publish MyFirstCharacter to folder (178).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (179).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (18).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (180).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (181).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (182).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (183).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (184).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (185).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (186).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (19).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (2).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (20).executor": "Run",
@@ -1136,6 +1153,62 @@
       </riderPublish>
       <method v="2" />
     </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (180)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (181)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (182)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (183)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (184)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (185)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (186)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
     <configuration name="Publish MyFirstCharacter to folder (18)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
@@ -1881,7 +1954,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Editor" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../megadot/MegaDot_v4.5.1-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="C:\megadot\MegaDot_v4.5.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot; --editor" />
       <option name="WORKING_DIRECTORY" value="C:\Users\aadar\RiderProjects\MyFirstCharacter" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -1897,7 +1970,7 @@
       </method>
     </configuration>
     <configuration name="Player" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../megadot/MegaDot_v4.5.1-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="C:\megadot\MegaDot_v4.5.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot;" />
       <option name="WORKING_DIRECTORY" value="C:\Users\aadar\RiderProjects\MyFirstCharacter" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -1953,6 +2026,9 @@
       <workItem from="1790268747532" duration="3763000" />
       <workItem from="1790815348025" duration="3750000" />
       <workItem from="1790885412960" duration="11704000" />
+      <workItem from="1791129025777" duration="3280000" />
+      <workItem from="1791161158395" duration="2732000" />
+      <workItem from="1791396046742" duration="2479000" />
     </task>
     <servers />
   </component>

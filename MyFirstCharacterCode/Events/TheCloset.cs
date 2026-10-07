@@ -19,7 +19,8 @@ public class TheCloset() : CustomEventModel()
         new StringVar("ComeOutCurse", ModelDb.Card<Regret>().Title),
         new StringVar("StayInCurse", ModelDb.Card<Sorrow>().Title)
     ];
-    public override string CustomInitialPortraitPath => ImageHelper.GetImagePath($"events/{ModelDb.Event<ThisOrThat>().Id.Entry.ToLowerInvariant()}.png");
+    // public override string CustomInitialPortraitPath => ImageHelper.GetImagePath($"events/{ModelDb.Event<ThisOrThat>().Id.Entry.ToLowerInvariant()}.png");
+    public override string CustomInitialPortraitPath => ImageHelper.GetImagePath($"images/events/the_closet.png");
     public override string CustomBackgroundScenePath => SceneHelper.GetScenePath("events/background_scenes/" + ModelDb.Event<ThisOrThat>().Id.Entry.ToLowerInvariant());
     protected override IReadOnlyList<EventOption> GenerateInitialOptions() =>
     [

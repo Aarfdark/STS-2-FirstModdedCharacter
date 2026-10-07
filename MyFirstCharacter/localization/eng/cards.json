@@ -34,7 +34,7 @@
   "MYFIRSTCHARACTER-PATCH_UP.description": "#Gain {Energy:energyIcons()}.",
   "MYFIRSTCHARACTER-PATCH_UP.title": "Patch Up",
 
-  "MYFIRSTCHARACTER-BITE.description": "#Deal !D! damage !Repeat! times.",
+  "MYFIRSTCHARACTER-BITE.description": "#Deal !D! damage !Repeat! times. If this card was played via [gold]Ashbound[/gold], it deals double damage.",
   "MYFIRSTCHARACTER-BITE.title": "Bite",
 
   "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply !DemisePower! *Demise to ALL enemies.\nRandomize the cost of all cards in your *Hand this turn.",
@@ -149,7 +149,7 @@
   "MYFIRSTCHARACTER-ON_EDGE.description": "#Gain !B! [gold]Block[/gold].",
   "MYFIRSTCHARACTER-ON_EDGE.title": "On Edge",
 
-  "MYFIRSTCHARACTER-DUSTER.description": "#Gain !B! [gold]Block[/gold].\nIf this card was played via Ashbound, gain !B! *Block at the start of the next 2 turns.",
+  "MYFIRSTCHARACTER-DUSTER.description": "#Gain !B! [gold]Block[/gold].\nIf this card was played via Ashbound, gain !B! *Block at the start of the next !Turns! turns.",
   "MYFIRSTCHARACTER-DUSTER.title": "Duster",
 
   "MYFIRSTCHARACTER-SHRED.description": "#Deal !D! damage.\n*Exhaust the rightmost card of your [gold]Hand[/gold].",
