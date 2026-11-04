@@ -108,5 +108,9 @@
 
   "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.description": "#Whenever you play a card that differs from its original cost, gain [E].",
   "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.smartDescription": "#Whenever you play a card that differs from its original cost, gain [blue]{Amount}[/blue] [E].",
-  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.title": "Heart Of The Cards"
+  "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.title": "Heart Of The Cards",
+
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.description": "#Whenever you play a *Scrap, gain [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.smartDescription": "#Whenever you play a *Scrap, gain [blue]{Amount}[/blue] [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.title": "Makeshift Armor"
 }

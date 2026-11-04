@@ -226,5 +226,8 @@
   "MYFIRSTCHARACTER-HEART_OF_THE_CARDS.title": "Heart Of The Cards",
 
   "MYFIRSTCHARACTER-REINVIGORATE.description": "#Deal !D! damage. If the enemy is [gold]Charmed[/gold], Gain [E][E].",
-  "MYFIRSTCHARACTER-REINVIGORATE.title": "Reinvigorate"
+  "MYFIRSTCHARACTER-REINVIGORATE.title": "Reinvigorate",
+
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.description": "#Whenever you play a *Scrap, gain !MakeshiftArmorPower! [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.title": "Makeshift Armor"
 }

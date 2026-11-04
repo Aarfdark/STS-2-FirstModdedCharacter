@@ -16,7 +16,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Potions;
 
 public class PheromonePotion : MyFirstCharacterPotion
 {
-    public override PotionRarity Rarity => PotionRarity.Common;
+    public override PotionRarity Rarity => PotionRarity.Uncommon;
     public override PotionUsage Usage => PotionUsage.CombatOnly;
     public override TargetType TargetType => TargetType.AnyEnemy;
 

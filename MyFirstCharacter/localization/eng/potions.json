@@ -2,6 +2,9 @@
   "MYFIRSTCHARACTER-GATORWINE.description": "#Randomize the cost of every card in your *Hand. Each card in your *Hand gains [gold]Replay 1[/gold] this turn.",
   "MYFIRSTCHARACTER-GATORWINE.title": "Gatorwine",
 
-  "MYFIRSTCHARACTER-PHEROMONE_POTION.description": "#Apply [blue]{CharmPower}[/blue] [gold]Charm[/gold].",
-  "MYFIRSTCHARACTER-PHEROMONE_POTION.title": "Pheromone Potion"
+  "MYFIRSTCHARACTER-PHEROMONE_POTION.description": "#Apply {CharmPower} [gold]Charm[/gold].",
+  "MYFIRSTCHARACTER-PHEROMONE_POTION.title": "Pheromone Potion",
+
+  "MYFIRSTCHARACTER-JUNGLE_JUICE.description": "#Add !C! [gold]Upgraded Scraps[/gold] into your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-JUNGLE_JUICE.title": "Jungle Juice"
 }

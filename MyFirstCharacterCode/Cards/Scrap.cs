@@ -1,23 +1,30 @@
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
+using MegaCrit.Sts2.Core.ValueProps;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
+using MyFirstCharacter.MyFirstCharacterCode.Powers;
 using MyFirstCharacter.MyFirstCharacterCode.Tags;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Scrap() : MyFirstCharacterCard(0, CardType.Skill, CardRarity.Token, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(0)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [
+        new CardsVar(0)
+    ];
     
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     
     protected override HashSet<CardTag> CanonicalTags => [OctaviaDangerTags.Scrap];
+    
+    public override bool GainsBlock => GetOwnerMakeshiftArmorAmount(this) > 0M;
     
     public static async Task<IEnumerable<Scrap>> CreateInHand(
         Player owner,
@@ -55,5 +62,10 @@ public class Scrap() : MyFirstCharacterCard(0, CardType.Skill, CardRarity.Token,
     protected override void OnUpgrade()
     {
         DynamicVars.Cards.UpgradeValueBy(1);
+    }
+    
+    private static Decimal GetOwnerMakeshiftArmorAmount(CardModel card)
+    {
+        return !card.IsMutable || card.Pile == null || !card.Pile.IsCombatPile ? 0M : card.Owner.Creature.GetPowerAmount<MakeshiftArmorPower>();
     }
 }
