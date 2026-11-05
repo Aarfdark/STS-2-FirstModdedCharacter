@@ -237,5 +237,8 @@
 
   "MYFIRSTCHARACTER-LEVELING_STRIKE.description": "#Deal !D! damage.\nAdd *Sempiternal to a card in your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-LEVELING_STRIKE.title": "Leveling Strike",
-  "MYFIRSTCHARACTER-LEVELING_STRIKE.selectionScreenPrompt": "#Choose a card to add *Sempiternal to."
+  "MYFIRSTCHARACTER-LEVELING_STRIKE.selectionScreenPrompt": "#Choose a card to add *Sempiternal to.",
+
+  "MYFIRSTCHARACTER-BIG_FAN.description": "#Deals !D! damage. Hits an additional time for each other card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-BIG_FAN.title": "Big Fan"
 }
