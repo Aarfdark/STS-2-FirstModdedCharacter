@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Procrastinate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/ProcrastinatePower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Character/MyFirstCharacter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +61,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Instability.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Jolt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/MakeNoise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/MakeshiftArmor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/NeverPunished.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/OnEdge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/OverThere.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +73,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Plead.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/PocketSand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Precision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Procrastinate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Quiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Rats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Recycle.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,6 +121,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Monsters/MyFirstCharacterMonster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Patches/AddCursedNeowOptionPatch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Potions/Gatorwine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Potions/JungleJuice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/BreakItDownPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/BunkerUpPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/CharmingStrikePower.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,12 +133,14 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/HeartOfTheCardsPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/InstabilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeNoisePower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeshiftArmorPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/NeverPunishedPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PartyPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PerpetualMotionPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PlastyPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PleadPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/PrecisionPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/ProcrastinatePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/QuiverPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/RatFormPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/RestrainPower.cs" root0="FORCE_HIGHLIGHTING" />
@@ -149,61 +161,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000000000018" />
-      <entry key="S10" value="1.0000005344578633" />
-      <entry key="S30" value="1.0758413597696765" />
-      <entry key="S60" value="2.9447559022234446" />
-      <entry key="M2" value="13.464174940815846" />
-      <entry key="M5" value="62.50811637497672" />
-      <entry key="M10" value="138.997922156019" />
-      <entry key="M15" value="198.12660677536695" />
-      <entry key="M30" value="323.59239742416923" />
-      <entry key="H1" value="487.1113206968028" />
-      <entry key="H2" value="714.340276904" />
-      <entry key="H4" value="1012.6174436405486" />
-      <entry key="D1" value="2596.6738304190485" />
-      <entry key="W1" value="7307.499338646437" />
+      <entry key="MS100" value="1.0000000216658789" />
+      <entry key="MS500" value="1.029331730344549" />
+      <entry key="S2" value="1.5804250518646934" />
+      <entry key="S5" value="2.909370493990577" />
+      <entry key="S10" value="4.319183165201672" />
+      <entry key="S30" value="7.726195887317666" />
+      <entry key="S60" value="11.597521876363562" />
+      <entry key="M2" value="18.88118947979498" />
+      <entry key="M5" value="54.631888087198696" />
+      <entry key="M10" value="125.3427130162422" />
+      <entry key="M15" value="185.59854472780842" />
+      <entry key="M30" value="317.7302242658292" />
+      <entry key="H1" value="489.517326554545" />
+      <entry key="H2" value="723.7413878755111" />
+      <entry key="H4" value="1027.7061866376046" />
+      <entry key="D1" value="2619.7412449837016" />
+      <entry key="W1" value="7334.119702914898" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.6607886098573023E-231" />
-      <entry key="S5" value="8.746472507914334E-93" />
-      <entry key="S10" value="1.5996846758629226E-46" />
-      <entry key="S30" value="1.1272212599816377E-15" />
-      <entry key="S60" value="6.002057087530207E-8" />
-      <entry key="M2" value="5.297618722002873E-4" />
-      <entry key="M5" value="0.2230021442821009" />
-      <entry key="M10" value="2.901387049370071" />
-      <entry key="M15" value="8.205263498384857" />
-      <entry key="M30" value="27.266786403169917" />
-      <entry key="H1" value="58.27066411124325" />
-      <entry key="H2" value="104.88786398372663" />
-      <entry key="H4" value="174.69804855280873" />
-      <entry key="D1" value="616.4937391399753" />
-      <entry key="W1" value="1968.9154956322002" />
+      <entry key="MS100" value="1.4086822072079135E-23" />
+      <entry key="MS500" value="2.6900639584569385E-5" />
+      <entry key="S2" value="0.07201793363866152" />
+      <entry key="S5" value="0.3493513075845374" />
+      <entry key="S10" value="0.606034607317288" />
+      <entry key="S30" value="1.1022398555761563" />
+      <entry key="S60" value="1.5851828989143382" />
+      <entry key="M2" value="2.2441313007672066" />
+      <entry key="M5" value="3.1861931031439465" />
+      <entry key="M10" value="5.5748612430185505" />
+      <entry key="M15" value="10.238478688030373" />
+      <entry key="M30" value="28.260281700792156" />
+      <entry key="H1" value="59.0791829385356" />
+      <entry key="H2" value="106.01467482033165" />
+      <entry key="H4" value="176.30493749052874" />
+      <entry key="D1" value="619.0883328581415" />
+      <entry key="W1" value="1972.274910316925" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972312513520695" />
-      <entry key="S5" value="0.9988915792636981" />
-      <entry key="S10" value="0.9994461702328872" />
-      <entry key="S30" value="1.0756474177442477" />
-      <entry key="S60" value="2.944546421849577" />
-      <entry key="M2" value="13.464271414513805" />
-      <entry key="M5" value="62.72925178799443" />
-      <entry key="M10" value="141.89145338879482" />
-      <entry key="M15" value="206.3182600232956" />
-      <entry key="M30" value="350.83816282041715" />
-      <entry key="H1" value="545.3602917241611" />
-      <entry key="H2" value="819.2091299699398" />
-      <entry key="H4" value="1187.2997685469315" />
-      <entry key="D1" value="3213.156675652187" />
-      <entry key="W1" value="9276.408989304937" />
+      <entry key="MS100" value="4.876282830574501E-7" />
+      <entry key="MS500" value="0.08232981744558766" />
+      <entry key="S2" value="1.1073722730438254" />
+      <entry key="S5" value="2.940638069669622" />
+      <entry key="S10" value="4.723994348009008" />
+      <entry key="S30" value="8.715522618395848" />
+      <entry key="S60" value="13.095918681684548" />
+      <entry key="M2" value="21.062607158383727" />
+      <entry key="M5" value="57.782861744075355" />
+      <entry key="M10" value="130.8925034743884" />
+      <entry key="M15" value="195.8125569427528" />
+      <entry key="M30" value="345.9645799878087" />
+      <entry key="H1" value="548.5723455414634" />
+      <entry key="H2" value="829.7357303965196" />
+      <entry key="H4" value="1203.9946914884167" />
+      <entry key="D1" value="3238.8185542266497" />
+      <entry key="W1" value="9306.388748071757" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -221,218 +233,219 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-plugins.updated.after.restart&quot;: &quot;Plugin updates installed&quot;,
-    &quot;Notification.DoNotAsk-plugins.updated.after.restart&quot;: &quot;true&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (1).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (10).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (100).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (101).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (102).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (103).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (104).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (105).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (106).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (107).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (108).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (109).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (11).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (110).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (111).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (112).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (113).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (114).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (115).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (116).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (117).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (118).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (119).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (12).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (120).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (121).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (122).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (123).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (124).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (125).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (126).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (127).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (128).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (129).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (13).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (130).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (131).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (132).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (133).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (134).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (135).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (136).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (137).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (138).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (139).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (14).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (140).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (141).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (142).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (143).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (144).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (145).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (146).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (147).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (148).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (149).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (15).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (150).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (151).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (152).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (153).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (154).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (155).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (156).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (157).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (158).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (159).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (16).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (160).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (161).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (162).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (163).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (164).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (165).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (166).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (167).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (168).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (169).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (17).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (170).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (171).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (172).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (173).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (174).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (175).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (176).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (177).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (178).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (179).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (18).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (180).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (181).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (182).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (183).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (184).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (185).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (186).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (19).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (2).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (20).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (21).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (22).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (23).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (24).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (25).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (26).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (27).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (28).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (29).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (3).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (30).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (31).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (32).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (33).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (34).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (35).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (36).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (37).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (38).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (39).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (4).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (40).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (41).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (42).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (43).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (44).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (45).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (46).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (47).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (48).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (49).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (5).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (50).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (51).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (52).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (53).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (54).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (55).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (56).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (57).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (58).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (59).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (6).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (60).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (61).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (62).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (63).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (64).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (65).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (66).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (67).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (68).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (69).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (7).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (70).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (71).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (72).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (73).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (74).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (75).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (76).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (77).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (78).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (79).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (8).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (80).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (81).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (82).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (83).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (84).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (85).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (86).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (87).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (88).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (89).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (9).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (90).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (91).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (92).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (93).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (94).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (95).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (96).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (97).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (98).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder (99).executor&quot;: &quot;Run&quot;,
-    &quot;Publish to folder.Publish MyFirstCharacter to folder.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Publish to folder.Publish MyFirstCharacter to folder (1).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (10).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (100).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (101).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (102).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (103).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (104).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (105).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (106).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (107).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (108).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (109).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (11).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (110).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (111).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (112).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (113).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (114).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (115).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (116).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (117).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (118).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (119).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (12).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (120).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (121).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (122).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (123).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (124).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (125).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (126).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (127).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (128).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (129).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (13).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (130).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (131).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (132).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (133).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (134).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (135).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (136).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (137).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (138).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (139).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (14).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (140).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (141).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (142).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (143).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (144).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (145).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (146).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (147).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (148).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (149).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (15).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (150).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (151).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (152).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (153).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (154).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (155).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (156).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (157).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (158).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (159).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (16).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (160).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (161).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (162).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (163).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (164).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (165).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (166).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (167).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (168).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (169).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (17).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (170).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (171).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (172).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (173).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (174).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (175).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (176).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (177).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (178).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (179).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (18).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (180).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (181).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (182).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (183).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (184).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (185).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (186).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (187).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (188).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (19).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (2).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (20).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (21).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (22).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (23).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (24).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (25).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (26).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (27).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (28).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (29).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (3).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (30).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (31).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (32).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (33).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (34).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (35).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (36).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (37).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (38).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (39).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (4).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (40).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (41).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (42).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (43).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (44).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (45).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (46).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (47).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (48).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (49).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (5).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (50).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (51).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (52).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (53).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (54).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (55).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (56).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (57).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (58).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (59).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (6).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (60).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (61).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (62).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (63).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (64).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (65).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (66).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (67).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (68).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (69).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (7).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (70).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (71).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (72).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (73).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (74).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (75).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (76).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (77).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (78).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (79).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (8).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (80).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (81).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (82).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (83).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (84).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (85).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (86).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (87).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (88).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (89).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (9).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (90).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (91).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (92).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (93).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (94).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (95).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (96).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (97).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (98).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (99).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Publish to folder.Publish MyFirstCharacter to folder">
     <configuration name="Publish MyFirstCharacter to folder (100)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
@@ -1187,6 +1200,22 @@
       <method v="2" />
     </configuration>
     <configuration name="Publish MyFirstCharacter to folder (186)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (187)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (188)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
           <item value="Portable" />
@@ -2015,6 +2044,9 @@
       <workItem from="1791161158395" duration="2732000" />
       <workItem from="1791396046742" duration="2479000" />
       <workItem from="1792341892969" duration="128000" />
+      <workItem from="1793807708370" duration="7318000" />
+      <workItem from="1793835023134" duration="764000" />
+      <workItem from="1793842276318" duration="1287000" />
     </task>
     <servers />
   </component>

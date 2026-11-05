@@ -229,5 +229,9 @@
   "MYFIRSTCHARACTER-REINVIGORATE.title": "Reinvigorate",
 
   "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.description": "#Whenever you play a *Scrap, gain !MakeshiftArmorPower! [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.title": "Makeshift Armor"
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.title": "Makeshift Armor",
+
+  "MYFIRSTCHARACTER-PROCRASTINATE.description": "#*Exhaust 1 card. Play it twice at the beginning of your next turn.",
+  "MYFIRSTCHARACTER-PROCRASTINATE.title": "Procrastinate",
+  "MYFIRSTCHARACTER-PROCRASTINATE.selectionScreenPrompt": "Choose a card to exhaust and play next turn."
 }

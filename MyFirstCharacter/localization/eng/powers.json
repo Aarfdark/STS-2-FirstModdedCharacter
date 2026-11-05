@@ -112,5 +112,9 @@
 
   "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.description": "#Whenever you play a *Scrap, gain [gold]Block[/gold].",
   "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.smartDescription": "#Whenever you play a *Scrap, gain [blue]{Amount}[/blue] [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.title": "Makeshift Armor"
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.title": "Makeshift Armor",
+
+  "MYFIRSTCHARACTER-PROCRASTINATE_POWER.description": "#At the beginning of your next turn, play the chosen card twice.",
+  "MYFIRSTCHARACTER-PROCRASTINATE_POWER.smartDescription": "#At the beginning of your next turn, play [gold]{Card}[/gold] twice.",
+  "MYFIRSTCHARACTER-PROCRASTINATE_POWER.title": "Procrastinate"
 }
