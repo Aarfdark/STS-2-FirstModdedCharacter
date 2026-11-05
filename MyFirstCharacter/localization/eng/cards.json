@@ -233,5 +233,9 @@
 
   "MYFIRSTCHARACTER-PROCRASTINATE.description": "#*Exhaust 1 card. Play it twice at the beginning of your next turn.",
   "MYFIRSTCHARACTER-PROCRASTINATE.title": "Procrastinate",
-  "MYFIRSTCHARACTER-PROCRASTINATE.selectionScreenPrompt": "Choose a card to exhaust and play next turn."
+  "MYFIRSTCHARACTER-PROCRASTINATE.selectionScreenPrompt": "Choose a card to exhaust and play next turn.",
+
+  "MYFIRSTCHARACTER-LEVELING_STRIKE.description": "#Deal !D! damage.\nAdd *Sempiternal to a card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-LEVELING_STRIKE.title": "Leveling Strike",
+  "MYFIRSTCHARACTER-LEVELING_STRIKE.selectionScreenPrompt": "#Choose a card to add *Sempiternal to."
 }

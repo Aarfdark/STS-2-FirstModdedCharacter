@@ -19,6 +19,8 @@ public class ProcrastinatePower() : MyFirstCharacterPower
     public override PowerType Type =>
         PowerType.Buff;
 
+    public override PowerInstanceType InstanceType => PowerInstanceType.Instanced;
+    
     public override PowerStackType StackType =>
         PowerStackType.Counter;
 
