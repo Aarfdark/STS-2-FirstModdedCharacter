@@ -25,7 +25,7 @@ public class MyFirstCharacter : PlaceholderCharacterModel
     public override IEnumerable<CardModel> StartingDeck =>
     [
         // ModelDb.Card<>(),
-        ModelDb.Card<Procrastinate>(),
+        // ModelDb.Card<Procrastinate>(),
         ModelDb.Card<StrikeDanger>(),
         ModelDb.Card<StrikeDanger>(),
         ModelDb.Card<StrikeDanger>(),

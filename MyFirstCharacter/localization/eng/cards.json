@@ -34,7 +34,7 @@
   "MYFIRSTCHARACTER-PATCH_UP.description": "#Gain {Energy:energyIcons()}.",
   "MYFIRSTCHARACTER-PATCH_UP.title": "Patch Up",
 
-  "MYFIRSTCHARACTER-BITE.description": "#Deal !D! damage !Repeat! times. If this card was played via [gold]Ashbound[/gold], it deals double damage.",
+  "MYFIRSTCHARACTER-BITE.description": "#Deal !D! damage !Repeat! times. If this card was played via [gold]Ashbound[/gold], play it again.",
   "MYFIRSTCHARACTER-BITE.title": "Bite",
 
   "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply !DemisePower! *Demise to ALL enemies.\nRandomize the cost of all cards in your *Hand this turn.",
@@ -134,7 +134,7 @@
   "MYFIRSTCHARACTER-PERPETUAL_MOTION.description": "#At the start of your turn, draw 1 card and put one card from your *Hand on top of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-PERPETUAL_MOTION.title": "Perpetual Motion",
 
-  "MYFIRSTCHARACTER-PLEAD.description": "#Apply !CharmPower! to [gold]Charm[/gold].",
+  "MYFIRSTCHARACTER-PLEAD.description": "#Apply !CharmPower! [gold]Charm[/gold] this turn.",
   "MYFIRSTCHARACTER-PLEAD.title": "Plead",
 
   "MYFIRSTCHARACTER-PET.description": "#Gain !B! [gold]Block[/gold].\nApply !CharmPower! [gold]Charm[/gold].",

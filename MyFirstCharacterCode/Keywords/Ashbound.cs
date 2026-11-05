@@ -4,6 +4,7 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
 using MyFirstCharacter.MyFirstCharacterCode.Hooks;
 
@@ -38,6 +39,7 @@ public class Ashbound() : CustomSingletonModel(HookType.Combat)
             await CardCmd.AutoPlay(choiceContext, card, null);
             await OctaviaDangerHooks.OnCardPlayedViaAshbound(
                 card.Owner.Creature.CombatState, choiceContext, card);
+            Log.Info("JUST PLAYED " + card.Title + " WITH ASHBOUND");
         }
     }
 

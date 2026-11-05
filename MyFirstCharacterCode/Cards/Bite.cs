@@ -15,13 +15,12 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Bite() : MyFirstCharacterCard(2,
     CardType.Attack, CardRarity.Common,
-    TargetType.AnyEnemy)
+    TargetType.AnyEnemy), IOnCardPlayedViaAshbound
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4, ValueProp.Move), new RepeatVar(3)];
     
     public override IEnumerable<CardKeyword> CanonicalKeywords => [OctaviaDangerKeywords.Ashbound];
-
-    public bool WasPlayedViaAshbound = false;
+    
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
@@ -29,9 +28,6 @@ public class Bite() : MyFirstCharacterCard(2,
         if (play.Target == null)
             return;
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(DynamicVars.Repeat.IntValue).FromCard(this, play).Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
-        if (WasPlayedViaAshbound)
-            await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(DynamicVars.Repeat.IntValue).FromCard(this, play).Targeting(play.Target).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
-        WasPlayedViaAshbound = false;
     }
 
     protected override void OnUpgrade()
@@ -39,11 +35,13 @@ public class Bite() : MyFirstCharacterCard(2,
         DynamicVars.Repeat.UpgradeValueBy(1);
     }
     
-    public async Task OnCardPlayedViaAshbound(ICombatState combatState, PlayerChoiceContext choiceContext, CardModel card)
+    public async Task OnCardPlayedViaAshbound(ICombatState combatState, 
+        PlayerChoiceContext choiceContext, CardModel card)
     {
         if (card != this)
             return;
-        WasPlayedViaAshbound = true;
-        Log.Info("BITE PLAYED BITE PLAYED ALERT ALERT BITE PLAYED");
+        await CardCmd.AutoPlay(choiceContext, card, null);
+        // await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(DynamicVars.Repeat.IntValue).FromCard(this, null).TargetingRandomOpponents(combatState).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
+        Log.Info("BITE WAS PLAYED WITH ASHBOUND YIPPEEEEEEE");
     }
 }
