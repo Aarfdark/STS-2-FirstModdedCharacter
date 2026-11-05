@@ -40,7 +40,7 @@ public class Bite() : MyFirstCharacterCard(2,
     {
         if (card != this)
             return;
-        await CardCmd.AutoPlay(choiceContext, card, null);
+        await CardCmd.AutoPlay(choiceContext, card.CreateDupe(Owner), null);
         // await DamageCmd.Attack(DynamicVars.Damage.BaseValue).WithHitCount(DynamicVars.Repeat.IntValue).FromCard(this, null).TargetingRandomOpponents(combatState).WithHitFx("vfx/vfx_attack_slash").Execute(choiceContext);
         Log.Info("BITE WAS PLAYED WITH ASHBOUND YIPPEEEEEEE");
     }
