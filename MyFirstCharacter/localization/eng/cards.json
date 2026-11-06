@@ -37,7 +37,7 @@
   "MYFIRSTCHARACTER-BITE.description": "#Deal !D! damage !Repeat! times. If this card was played via [gold]Ashbound[/gold], play it again.",
   "MYFIRSTCHARACTER-BITE.title": "Bite",
 
-  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply !DemisePower! *Demise to ALL enemies.\nRandomize the cost of all cards in your *Hand this turn.",
+  "MYFIRSTCHARACTER-SHOTS.description": "#If this is the first card you play this turn apply !DemisePower! *Demise to ALL enemies.\n*Randomize the cost of all cards in your *Hand this turn.",
   "MYFIRSTCHARACTER-SHOTS.title": "Shots",
 
   "MYFIRSTCHARACTER-REPOSITIONING_STRIKE.description": "#Deal !D! damage. This card's cost is equal to its position in your [gold]Hand[/gold]+-1+.",
@@ -46,7 +46,7 @@
   "MYFIRSTCHARACTER-RATS.description": "#Deal !D! damage to ALL enemies.\nHits an additional time for each time this card has been drawn this combat.{InCombat:\n(Hits !Repeat! {Repeat:plural:time|times})|}",
   "MYFIRSTCHARACTER-RATS.title": "Rats",
 
-  "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply !CharmPerTurn! Charm to ALL enemies.",
+  "MYFIRSTCHARACTER-RAT_FORM.description": "#At the start of your turn, apply !CharmPerTurn! *Charm to ALL enemies.",
   "MYFIRSTCHARACTER-RAT_FORM.title": "Rat Form",
 
   "MYFIRSTCHARACTER-EYEROLL.description": "#Enemies with *Charm deal 50% less damage this turn.",
@@ -155,7 +155,7 @@
   "MYFIRSTCHARACTER-SHRED.description": "#Deal !D! damage.\n*Exhaust the rightmost card of your [gold]Hand[/gold].",
   "MYFIRSTCHARACTER-SHRED.title": "Shred",
 
-  "MYFIRSTCHARACTER-TATTER.description": "#Deal !D! damage to ALL enemies.\nExhaust the top card of your [gold]Draw Pile[/gold].",
+  "MYFIRSTCHARACTER-TATTER.description": "#Deal !D! damage to ALL enemies.\n*Exhaust the top card of your [gold]Draw Pile[/gold].",
   "MYFIRSTCHARACTER-TATTER.title": "Tatter",
 
   "MYFIRSTCHARACTER-RAZE.description": "#Deal !D! damage.\nHits an additional time for each card *Exhausted this turn.{InCombat:\n(Hits !Repeat! {Repeat:plural:time|times})|}",
@@ -184,7 +184,7 @@
   "MYFIRSTCHARACTER-DUMPSTER_DIVE.description": "Add a [gold]{IfUpgraded:show:Scrap+|Scrap}[/gold] into ALL players' [gold]Hands[/gold].",
   "MYFIRSTCHARACTER-DUMPSTER_DIVE.title": "Dumpster Dive",
 
-  "MYFIRSTCHARACTER-GREASY_STRIKE.description": "#Deal !ExtraDamage! for each *Keyword in your [gold]Hand[/gold].\n{InCombat:\n(Deals !CalculatedDamage! {CalculatedDamage:plural:time|times})|}",
+  "MYFIRSTCHARACTER-GREASY_STRIKE.description": "#Deal !ExtraDamage! for each *Keyword in your [gold]Hand[/gold].\n{InCombat:(Deals !CalculatedDamage! damage.)}",
   "MYFIRSTCHARACTER-GREASY_STRIKE.title": "Greasy Strike",
 
   "MYFIRSTCHARACTER-POCKET_SAND.description": "#Apply 1 [gold]Weak[/gold].",
@@ -211,11 +211,11 @@
   "MYFIRSTCHARACTER-SAPPING_FLOWER.description": "#Whenever you play a card this turn, target enemy loses 1 [gold]Strength[/gold].",
   "MYFIRSTCHARACTER-SAPPING_FLOWER.title": "Sapping Flower",
 
-  "MYFIRSTCHARACTER-SLIP_THROUGH.description": "#Gain !B! [gold]Block[/gold].\n*Randomize 1 card -at random-this turn.",
+  "MYFIRSTCHARACTER-SLIP_THROUGH.description": "#Gain !B! [gold]Block[/gold].\n*Randomize 1 card -at random -this turn.",
   "MYFIRSTCHARACTER-SLIP_THROUGH.title": "Slip Through",
   "MYFIRSTCHARACTER-SLIP_THROUGH.selectionScreenPrompt": "Choose a card to Randomize.",
 
-  "MYFIRSTCHARACTER-UNHINGED_STRIKE.description": "#Deal !D! Damage. Randomize 1 card -at random-this turn.",
+  "MYFIRSTCHARACTER-UNHINGED_STRIKE.description": "#Deal !D! Damage. *Randomize 1 card -at random -this turn.",
   "MYFIRSTCHARACTER-UNHINGED_STRIKE.title": "Unhinged Strike",
   "MYFIRSTCHARACTER-UNHINGED_STRIKE.selectionScreenPrompt": "Choose a card to Randomize.",
 
@@ -231,7 +231,7 @@
   "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.description": "#Whenever you play a *Scrap, gain !MakeshiftArmorPower! [gold]Block[/gold].",
   "MYFIRSTCHARACTER-MAKESHIFT_ARMOR.title": "Makeshift Armor",
 
-  "MYFIRSTCHARACTER-PROCRASTINATE.description": "#*Exhaust 1 card. Play it twice at the beginning of your next turn.",
+  "MYFIRSTCHARACTER-PROCRASTINATE.description": "#*Exhaust a card in your [gold]Hand[/gold].\nPlay it twice at the beginning of your next turn.",
   "MYFIRSTCHARACTER-PROCRASTINATE.title": "Procrastinate",
   "MYFIRSTCHARACTER-PROCRASTINATE.selectionScreenPrompt": "Choose a card to exhaust and play next turn.",
 

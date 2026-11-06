@@ -1,8 +1,10 @@
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Logging;
+using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Random;
 using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.ValueProps;
@@ -10,7 +12,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Cards;
 using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
-
+[Pool(typeof(ColorlessCardPool))]
 public class Reference() : MyFirstCharacterCard(2,
     CardType.Attack, CardRarity.Uncommon,
     TargetType.AnyEnemy)

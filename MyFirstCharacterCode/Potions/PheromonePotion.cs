@@ -21,7 +21,6 @@ public class PheromonePotion : MyFirstCharacterPotion
     public override TargetType TargetType => TargetType.AnyEnemy;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<CharmPower>(4)];
-
     protected override async Task OnUse(PlayerChoiceContext choiceContext, Creature? target)
     {
         AssertValidForTargetedPotion(target);

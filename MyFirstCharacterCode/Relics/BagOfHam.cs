@@ -2,6 +2,7 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.ValueProps;
 using MyFirstCharacter.MyFirstCharacterCode.Powers;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
@@ -12,6 +13,8 @@ public class BagOfHam() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
         RelicRarity.Uncommon;
+
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<CharmPower>()];
 
     public override async Task AfterDeath(PlayerChoiceContext choiceContext, Creature creature, bool wasRemovalPrevented, float deathAnimLength)
     {

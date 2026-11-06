@@ -5,6 +5,7 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Potions;
@@ -23,6 +24,7 @@ public class Shots() : MyFirstCharacterCard(0,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<DemisePower>(8), new IntVar("PlayMax", 0)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<DemisePower>()];
     private int _testEnergyCostOverride = -1;
     
     public int TestEnergyCostOverride

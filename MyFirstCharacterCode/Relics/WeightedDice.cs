@@ -4,7 +4,9 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models;
+using MyFirstCharacter.MyFirstCharacterCode.Cards;
 using MyFirstCharacter.MyFirstCharacterCode.Character;
 using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
@@ -15,7 +17,7 @@ public class WeightedDice() : MyFirstCharacterRelic
 {
     public override RelicRarity Rarity =>
         RelicRarity.Rare;
-
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromKeyword(OctaviaDangerKeywords.Rigged)];
     public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
         List<CardModel> hand = PileType.Hand.GetPile(Owner).Cards.ToList();

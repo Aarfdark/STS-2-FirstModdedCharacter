@@ -4,6 +4,7 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MyFirstCharacter.MyFirstCharacterCode.Powers;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
@@ -16,7 +17,7 @@ public class CherishedPlushie() : MyFirstCharacterRelic
         RelicRarity.Shop;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<CharmPower>(2)];
-
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<CharmPower>(), HoverTipFactory.FromKeyword(CardKeyword.Retain)];
     public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         var card = cardPlay.Card;

@@ -12,7 +12,7 @@
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.smartDescription": "#Lose {StrenthLoss:diff()} *Strength until the end of this turn.",
   "MYFIRSTCHARACTER-MAKE_NOISE_POWER.title": "Make Noise",
 
-  "MYFIRSTCHARACTER-CHARM_POWER.description": "When a creature with *Charm attacks you, it loses HP equal to its [gold]Charm[/gold].",
+  "MYFIRSTCHARACTER-CHARM_POWER.description": "#When a creature with *Charm attacks you, it loses HP equal to its [gold]Charm[/gold].",
   "MYFIRSTCHARACTER-CHARM_POWER.smartDescription": "#This enemy will lose [blue]{Amount}[/blue] HP when it attacks you.",
   "MYFIRSTCHARACTER-CHARM_POWER.title": "Charm",
 

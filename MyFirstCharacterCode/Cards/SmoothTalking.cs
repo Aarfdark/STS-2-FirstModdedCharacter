@@ -1,6 +1,7 @@
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Saves.Runs;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
@@ -14,7 +15,7 @@ public class SmoothTalking() : MyFirstCharacterCard(2,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<CharmPower>(1), (new DynamicVar("CharmScale", 1))];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
-
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<CharmPower>()];
     private int _currentCharm = 1;
     [SavedProperty]
     public int CurrentCharm

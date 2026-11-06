@@ -2,9 +2,11 @@ using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
+using MyFirstCharacter.MyFirstCharacterCode.Cards;
 using MyFirstCharacter.MyFirstCharacterCode.Hooks;
 using MyFirstCharacter.MyFirstCharacterCode.Keywords;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
@@ -15,6 +17,8 @@ public class SacrificialEffigy() : MyFirstCharacterRelic, IOnCardPlayedViaAshbou
 {
     public override RelicRarity Rarity =>
         RelicRarity.Common;
+    
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(StaticHoverTip.Block)];
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1), new BlockVar(3, ValueProp.Move)];
     

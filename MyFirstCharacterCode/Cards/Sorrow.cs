@@ -1,23 +1,27 @@
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.DevConsole.ConsoleCommands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Afflictions;
+using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
+[Pool(typeof(CurseCardPool))]
 public class Sorrow() : MyFirstCharacterCard(-1,
     CardType.Curse, CardRarity.Curse,
     TargetType.None)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<StrengthPower>(-1), new PowerVar<DexterityPower>(-1)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Unplayable, CardKeyword.Eternal];
-
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<StrengthPower>(), HoverTipFactory.FromPower<DexterityPower>()];
     public override int MaxUpgradeLevel => 0;
     public override bool HasTurnEndInHandEffect => true;
     

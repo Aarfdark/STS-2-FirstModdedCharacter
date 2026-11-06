@@ -2,8 +2,10 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
+using MyFirstCharacter.MyFirstCharacterCode.Cards;
 using MyFirstCharacter.MyFirstCharacterCode.Powers;
 using MyFirstCharacter.MyFirstCharacterCode.Relics;
 
@@ -15,7 +17,7 @@ public class Butter() : MyFirstCharacterRelic
         RelicRarity.Rare;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<GreasyPower>(2)];
-
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<GreasyPower>()];
     public override async Task AfterBlockBroken(PlayerChoiceContext choiceContext, Creature target, Creature? breaker)
     {
         if (breaker != Owner.Creature && breaker?.PetOwner != Owner || target.IsPlayer)
