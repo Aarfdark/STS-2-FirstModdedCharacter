@@ -10,7 +10,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Cards;
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Recycle() : MyFirstCharacterCard(1,
-    CardType.Skill, CardRarity.Uncommon,
+    CardType.Skill, CardRarity.Rare,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(1)];

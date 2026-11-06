@@ -9,7 +9,7 @@ using MyFirstCharacter.MyFirstCharacterCode.Powers;
 namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Eyeroll() : MyFirstCharacterCard(1,
-    CardType.Skill, CardRarity.Rare,
+    CardType.Skill, CardRarity.Uncommon,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<EyerollPower>(1)];
