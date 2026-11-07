@@ -247,5 +247,8 @@
   "MYFIRSTCHARACTER-DISPOSE.selectionScreenPrompt": "#Choose a card to [gold]Exhaust[/gold].",
 
   "MYFIRSTCHARACTER-HOLY_SCRAP.description": "#Whenever you play a [gold]Scrap[/gold], gain 1 *Strength this turn.",
-  "MYFIRSTCHARACTER-HOLY_SCRAP.title": "Holy Scrap"
+  "MYFIRSTCHARACTER-HOLY_SCRAP.title": "Holy Scrap",
+
+  "MYFIRSTCHARACTER-SCATTER.description": "#Deal !D! damage.\nWhenever you draw this card, *Randomize it.",
+  "MYFIRSTCHARACTER-SCATTER.title": "Scatter"
 }
