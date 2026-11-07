@@ -196,10 +196,10 @@
   "MYFIRSTCHARACTER-JOLT.description": "#Next turn, gain [E].",
   "MYFIRSTCHARACTER-JOLT.title": "Jolt",
 
-  "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.description": "#Gain a random [gold]Wax Relic[/gold].",
+  "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.description": "#Melt your left-most [gold]Wax Relic[/gold].\nGain a random [gold]Wax Relic[/gold].",
   "MYFIRSTCHARACTER-UNSTABLE_SCULPTURE.title": "Unstable Sculpture",
 
-  "MYFIRSTCHARACTER-QUIVER.description": "#Whenever you apply *Charm, apply !QuiverPower! [gold]Weak[/gold].",
+  "MYFIRSTCHARACTER-QUIVER.description": "#Whenever you apply [gold]Charm[/gold], apply !QuiverPower! [gold]Weak[/gold].",
   "MYFIRSTCHARACTER-QUIVER.title": "Quiver",
 
   "MYFIRSTCHARACTER-SAP.description": "#Remove an enemy's [gold]Charm[/gold]. Deal !SapMultiplier! times as much damage.",

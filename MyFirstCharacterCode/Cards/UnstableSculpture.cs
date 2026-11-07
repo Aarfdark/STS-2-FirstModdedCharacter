@@ -21,19 +21,25 @@ public class UnstableSculpture() : MyFirstCharacterCard(2,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        // RelicCmd.Obtain(RelicFactory.PullNextRelicFromFront(this.Owner).ToMutable(), this.Owner);
-        RelicModel mutable = RelicFactory.PullNextRelicFromFront(this.Owner).ToMutable();
+        RelicModel? relic = Owner.Relics.FirstOrDefault(r => r.IsWax && !r.IsMelted);
+        if (relic != null)
+        {
+            await RelicCmd.Melt(relic);
+            await Cmd.CustomScaledWait(0.5f, 0.75f);
+        }
+        
+        RelicModel mutable = RelicFactory.PullNextRelicFromFront(Owner).ToMutable();
         mutable.IsWax = true;
         await RelicCmd.Obtain(mutable, Owner);
     }
 
     public override async Task AfterCombatEnd(CombatRoom room)
     {
-        RelicModel? relic = Owner.Relics.FirstOrDefault(r => r.IsWax && !r.IsMelted);
-        if (relic == null)
-            return;
-        await RelicCmd.Melt(relic);
-        await Cmd.CustomScaledWait(0.5f, 0.75f);
+        // RelicModel? relic = Owner.Relics.FirstOrDefault(r => r.IsWax && !r.IsMelted);
+        // if (relic == null)
+        //     return;
+        // await RelicCmd.Melt(relic);
+        // await Cmd.CustomScaledWait(0.5f, 0.75f);
     }
 
     protected override void OnUpgrade()
