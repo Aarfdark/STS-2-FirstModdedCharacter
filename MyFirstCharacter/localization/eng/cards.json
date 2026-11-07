@@ -240,5 +240,9 @@
   "MYFIRSTCHARACTER-LEVELING_STRIKE.selectionScreenPrompt": "#Choose a card to add *Sempiternal to.",
 
   "MYFIRSTCHARACTER-BIG_FAN.description": "#Deals !D! damage. Hits an additional time for each other card in your [gold]Hand[/gold].",
-  "MYFIRSTCHARACTER-BIG_FAN.title": "Big Fan"
+  "MYFIRSTCHARACTER-BIG_FAN.title": "Big Fan",
+
+  "MYFIRSTCHARACTER-DISPOSE.description": "#Deal !D! damage.\n*Exhaust a card in your [gold]Hand[/gold].",
+  "MYFIRSTCHARACTER-DISPOSE.title": "Dispose",
+  "MYFIRSTCHARACTER-DISPOSE.selectionScreenPrompt": "#Choose a card to *Exhaust."
 }
