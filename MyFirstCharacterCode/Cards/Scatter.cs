@@ -12,7 +12,7 @@ namespace MyFirstCharacter.MyFirstCharacterCode.Cards;
 
 public class Scatter() : MyFirstCharacterCard(3,
     CardType.Attack, CardRarity.Common,
-    TargetType.AnyEnemy)
+    TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(10, ValueProp.Move)];
     

@@ -250,5 +250,8 @@
   "MYFIRSTCHARACTER-HOLY_SCRAP.title": "Holy Scrap",
 
   "MYFIRSTCHARACTER-SCATTER.description": "#Deal !D! damage.\nWhenever you draw this card, *Randomize it.",
-  "MYFIRSTCHARACTER-SCATTER.title": "Scatter"
+  "MYFIRSTCHARACTER-SCATTER.title": "Scatter",
+
+  "MYFIRSTCHARACTER-RANSACK.description": "#Deal !D! damage.\nDraw !C! cards.\nDiscard all cards this way that do not have any [gold]Keywords[/gold].",
+  "MYFIRSTCHARACTER-RANSACK.title": "Ransack"
 }
