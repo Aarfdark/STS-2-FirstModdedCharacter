@@ -11,9 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fd3728-d0ba-4a13-9855-3d3a0bf53c6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Dispose.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/HolyScrap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Powers/HolyScrapPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyFirstCharacter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/cards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacter/localization/eng/powers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Dispose.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyFirstCharacterCode/Cards/Dispose.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +60,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Forcefield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Goad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/HeartOfTheCards.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/HolyScrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Instability.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/Jolt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Cards/MakeNoise.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,6 +133,7 @@
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/ForcefieldPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/GreasyPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/HeartOfTheCardsPower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/HolyScrapPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/InstabilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeNoisePower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyFirstCharacterCode/Powers/MakeshiftArmorPower.cs" root0="FORCE_HIGHLIGHTING" />
@@ -157,61 +164,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.846597311759995E-54" />
-      <entry key="MS500" value="2.4039152984018244E-11" />
-      <entry key="S2" value="0.007537695339497082" />
-      <entry key="S5" value="0.5150062976184907" />
-      <entry key="S10" value="2.675588359857509" />
-      <entry key="S30" value="12.134132031382947" />
-      <entry key="S60" value="20.729325373954897" />
-      <entry key="M2" value="28.654785047145744" />
-      <entry key="M5" value="37.74535727761031" />
-      <entry key="M10" value="47.10721357119181" />
-      <entry key="M15" value="54.55497362169346" />
-      <entry key="M30" value="76.987449774322" />
-      <entry key="H1" value="157.66479962745314" />
-      <entry key="H2" value="384.0488763346859" />
-      <entry key="H4" value="779.4967643797248" />
-      <entry key="D1" value="2653.9406480556345" />
-      <entry key="W1" value="7532.504705769792" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000004105530261" />
+      <entry key="S2" value="1.0450134514740284" />
+      <entry key="S5" value="1.2892923342608529" />
+      <entry key="S10" value="1.5378590282414648" />
+      <entry key="S30" value="1.8132476574202254" />
+      <entry key="S60" value="1.9018024492232175" />
+      <entry key="M2" value="1.9496393391245204" />
+      <entry key="M5" value="2.0529403899323637" />
+      <entry key="M10" value="4.720237777282506" />
+      <entry key="M15" value="12.469613290623492" />
+      <entry key="M30" value="48.265061920441454" />
+      <entry key="H1" value="131.84516187351855" />
+      <entry key="H2" value="339.1184296559559" />
+      <entry key="H4" value="733.8402737345224" />
+      <entry key="D1" value="2684.9241861174733" />
+      <entry key="W1" value="7624.458523763152" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000097361457787" />
-      <entry key="MS500" value="1.1255071878875553" />
-      <entry key="S2" value="2.0310875792868615" />
-      <entry key="S5" value="2.996202685257482" />
-      <entry key="S10" value="3.7496959391994396" />
-      <entry key="S30" value="4.92731113478998" />
-      <entry key="S60" value="5.671786238403164" />
-      <entry key="M2" value="6.57598946973626" />
-      <entry key="M5" value="12.390919659118639" />
-      <entry key="M10" value="23.868738426700055" />
-      <entry key="M15" value="32.44846118287637" />
-      <entry key="M30" value="48.825397907205364" />
-      <entry key="H1" value="73.25210979017298" />
-      <entry key="H2" value="119.96621793665412" />
-      <entry key="H4" value="201.02158196622472" />
-      <entry key="D1" value="684.1513550466491" />
-      <entry key="W1" value="2073.45953041414" />
+      <entry key="MS100" value="5.7176597078160525E-8" />
+      <entry key="MS500" value="0.03564484745055775" />
+      <entry key="S2" value="0.5164411629143211" />
+      <entry key="S5" value="1.0842341848768806" />
+      <entry key="S10" value="1.4529018310253725" />
+      <entry key="S30" value="1.7923979654417859" />
+      <entry key="S60" value="1.892626367161917" />
+      <entry key="M2" value="1.9453885286811867" />
+      <entry key="M5" value="2.01650586207238" />
+      <entry key="M10" value="3.2524531343819234" />
+      <entry key="M15" value="6.696494924849481" />
+      <entry key="M30" value="23.14247755678264" />
+      <entry key="H1" value="56.358001338317806" />
+      <entry key="H2" value="112.33109143478616" />
+      <entry key="H4" value="202.28015583703564" />
+      <entry key="D1" value="706.558605280108" />
+      <entry key="W1" value="2111.1277406065133" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.82364047673675E-5" />
-      <entry key="MS500" value="0.19955296788688726" />
-      <entry key="S2" value="1.393831597659516" />
-      <entry key="S5" value="3.09929411497349" />
-      <entry key="S10" value="6.1601923535107685" />
-      <entry key="S30" value="16.94420839505411" />
-      <entry key="S60" value="26.334185695166457" />
-      <entry key="M2" value="35.19199887036191" />
-      <entry key="M5" value="50.10424036150039" />
-      <entry key="M10" value="70.94053333753304" />
-      <entry key="M15" value="86.96849302656123" />
-      <entry key="M30" value="125.78320159387616" />
-      <entry key="H1" value="230.89269633554343" />
-      <entry key="H2" value="503.9942383336239" />
-      <entry key="H4" value="980.500485195202" />
-      <entry key="D1" value="3338.080264449041" />
-      <entry key="W1" value="9605.958191175581" />
+      <entry key="MS100" value="0.5904963317845738" />
+      <entry key="MS500" value="0.9160831088722895" />
+      <entry key="S2" value="1.4332457376137968" />
+      <entry key="S5" value="2.259898217492481" />
+      <entry key="S10" value="2.910856614275435" />
+      <entry key="S30" value="3.57147229403811" />
+      <entry key="S60" value="3.7761953216176845" />
+      <entry key="M2" value="3.8856064349118298" />
+      <entry key="M5" value="4.065434175074977" />
+      <entry key="M10" value="7.968119439752973" />
+      <entry key="M15" value="19.158404223898355" />
+      <entry key="M30" value="71.39258874679355" />
+      <entry key="H1" value="188.1841101002626" />
+      <entry key="H2" value="451.4299239927616" />
+      <entry key="H4" value="936.1024738416581" />
+      <entry key="D1" value="3391.470780203906" />
+      <entry key="W1" value="9735.580148469577" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -354,6 +361,7 @@
     "Publish to folder.Publish MyFirstCharacter to folder (206).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (207).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (208).executor": "Run",
+    "Publish to folder.Publish MyFirstCharacter to folder (209).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (21).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (22).executor": "Run",
     "Publish to folder.Publish MyFirstCharacter to folder (23).executor": "Run",
@@ -1423,6 +1431,14 @@
       </riderPublish>
       <method v="2" />
     </configuration>
+    <configuration name="Publish MyFirstCharacter to folder (209)" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
+        <runtimes>
+          <item value="Portable" />
+        </runtimes>
+      </riderPublish>
+      <method v="2" />
+    </configuration>
     <configuration name="Publish MyFirstCharacter to folder (20)" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish configuration="ExportRelease" platform="Any CPU" target_folder="$PROJECT_DIR$/bin/ExportRelease/net9.0/publish" target_framework="net9.0" uuid_high="-3889039966644187381" uuid_low="-7683823886433266317">
         <runtimes>
@@ -2226,7 +2242,7 @@
       <workItem from="1793896773947" duration="2645000" />
       <workItem from="1793906953791" duration="3684000" />
       <workItem from="1793925689613" duration="6461000" />
-      <workItem from="1794006556728" duration="1660000" />
+      <workItem from="1794006556728" duration="5543000" />
     </task>
     <servers />
   </component>

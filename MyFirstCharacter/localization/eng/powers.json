@@ -110,11 +110,15 @@
   "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.smartDescription": "#Whenever you play a card that differs from its original cost, gain [blue]{Amount}[/blue] [E].",
   "MYFIRSTCHARACTER-HEART_OF_THE_CARDS_POWER.title": "Heart Of The Cards",
 
-  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.description": "#Whenever you play a *Scrap, gain [gold]Block[/gold].",
-  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.smartDescription": "#Whenever you play a *Scrap, gain [blue]{Amount}[/blue] [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.description": "#Whenever you play a [gold]Scrap[/gold], gain [gold]Block[/gold].",
+  "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.smartDescription": "#Whenever you play a [gold]Scrap[/gold], gain [blue]{Amount}[/blue] [gold]Block[/gold].",
   "MYFIRSTCHARACTER-MAKESHIFT_ARMOR_POWER.title": "Makeshift Armor",
 
   "MYFIRSTCHARACTER-PROCRASTINATE_POWER.description": "#At the beginning of your next turn, play the chosen card twice.",
   "MYFIRSTCHARACTER-PROCRASTINATE_POWER.smartDescription": "#At the beginning of your next turn, play [gold]{Card}[/gold] twice.",
-  "MYFIRSTCHARACTER-PROCRASTINATE_POWER.title": "Procrastinate"
+  "MYFIRSTCHARACTER-PROCRASTINATE_POWER.title": "Procrastinate",
+
+  "MYFIRSTCHARACTER-HOLY_SCRAP_POWER.description": "#Whenever you play a [gold]Scrap[/gold], gain 1 *Strength this turn.",
+  "MYFIRSTCHARACTER-HOLY_SCRAP_POWER.smartDescription": "#Whenever you play a [gold]Scrap[/gold], gain {Amount} *Strength this turn.",
+  "MYFIRSTCHARACTER-HOLY_SCRAP_POWER.title": "Holy Scrap"
 }
