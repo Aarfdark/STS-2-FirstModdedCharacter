@@ -253,5 +253,8 @@
   "MYFIRSTCHARACTER-SCATTER.title": "Scatter",
 
   "MYFIRSTCHARACTER-RANSACK.description": "#Deal !D! damage.\nDraw !C! cards.\nDiscard all cards this way that do not have any [gold]Keywords[/gold].",
-  "MYFIRSTCHARACTER-RANSACK.title": "Ransack"
+  "MYFIRSTCHARACTER-RANSACK.title": "Ransack",
+
+  "MYFIRSTCHARACTER-FLICK.description": "#Deal !D! damage.",
+  "MYFIRSTCHARACTER-FLICK.title": "Flick"
 }
